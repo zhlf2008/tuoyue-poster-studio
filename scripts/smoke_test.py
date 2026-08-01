@@ -180,5 +180,375 @@ with sync_playwright() as p:
     assert "é¦–æ å†…å®¹" in add_target.locator("option").all_inner_texts()
     add_target.select_option("header")
     page.locator(".component-library > button").filter(has_text="ä¸»é¢˜æ ‡é¢˜").click()
-    assert global_header.locator(".component-hero")ã}¸¶‰ËkºwµçPµÁÉ•Í•ÑÌ€ø‰ÕÑÑ½¸ˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹î?–ã–>3š‚<ˆ¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹±…ÍÍ¥Œµ±…å½ÕĞˆ¤¹¥Í}Ù¥Í¥‰±” ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÁ…”ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•±•µ•¹Ğ¹½™™Í•Ñ]¥‘Ñ ˆ¤€ôô€àÈÀ(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹±…ÍÍ¥Œµ±…å½ÕĞ€ø€¹é½¹”µ¡•…‘•Èˆ¤¹½Õ¹Ğ ¤€ôô€À(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹±…ÍÍ¥Œµ±…å½ÕĞ€¹é½¹”µ±•™Ğ€¹½µÁ½¹•¹Ğµ¡•É¼ˆ¤¹¥Í}Ù¥Í¥‰±” ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹±…ÍÍ¥Œµ±…å½ÕĞ€¹é½¹”µ±•™Ğ€¹½µÁ½¹•¹Ğµ¥¹™¼ˆ¤¹¥Í}Ù¥Í¥‰±” ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹îOšzˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤((€€€€Œ½½Ñ•ÈÑåÁ½É…Á¡ä¥Ì•‘¥Ñ…‰±”¸(€€€Á…”¹±½…Ñ½È ˆ¹ÑÉ•”µ½µÁ½¹•¹Ğˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹’æ'¢Öß–>G–$ˆ¤¹±¥¬ ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹öË–B7–¶_–>Üˆ¤¹™¥±° ˆÌĞˆ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹¦f–*ƒ¢¾Óšb8ˆ¤¹™¥±° ‹šb;–úß–Ç–¶›’øˆ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹¢¾Óšb;–¶_–>Üˆ¤¹™¥±° ˆÄØˆ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•Èµ‰É…¹ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•Ñ½µÁÕÑ•‘MÑå±”¡•±•µ•¹Ğ¤¹™½¹ÑM¥é”ˆ¤€ôô€ˆÌÑÁàˆ(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•Èµ‰É…¹µ¹½Ñ”ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•Ñ½µÁÕÑ•‘MÑå±”¡•±•µ•¹Ğ¤¹™½¹ÑM¥é”ˆ¤€ôô€ˆÄÙÁàˆ((€€€€ŒM•±•ĞÑ¡”™¥ÉÍĞÕ•ÍĞÉ½ÕÀÑ¡É½Õ Ñ¡”ÍÑÉÕÑÕÉ”ÑÉ•”¸(€€€Á…”¹±½…Ñ½È ˆ¹ÑÉ•”µ½µÁ½¹•¹Ğˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹&ç¦
-–"’ê¬ˆ¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹•Ñ}‰å}Ñ•áĞ ‹–b'–ºûî¢ºûö¸ˆ°•á…ĞõQÉÕ”¤¹¥Í}Ù¥Í¥‰±” ¤(€€€‰•™½É”€ôÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÕ•ÍĞµ…Éˆ¤¹½Õ¹Ğ ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–Š{–*ƒ–b'–ºøˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÕ•ÍĞµ…Éˆ¤¹½Õ¹Ğ ¤€ôô‰•™½É”€¬€Ä(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÁÉ½Á•ÉÑäµ‰…¬ˆ¤¹•Ñ}…ÑÑÉ¥‰ÕÑ” ‰…É¥„µ±…‰•°ˆ¤€ôô€‹¢şS–n{–b'–ºûîˆ(€€€Á…”¹±½…Ñ½È ˆ¹ÁÉ½Á•ÉÑäµ‰…¬ˆ¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÁÉ½Á•ÉÑ¥•ÌµÑ¥Ñ±”ˆˆ¤¹¥¹¹•É}Ñ•áĞ ¤€ôô€‹–b'–ºûîˆ(€€€Á…”¹±½…Ñ½È ˆ¹Õ•ÍĞµ•‘¥Ñ½Èµ±¥ÍĞ‰ÕÑÑ½¸ˆ¤¹±…ÍĞ¹±¥¬ ¤((€€€€Œ‘¥ĞÑ¡”¹•İ±äµÉ•…Ñ•½¹Ñ•¹Ğ¥Ñ•´Ñ¡É½Õ ™½É´™¥•±‘Ì¸(€€€¹…µ•}¥¹ÁÕĞ€ôÁ…”¹•Ñ}‰å}±…‰•° ‹–b'–ºû–O–B4ˆ¤(€€€¹…µ•}¥¹ÁÕĞ¹™¥±° ‹šÖ/¢¾W–b'–ºøˆ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹¢ê¯’î÷¢¾Óšb8ˆ¤¹™¥±° ‹îOšz–2[î’îÛšÖ/¢¾Tˆ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÕ•ÍĞµ…Éˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹šÖ/¢¾W–b'–ºøˆ¤¹¥Í}Ù¥Í¥‰±” ¤((€€€€ŒI•Á±…”Ñ¡”Á¡½Ñ¼İ¥Ñ¡½ÕĞ¡…¹¥¹œ±…å½ÕĞ¸(€€€İ¥Ñ Á…”¹•áÁ•Ñ}™¥±•}¡½½Í•È ¤…Ì¡½½Í•É}¥¹™¼è(€€€€€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹šnÿš6‹Ÿ&ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€¡½½Í•É}¥¹™¼¹Ù…±Õ”¹Í•Ñ}™¥±•Ì¡ÍÑÈ¡I==P€¼€‰ÁÕ‰±¥Œˆ€¼€‰É•™•É•¹”µÁ½ÍÑ•È¹Á¹œˆ¤¤(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Ñ½…ÍĞœ¤ü¹Ñ•áÑ½¹Ñ•¹Ğ¹¥¹±Õ‘•Ì ŸŸ&–ŞË’òc–2[–æÛšnÿš6ˆœ¤ˆ°Ñ¥µ•½ÕĞôÄÀÀÀÀ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–"ƒ¦fˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤((€€€€Œ	…Ñ ÕÁ±½…µÕ±Ñ¥Á±”Á…ÉÑ¥¥Á…¹ĞÁ¡½Ñ½Ì¸Ù•Éä•±°µÕÍĞÉ•µ…¥¸€ÄØèä¸(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹îOšzˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹±½…Ñ½È ˆ¹ÑÉ•”µ½µÁ½¹•¹Ğˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹–>’òk’êë–F`ˆ¤¹±¥¬ ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹–"–2ëš‚¦Š`ˆ¤¹™¥±° ˆ€ˆ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹½µÁ½¹•¹Ğµµ½Í…¥Œ€¹Á½ÍÑ•ÈµÁ¥±°ˆ¤¹½Õ¹Ğ ¤€ôô€À(€€€Á…”¹•Ñ}‰å}±…‰•° ‹–"–2ëš‚¦Š`ˆ¤¹™¥±° ‹–>’òk’êë–F`ˆ¤(€€€Á…”¹±½…Ñ½È ‰±…‰•°¹™¥•±ˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹Ÿ&¦^Ó¢Ştˆ¤¹±½…Ñ½È ‰¥¹ÁÕĞˆ¤¹™¥±° ˆÄÈˆ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•Ñ½µÁÕÑ•‘MÑå±”¡•±•µ•¹Ğ¤¹…Àˆ¤€ôô€ˆÄÉÁàˆ(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•Ñ½µÁÕÑ•‘MÑå±”¡•±•µ•¹Ğ¤¹‰…­É½Õ¹‘½±½Èˆ¤€ôô€‰É‰„ À°€À°€À°€À¤ˆ(€€€Á…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÁ…”ˆ¤¹ÍÉ••¹Í¡½Ğ¡Á…Ñ õÍÑÈ¡M=9}UA1=¤¤(€€€İ¥Ñ Á…”¹•áÁ•Ñ}™¥±•}¡½½Í•È ¤…Ì¡½½Í•É}¥¹™¼è(€€€€€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹š&ç¦?’â+’òƒŸ&ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€¡½½Í•É}¥¹™¼¹Ù…±Õ”¹Í•Ñ}™¥±•Ì¡mÍÑÈ¡I==P€¼€‰ÁÕ‰±¥Œˆ€¼€‰É•™•É•¹”µÁ½ÍÑ•È¹Á¹œˆ¤°ÍÑÈ¡M=9}UA1=¥t¤(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Ñ½…ÍĞœ¤ü¹Ñ•áÑ½¹Ñ•¹Ğ¹¥¹±Õ‘•Ì Ÿ–ŞË–¾ó–”€Èƒ–ò€œ¤ˆ°Ñ¥µ•½ÕĞôÄÔÀÀÀ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹Ğµ•±°¥µœˆ¤¹½Õ¹Ğ ¤€ôô€È(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹µ½Í…¥ŒµÁ¡½Ñ¼µ¥Ñ•´ˆ¤¹½Õ¹Ğ ¤€ôô€È(€€€Á¡½Ñ½}½É‘•É}‰•™½É”€ôÁ…”¹±½…Ñ½È ˆ¹µ½Í…¥ŒµÁ¡½Ñ¼µ¥Ñ•´¥µœˆ¤¹•Ù…±Õ…Ñ•}…±° ‰•±•µ•¹ÑÌ€ôø•±•µ•¹ÑÌ¹µ…À¡•±•µ•¹Ğ€ôø•±•µ•¹Ğ¹ÍÉŒ¤ˆ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹²°€Èƒ–òƒŸ&–&7ìˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á¡½Ñ½}½É‘•É}…™Ñ•È€ôÁ…”¹±½…Ñ½È ˆ¹µ½Í…¥ŒµÁ¡½Ñ¼µ¥Ñ•´¥µœˆ¤¹•Ù…±Õ…Ñ•}…±° ‰•±•µ•¹ÑÌ€ôø•±•µ•¹ÑÌ¹µ…À¡•±•µ•¹Ğ€ôø•±•µ•¹Ğ¹ÍÉŒ¤ˆ¤(€€€…ÍÍ•ÉĞÁ¡½Ñ½}½É‘•É}…™Ñ•È€ôô±¥ÍĞ¡É•Ù•ÉÍ•¡Á¡½Ñ½}½É‘•É}‰•™½É”¤¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹ï¦f“²°€Äƒ–òƒŸ&ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹µ½Í…¥ŒµÁ¡½Ñ¼µ¥Ñ•´ˆ¤¹½Õ¹Ğ ¤€ôô€Ä(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹Ğµ•±°¥µœˆ¤¹½Õ¹Ğ ¤€ôô€Ä(€€€İ¥Ñ Á…”¹•áÁ•Ñ}™¥±•}¡½½Í•È ¤…Ì¡½½Í•É}¥¹™¼è(€€€€€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹š&ç¦?’â+’òƒŸ&ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€¡½½Í•É}¥¹™¼¹Ù…±Õ”¹Í•Ñ}™¥±•Ì¡mÍÑÈ¡I==P€¼€‰ÁÕ‰±¥Œˆ€¼€‰É•™•É•¹”µÁ½ÍÑ•È¹Á¹œˆ¤°ÍÑÈ¡M=9}UA1=¥t¤(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Ñ½…ÍĞœ¤ü¹Ñ•áÑ½¹Ñ•¹Ğ¹¥¹±Õ‘•Ì Ÿ–ŞË–¾ó–”€Èƒ–ò€œ¤ˆ°Ñ¥µ•½ÕĞôÄÔÀÀÀ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹Ğµ•±°¥µœˆ¤¹½Õ¹Ğ ¤€ôô€È(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥ˆ¤¹•Ñ}…ÑÑÉ¥‰ÕÑ” ‰‘…Ñ„µ½±Õµ¹Ìˆ¤€ôô€ˆÄˆ(€€€•±±}‰½à€ôÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹Ğµ•±°ˆ¤¹™¥ÉÍĞ¹‰½Õ¹‘¥¹}‰½à ¤(€€€Í•½¹‘}‰½à€ôÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹Ğµ•±°ˆ¤¹¹Ñ  Ä¤¹‰½Õ¹‘¥¹}‰½à ¤(€€€…ÍÍ•ÉĞ…‰Ì ¡•±±}‰½ál‰İ¥‘Ñ ‰t€¼•±±}‰½ál‰¡•¥¡Ğ‰t¤€´€ ÄØ€¼€ä¤¤€ğ€À¸ÀĞ(€€€…ÍÍ•ÉĞ…‰Ì¡•±±}‰½ál‰à‰t€´Í•½¹‘}‰½ál‰à‰t¤€ğ€Ä(€€€…ÍÍ•ÉĞÍ•½¹‘}‰½ál‰ä‰t€ø•±±}‰½ál‰ä‰t(€€€Á…”¹•Ñ}‰å}±…‰•° ‹Ÿ&’ö7šVÃ¦<ˆ¤¹™¥±° ˆÄÀˆ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–â–Æ ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹±½…Ñ½È ˆ¹±…å½ÕĞµÁÉ•Í•ÑÌ€ø‰ÕÑÑ½¸ˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹¶'–º÷–>3š‚<ˆ¤¹±¥¬ ¤(€€€ÕÁ±½…‘•‘}É¥‘}İ¥‘Ñ¡Ì€ômt(€€€Ñ•¹}Á¡½Ñ½}½±Õµ¹Ì€ômt(€€€™½ÈÉ…Ñ¥¼¥¸lˆÄèÄˆ°€ˆÄèÈˆ°€ˆÄèÔ‰tè(€€€€€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”õÉ…Ñ¥¼°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€€€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰5…Ñ ¹…‰Ì¡9Õµ‰•È¡‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥œ¤¹‘…Ñ…Í•Ğ¹É¥‘]¥‘Ñ ¤€´‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥œ¤¹½™™Í•Ñ]¥‘Ñ ¤€ğô€Äˆ¤(€€€€€€€ÕÁ±½…‘•‘}É¥‘}İ¥‘Ñ¡Ì¹…ÁÁ•¹¡Á…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•±•µ•¹Ğ¹½™™Í•Ñ]¥‘Ñ ˆ¤¤(€€€€€€€Ñ•¹}Á¡½Ñ½}½±Õµ¹Ì¹…ÁÁ•¹¡¥¹Ğ¡Á…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥ˆ¤¹•Ñ}…ÑÑÉ¥‰ÕÑ” ‰‘…Ñ„µ½±Õµ¹Ìˆ¤¤¤(€€€€€€€¥µ…•}‰½à€ôÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹Ğµ•±°¥µœˆ¤¹™¥ÉÍĞ¹‰½Õ¹‘¥¹}‰½à ¤(€€€€€€€±¥Ù•}•±±}‰½à€ôÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹Ğµ•±°ˆ¤¹™¥ÉÍĞ¹‰½Õ¹‘¥¹}‰½à ¤(€€€€€€€…ÍÍ•ÉĞ…‰Ì¡¥µ…•}‰½ál‰İ¥‘Ñ ‰t€´±¥Ù•}•±±}‰½ál‰İ¥‘Ñ ‰t¤€ğ€Ä(€€€€€€€…ÍÍ•ÉĞ…‰Ì¡¥µ…•}‰½ál‰¡•¥¡Ğ‰t€´±¥Ù•}•±±}‰½ál‰¡•¥¡Ğ‰t¤€ğ€Ä(€€€€€€€É¥‘}¡•¥¡Ğ€ôÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•±•µ•¹Ğ¹½™™Í•Ñ!•¥¡Ğˆ¤(€€€€€€€É½İ}‰½á•Ì€ôÁ…”¹•Ù…±Õ…Ñ” ˆˆˆ ¤€ôøì(€€€€€€€€€€€½¹ÍĞÉ¥€ô‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥œ¤(€€€€€€€€€€€É•ÑÕÉ¸l¸¸¹¹•Ü5…À¡l¸¸¹É¥¹ÅÕ•ÉåM•±•Ñ½É±° œ¹Á…ÉÑ¥¥Á…¹Ğµ•±°œ¥t¹µ…À¡•±•µ•¹Ğ€ôøì(€€€€€€€€€€€€€€€½¹ÍĞÑ½À€ô•±•µ•¹Ğ¹½™™Í•ÑQ½À€´É¥¹½™™Í•ÑQ½À(€€€€€€€€€€€€€€€É•ÑÕÉ¸mÑ½À°ìÑ½À°‰½ÑÑ½´èÑ½À€¬•±•µ•¹Ğ¹½™™Í•Ñ!•¥¡Ğõt(€€€€€€€€€€€ô¤¤¹Ù…±Õ•Ì ¥t(€€€€€€€ôˆˆˆ¤(€€€€€€€Ñ½Á}…À€ôÉ½İ}‰½á•ÍlÁul‰Ñ½À‰t(€€€€€€€‰½ÑÑ½µ}…À€ôÉ¥‘}¡•¥¡Ğ€´É½İ}‰½á•Íl´Åul‰‰½ÑÑ½´‰t(€€€€€€€É½İ}…ÁÌ€ômÉ½İ}‰½á•Ím¥¹‘•à€¬€Åul‰Ñ½À‰t€´É½İ}‰½á•Ím¥¹‘•ául‰‰½ÑÑ½´‰t™½È¥¹‘•à¥¸É…¹”¡±•¸¡É½İ}‰½á•Ì¤€´€Ä¥t(€€€€€€€…ÍÍ•ÉĞ…‰Ì¡Ñ½Á}…À¤€ğ€Ä(€€€€€€€…ÍÍ•ÉĞ‰½ÑÑ½µ}…À€øô€´Ä(€€€€€€€…ÍÍ•ÉĞ…±°¡…‰Ì¡É½İ}…À€´€ÄÈ¤€ğô€Ä™½ÈÉ½İ}…À¥¸É½İ}…ÁÌ¤°É½İ}…ÁÌ(€€€…ÍÍ•ÉĞÕÁ±½…‘•‘}É¥‘}İ¥‘Ñ¡Ì€ôôÍ½ÉÑ•¡ÕÁ±½…‘•‘}É¥‘}İ¥‘Ñ¡Ì¤(€€€…ÍÍ•ÉĞ±•¸¡Í•Ğ¡ÕÁ±½…‘•‘}É¥‘}İ¥‘Ñ¡Ì¤¤€ôô€Ì(€€€…ÍÍ•ÉĞµ…à¡Ñ•¹}Á¡½Ñ½}½±Õµ¹Ì¤€øµ¥¸¡Ñ•¹}Á¡½Ñ½}½±Õµ¹Ì¤(€€€Á…”¹±½…Ñ½È ˆ¹±…å½ÕĞµÁÉ•Í•ÑÌ€ø‰ÕÑÑ½¸ˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹î?–ã–>3š‚<ˆ¤¹±¥¬ ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹îOšzˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹±½…Ñ½È ˆ¹ÑÉ•”µ½µÁ½¹•¹Ğˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹–>’òk’êë–F`ˆ¤¹±¥¬ ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹šâ¦ë–æÛš‹–’7–6ƒ’ö4ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹Ğµ•±°ˆ¤¹½Õ¹Ğ ¤€ôô€ÈÀ(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á…ÉÑ¥¥Á…¹ĞµÉ¥ˆ¤¹•Ñ}…ÑÑÉ¥‰ÕÑ” ‰‘…Ñ„µ½±Õµ¹Ìˆ¤€ôô€ˆÈˆ((€€€€Œ‘±½¹œ½¹Ñ•¹ĞÑ¼Ñ¡”±•™Ğ½¹Ñ…¥¹•È…¹Ù•É¥™äÑ¡…ĞÁ½ÍÑ•È¡•¥¡ĞÉ½İÌ¸(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹î’îØˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹šŞï–*ƒ–"Àˆ¤¹Í•±•Ñ}½ÁÑ¥½¸ ‰±•™Ğˆ¤(€€€Á…”¹±½…Ñ½È ˆ¹½µÁ½¹•¹Ğµ±¥‰É…Éä€ø‰ÕÑÑ½¸ˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹–’k¢†3šZšr°ˆ¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹•Ñ}‰å}É½±” ‰¡•…‘¥¹œˆ°¹…µ”ô‹–’k¢†3šZšr°ˆ°•á…ĞõQÉÕ”¤¹¥Í}Ù¥Í¥‰±” ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹š‚¦Š`ˆ¤¹™¥±° ˆ€€ˆ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹½µÁ½¹•¹ĞµÑ•áÑ	±½¬¹Í•±•Ñ•µ½µÁ½¹•¹Ğ€¹Á½ÍÑ•ÈµÁ¥±°ˆ¤¹½Õ¹Ğ ¤€ôô€À(€€€Á…”¹•Ñ}‰å}±…‰•° ‹š‚¦Š`ˆ¤¹™¥±° ‹–º3šVÓ’òk¢º»ê«¢šˆ¤(€€€±½¹}‰½‘ä€ô€‰q¸ˆ¹©½¥¸¡m˜‹²°í¥¹‘•à€¬€Åôƒšv‡’òk¢º»––ºç¾òkî’îÛ’òkš:£–*£šÖßš*—¢«–*£–BG’â/–îÛ¦Vÿˆ™½È¥¹‘•à¥¸É…¹” ÌØ¥t¤(€€€Á…”¹±½…Ñ½È ˆ¹ÁÉ½Á•ÉÑ¥•Ìµ‰½‘äÑ•áÑ…É•„ˆ¤¹™¥±°¡±½¹}‰½‘ä¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹š¶šZ–¶_–>Üˆ¤¹™¥±° ˆÄĞˆ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹¢†3¢Ştˆ¤¹™¥±° ˆÈˆ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹…±¥¸µ‰ÕÑÑ½¹Ì‰ÕÑÑ½¸ÍÁ…¸ˆ¤¹…±±}¥¹¹•É}Ñ•áÑÌ ¤€ôôl‹–Ş˜ˆ°€‹’â´ˆ°€‹–>Ì‰t(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–>Ï–¾ç¦ö@ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•Èµ‰½‘äµÑ•áĞˆ¤¹±…ÍĞ¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•Ñ½µÁÕÑ•‘MÑå±”¡•±•µ•¹Ğ¤¹Ñ•áÑ±¥¸ˆ¤€ôô€‰É¥¡Ğˆ(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–Ş›–¾ç¦ö@ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•Èµ‰½‘äµÑ•áĞˆ¤¹±…ÍĞ¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•Ñ½µÁÕÑ•‘MÑå±”¡•±•µ•¹Ğ¤¹™½¹ÑM¥é”ˆ¤€ôô€ˆÄÑÁàˆ(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Á½ÍÑ•ÈµÁ…”œ¤¹½™™Í•Ñ!•¥¡Ğ€ø€ÄÈÈÀˆ¤(€€€É•¹‘•É•‘}¡•¥¡Ğ€ôÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÁ…”ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•±•µ•¹Ğ¹½™™Í•Ñ!•¥¡Ğˆ¤(€€€…ÍÍ•ÉĞÉ•¹‘•É•‘}¡•¥¡Ğ€ø€ÄÈÈÀ((€€€€ŒM…Ù”ÍÑÉÕÑÕÉ•)M=8…¹Ù•É¥™äÑ¡”Í¡•µ„¸(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹’şw–¶`ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Ñ½…ÍĞœ¤ü¹Ñ•áÑ½¹Ñ•¹Ğ¹¥¹±Õ‘•Ì Ÿ¦†çn»–ŞË’şw–¶`œ¤ˆ¤(€€€Í¹…ÁÍ¡½Ğ€ôÁ…”¹•Ù…±Õ…Ñ” ‰)M=8¹Á…ÉÍ”¡±½…±MÑ½É…”¹•Ñ%Ñ•´ µ••Ñ¥¹œµÁ½ÍÑ•Èµ½µÁ½¹•¹ÑÌµØÈœ¤¤ˆ¤(€€€…ÍÍ•ÉĞÍ¹…ÁÍ¡½Ñl‰Ù•ÉÍ¥½¸‰t€ôô€Ì(€€€…ÍÍ•ÉĞ±•¸¡Í¹…ÁÍ¡½Ñl‰½¹Ñ…¥¹•ÉÌ‰t¤€ôô€Ü(€€€…ÍÍ•ÉĞÍ¹…ÁÍ¡½Ñl‰±…å½ÕĞ‰t€ôô€‰±…ÍÍ¥Œˆ(€€€…ÍÍ•ÉĞÍ¹…ÁÍ¡½Ñl‰½¹Ñ…¥¹•É5½‘”‰t€ôô€‰ÁÉ•Í•Ğˆ(€€€…ÍÍ•ÉĞÍ¹…ÁÍ¡½Ñl‰±…å½ÕÑI…Ñ¥½Ì‰ul‰‘Õ…±9…ÉÉ½İ]¥‘”‰t€ôôlÄ°€Õt(€€€…ÍÍ•ÉĞÍ¹…ÁÍ¡½Ñl‰Á…‘‘¥¹Q½À‰t€ôô€Ìà(€€€…ÍÍ•ÉĞÍ¹…ÁÍ¡½Ñl‰Á…‘‘¥¹	½ÑÑ½´‰t€ôô€ÌĞ(€€€…ÍÍ•ÉĞÍ¹…ÁÍ¡½Ñl‰‰…­É½Õ¹‘MÑå±”‰t€ôô€‰±•…ÉM­äˆ(€€€…ÍÍ•ÉĞ¹•áĞ¡½µÁ½¹•¹Ğ™½È½µÁ½¹•¹Ğ¥¸Í¹…ÁÍ¡½Ñl‰½¹Ñ…¥¹•ÉÌ‰ulÉul‰½µÁ½¹•¹ÑÌ‰t¥˜½µÁ½¹•¹Ñl‰ÑåÁ”‰t€ôô€‰µ½Í…¥Œˆ¥l‰Á¡½Ñ½…À‰t€ôô€ÄÈ(€€€…ÍÍ•ÉĞ…¹ä¡½µÁ½¹•¹Ñl‰ÑåÁ”‰t€ôô€‰Ñ•áÑ	±½¬ˆ™½È½µÁ½¹•¹Ğ¥¸Í¹…ÁÍ¡½Ñl‰½¹Ñ…¥¹•ÉÌ‰ulÅul‰½µÁ½¹•¹ÑÌ‰t¤(€€€Í…Ù•‘}É½İ}É½ÕÀ€ô¹•áĞ¡½µÁ½¹•¹Ğ™½È½µÁ½¹•¹Ğ¥¸Í¹…ÁÍ¡½Ñl‰½¹Ñ…¥¹•ÉÌ‰ulÅul‰½µÁ½¹•¹ÑÌ‰t¥˜½µÁ½¹•¹Ñl‰ÑåÁ”‰t€ôô€‰É½İÉ½ÕÀˆ¤(€€€…ÍÍ•ÉĞÍ…Ù•‘}É½İ}É½ÕÁl‰½±Õµ¹Ì‰t€ôô€Ì(€€€…ÍÍ•ÉĞÍ…Ù•‘}É½İ}É½ÕÁl‰É…Ñ¥½Ì‰t€ôôlÄ°€È°€Åt(€€€…ÍÍ•ÉĞ±•¸¡m¡¥±™½È¡¥±¥¸Í…Ù•‘}É½İ}É½ÕÁl‰¡¥±‘É•¸‰ulèÍt¥˜¡¥±‘t¤€ôô€Ì((€€€€ŒáÁ½ÉĞ„É•…°€ÉàA9…¹É•Ñ…¥¸ÍÉ••¹Í¡½ÑÌ™½ÈÙ¥ÍÕ…°É•Ù¥•Ü¸(€€€Á…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÁ…”ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•±•µ•¹Ğ¹±…ÍÍ1¥ÍĞ¹…‘ ¥Ìµ•áÁ½ÉÑ¥¹œœ¤ˆ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÁ…”ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•Ñ½µÁÕÑ•‘MÑå±”¡•±•µ•¹Ğ°€œèé…™Ñ•Èœ¤¹‘¥ÍÁ±…äˆ¤€ôô€‰¹½¹”ˆ(€€€Á…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÁ…”ˆ¤¹•Ù…±Õ…Ñ” ‰•±•µ•¹Ğ€ôø•±•µ•¹Ğ¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” ¥Ìµ•áÁ½ÉÑ¥¹œœ¤ˆ¤(€€€Á…”¹±½…Ñ½È ˆ¹•áÁ½ÉĞµ½¹ÑÉ½°Í•±•Ğˆ¤¹Í•±•Ñ}½ÁÑ¥½¸ ˆÈˆ¤(€€€İ¥Ñ Á…”¹•áÁ•Ñ}‘½İ¹±½…¡Ñ¥µ•½ÕĞôÌÀÀÀÀ¤…Ì‘½İ¹±½…‘}¥¹™¼è(€€€€€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–¾ó–èA9ˆ°•á…Ğõ…±Í”¤¹±¥¬ ¤(€€€‘½İ¹±½…‘}¥¹™¼¹Ù…±Õ”¹Í…Ù•}…Ì¡aA=IQ}%1¤(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½È œ¹Ñ½…ÍĞœ¤ü¹Ñ•áÑ½¹Ñ•¹Ğ¹¥¹±Õ‘•Ì Ÿ–ŞË–¾ó–èœ¤ˆ°Ñ¥µ•½ÕĞôÌÀÀÀÀ¤((€€€Á…”¹ÍÉ••¹Í¡½Ğ¡Á…Ñ õÍÑÈ¡%Q=I}MI9M!=P¤°™Õ±±}Á…”õQÉÕ”¤(€€€Á…”¹±½…Ñ½È ˆ¹Á½ÍÑ•ÈµÁ…”ˆ¤¹ÍÉ••¹Í¡½Ğ¡Á…Ñ õÍÑÈ¡A=MQI}MI9M!=P¤¤((€€€€Œ…¹Ù…Ì¥¹ÍÁ•Ñ¥½¸…¸é½½´‰•å½¹€ÄÀÀ”°ÕÀÑ¼„ÍÑ…‰±”€ÈÀÀ”•¥±¥¹œ¸(€€€™½È|¥¸É…¹” ÌÀ¤è(€€€€€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹šRû–’ŸRï–âˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹é½½´µ½¹ÑÉ½°ÍÁ…¸ˆ¤¹¥¹¹•É}Ñ•áĞ ¤€ôô€ˆÈÀÀ”ˆ(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹šRû–’ŸRï–âˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹é½½´µ½¹ÑÉ½°ÍÁ…¸ˆ¤¹¥¹¹•É}Ñ•áĞ ¤€ôô€ˆÈÀÀ”ˆ((€€€€ŒM…Ù•ÁÉ½©•ÑÌÍÕÁÁ½ÉĞ…ÕÑ½µ…Ñ¥ŒÁÉ•Ù¥•İÌ°É•¹…µ¥¹œ°ÕÍÑ½´½Ù•ÉÌ°½Ù•ÉİÉ¥Ñ”½Í…Ù”µ…Ì°…¹Ñ•µÁ±…Ñ•Ì¸(€€€ÁÉ½©•ÑÌ€ôÁ…”¹•Ù…±Õ…Ñ” ‰)M=8¹Á…ÉÍ”¡±½…±MÑ½É…”¹•Ñ%Ñ•´ µ••Ñ¥¹œµÁ½ÍÑ•ÈµÁÉ½©•ÑÌµØÄœ¤¤ˆ¤(€€€…ÍÍ•ÉĞ±•¸¡ÁÉ½©•ÑÌ¤€ôô€Ä(€€€…ÍÍ•ÉĞÁÉ½©•ÑÍlÁul‰¹…µ”‰t€ôô€‹¢&¿~—>·–S–’s¢¾tˆ(€€€…ÍÍ•ÉĞÁÉ½©•ÑÍlÁul‰…ÕÑ½AÉ•Ù¥•Ü‰t¹ÍÑ…ÉÑÍİ¥Ñ  ‰‘…Ñ„é¥µ…”½İ•‰Àˆ¤(€€€Á…”¹±½…Ñ½È ˆ¹Á…”µ¹…Ø‰ÕÑÑ½¸ˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹š"Gj¦†çn¸ˆ¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÁÉ½©•Ğµ…Éˆ¤¹½Õ¹Ğ ¤€ôô€Ä(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÁÉ½©•Ğµ…É€¹Í…Ù•µ½Ù•Èµ¥µ…”ˆ¤¹½Õ¹Ğ ¤€ôô€Ä(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹’ş»šRç¦†çn»–B7Àˆ°•á…Ğõ…±Í”¤¹±¥¬ ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹¦†çn»–B7Àˆ¤¹™¥±° ‹¢&¿~—–’s¢¾wšÖ/¢¾W¦†çn¸ˆ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹†»¢º“’ş»šRç–B7Àˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÁÉ½©•Ğµ…É Èˆ¤¹¥¹¹•É}Ñ•áĞ ¤€ôô€‹¢&¿~—–’s¢¾wšÖ/¢¾W¦†çn¸ˆ(€€€İ¥Ñ Á…”¹•áÁ•Ñ}™¥±•}¡½½Í•È ¤…Ì¡½½Í•É}¥¹™¼è(€€€€€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹šnÓš6‹¦Š¢#–nøˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€¡½½Í•É}¥¹™¼¹Ù…±Õ”¹Í•Ñ}™¥±•Ì¡I}=1}MI9M!=P¤(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰)M=8¹Á…ÉÍ”¡±½…±MÑ½É…”¹•Ñ%Ñ•´ µ••Ñ¥¹œµÁ½ÍÑ•ÈµÁÉ½©•ÑÌµØÄœ¤¥lÁt¹ÁÉ•Ù¥•Ü¹±•¹Ñ €ø€ÄÀÀˆ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÁÉ½©•Ğµ…É€¹Í…Ù•µ½Ù•Èµ¥µ…”ˆ¤¹½Õ¹Ğ ¤€ôô€Ä(€€€Á…”¹ÍÉ••¹Í¡½Ğ¡Á…Ñ õÍÑÈ¡AI=)QM}MI9M!=P¤°™Õ±±}Á…”õQÉÕ”¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹š&O–òîŸî·ò[¢úDˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹İ½É­ÍÁ…”ˆ¤¹¥Í}Ù¥Í¥‰±” ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–>›–¶c’âèˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹šZÃ¦†çn»–B7Àˆ¤¹™¥±° ‹¢&¿~—–’s¢¾w&#šr°ˆ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–"o–îëšZÃ¦†çn¸ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰)M=8¹Á…ÉÍ”¡±½…±MÑ½É…”¹•Ñ%Ñ•´ µ••Ñ¥¹œµÁ½ÍÑ•ÈµÁÉ½©•ÑÌµØÄœ¤¤¹±•¹Ñ €ôôô€Èˆ¤(€€€Á…”¹±½…Ñ½È ˆ¹Á…”µ¹…Ø‰ÕÑÑ½¸ˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹š¢‡švÿ’â·–şˆ¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹Ñ•µÁ±…Ñ”µ…Éˆ¤¹½Õ¹Ğ ¤€ôô€Ô(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–"o–îë–öO–&7šÖßš*—š¢‡švüˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹•Ñ}‰å}±…‰•° ‹š¢‡švÿ–B7Àˆ¤¹™¥±° ‹š"Gj’òk¢º»ê«–º{š¢‡švüˆ¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹’şw–¶c–"Ãš¢‡švÿ’â·–şˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÕÍÑ½´µÑ•µÁ±…Ñ”µ…Éˆ¤¹½Õ¹Ğ ¤€ôô€Ä(€€€…ÍÍ•ÉĞÁ…”¹•Ù…±Õ…Ñ” ‰)M=8¹Á…ÉÍ”¡±½…±MÑ½É…”¹•Ñ%Ñ•´ µ••Ñ¥¹œµÁ½ÍÑ•ÈµÕÍÑ½´µÑ•µÁ±…Ñ•ÌµØÄœ¤¤¹±•¹Ñ ˆ¤€ôô€Ä(€€€Á…”¹ÍÉ••¹Í¡½Ğ¡Á…Ñ õÍÑÈ¡Q5A1Q}9QI}MI9M!=P¤°™Õ±±}Á…”õQÉÕ”¤(€€€™½ÉÕµ}Ñ•µÁ±…Ñ”€ôÁ…”¹±½…Ñ½È ˆ¹Ñ•µÁ±…Ñ”µ…Éˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹’â'š‚?¢ºë–vo–£šf¼ˆ¤(€€€™½ÉÕµ}Ñ•µÁ±…Ñ”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹’öÿR£š¶“š¢‡švüˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹…‘…ÁÑ¥Ù”µ½¹Ñ•¹ĞµÉ¥€ø€¹Á½ÍÑ•Èµ½¹Ñ…¥¹•Èˆ¤¹½Õ¹Ğ ¤€ôô€Ì(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹’şw–¶`ˆ°•á…ĞõQÉÕ”¤¹±¥¬ ¤(€€€Á…”¹İ…¥Ñ}™½É}™Õ¹Ñ¥½¸ ‰)M=8¹Á…ÉÍ”¡±½…±MÑ½É…”¹•Ñ%Ñ•´ µ••Ñ¥¹œµÁ½ÍÑ•ÈµÁÉ½©•ÑÌµØÄœ¤¤¹±•¹Ñ €ôôô€Ìˆ¤(€€€Á…”¹±½…Ñ½È ˆ¹Á…”µ¹…Ø‰ÕÑÑ½¸ˆ¤¹™¥±Ñ•È¡¡…Í}Ñ•áĞô‹š"Gj¦†çn¸ˆ¤¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÁÉ½©•Ğµ…Éˆ¤¹½Õ¹Ğ ¤€ôô€Ì(€€€Á…”¹½¸ ‰‘¥…±½œˆ°±…µ‰‘„‘¥…±½œè‘¥…±½œ¹…•ÁĞ ¤¤(€€€Á…”¹•Ñ}‰å}É½±” ‰‰ÕÑÑ½¸ˆ°¹…µ”ô‹–"ƒ¦f“¦†çn¸ˆ°•á…Ğõ…±Í”¤¹™¥ÉÍĞ¹±¥¬ ¤(€€€…ÍÍ•ÉĞÁ…”¹±½…Ñ½È ˆ¹ÁÉ½©•Ğµ…Éˆ¤¹½Õ¹Ğ ¤€ôô€È(€€€‰É½İÍ•È¹±½Í” ¤()¥˜•ÉÉ½ÉÌè(€€€É…¥Í”ÍÍ•ÉÑ¥½¹ÉÉ½È ‰	É½İÍ•È•ÉÉ½ÉÌéq¸ˆ€¬€‰q¸ˆ¹©½¥¸¡•ÉÉ½ÉÌ¤¤()ÁÉ¥¹Ğ¡˜‰=5A=99Q}M5=-}=,ÍÉ••¹Í¡½Ğõí%Q=I}MI9M!=Qôˆ¤
+    assert global_header.locator(".component-hero").count() == 1
+    assert global_header.evaluate("element => element.offsetWidth") == 1416
+    assert grid.locator(":scope > .poster-container").first.locator(".component-hero").count() == 1
+    page.locator(".quick-actions button.danger").click()
+    assert global_header.count() == 0
+    assert grid.locator(".component-hero").count() == 1
+    page.get_by_role("button", name="å¸ƒå±€", exact=True).click()
+
+    # A horizontal component group nests real editable components with independent ratios.
+    page.get_by_role("button", name="ç»„ä»¶", exact=True).click()
+    page.locator(".left-content select").select_option("left")
+    page.locator(".component-library > button").filter(has_text="æ¨ªå‘ç»„ä»¶ç»„").click()
+    row_group = page.locator(".component-rowGroup")
+    assert row_group.is_visible()
+    assert row_group.locator(".row-component-slot").count() == 2
+    page.get_by_label("ä½ç½® 1 å®½åº¦æ¯”ä¾‹").fill("1")
+    page.get_by_label("ä½ç½® 2 å®½åº¦æ¯”ä¾‹").fill("2")
+    slot_widths = row_group.locator(".row-component-slot").evaluate_all("elements => elements.map(element => element.offsetWidth)")
+    assert slot_widths[1] > slot_widths[0] * 1.8
+    page.locator(".row-count-control").get_by_role("button", name="3 ä¸ª", exact=True).click()
+    assert row_group.locator(".row-component-slot").count() == 3
+    assert row_group.locator(".row-empty-slot").count() == 1
+    page.get_by_label("ä½ç½® 3 ç»„ä»¶ç±»å‹").select_option("guestGrid")
+    assert row_group.locator(".row-component-slot > .poster-component").count() == 3
+    assert page.locator(".property-back").get_attribute("aria-label") == "è¿”å›æ¨ªå‘ç»„ä»¶ç»„"
+    page.locator(".property-back").click()
+    assert page.locator(".properties-title b").inner_text() == "æ¨ªå‘ç»„ä»¶ç»„"
+    page.get_by_role("button", name="ç»“æ„", exact=True).click()
+    page.locator(".tree-component").filter(has_text="æ¨ªå‘ç»„ä»¶ç»„").click()
+    assert page.locator(".tree-nested-components .tree-component").count() >= 3
+    page.get_by_role("button", name="å¸ƒå±€", exact=True).click()
+
+    page.locator(".layout-presets > button").filter(has_text="é‡ç‚¹å››æ ").click()
+    assert page.locator(".poster-page").evaluate("element => element.offsetWidth") == 1910
+    assert page.locator(".adaptive-content-grid > .poster-container").evaluate_all("elements => elements.map(element => element.offsetWidth)") == [392, 588, 392, 392]
+    page.locator(".layout-presets > button").filter(has_text="ç­‰å®½äº”æ ").click()
+    assert page.locator(".poster-page").evaluate("element => element.offsetWidth") == 2128
+    assert page.locator(".adaptive-content-grid > .poster-container").count() == 5
+    assert page.locator(".adaptive-content-grid > .poster-container").evaluate_all("elements => elements.map(element => element.offsetWidth)") == [392, 392, 392, 392, 392]
+    page.get_by_role("button", name="ç»„ä»¶", exact=True).click()
+    assert "ä¸­æ å†…å®¹ C" in page.get_by_label("æ·»åŠ åˆ°").locator("option").all_inner_texts()
+    page.get_by_role("button", name="ç»“æ„", exact=True).click()
+    assert page.locator(".tree-container b").all_inner_texts() == ["å…¨å±€é¡µå¤´", "é¦–æ å†…å®¹", "ä¸­æ å†…å®¹ A", "ä¸­æ å†…å®¹ B", "ä¸­æ å†…å®¹ C", "æœ«æ å†…å®¹", "å…¨å±€é¡µè„š"]
+    page.get_by_role("button", name="å¸ƒå±€", exact=True).click()
+    page.locator(".layout-presets > button").filter(has_text="é‡ç‚¹äº”æ ").click()
+    assert page.locator(".poster-page").evaluate("element => element.offsetWidth") == 2324
+    assert page.locator(".adaptive-content-grid > .poster-container").evaluate_all("elements => elements.map(element => element.offsetWidth)") == [392, 392, 588, 392, 392]
+    page.locator(".layout-presets > button").filter(has_text="é‡ç‚¹ä¸‰æ ").click()
+    page.get_by_role("button", name="èƒŒæ™¯", exact=True).click()
+    assert page.locator(".background-presets > button").count() == 9
+    for index in range(9):
+        page.locator(".background-presets > button").nth(index).click()
+        contrast = page.locator(".poster-page").evaluate("""element => {
+            const style = getComputedStyle(element)
+            const colors = [style.getPropertyValue('--poster-bg').trim(), style.getPropertyValue('--accent').trim(), style.getPropertyValue('--poster-text').trim(), style.getPropertyValue('--poster-on-background').trim()]
+            const luminance = hex => {
+                const channels = hex.match(/[a-f\\d]{2}/gi).map(value => parseInt(value, 16) / 255).map(value => value <= .04045 ? value / 12.92 : ((value + .055) / 1.055) ** 2.4)
+                return .2126 * channels[0] + .7152 * channels[1] + .0722 * channels[2]
+            }
+            const ratio = (first, second) => {
+                const a = luminance(first), b = luminance(second)
+                return (Math.max(a, b) + .05) / (Math.min(a, b) + .05)
+            }
+            return { accent: ratio(colors[0], colors[1]), text: ratio(colors[0], colors[2]), onBackground: ratio(colors[0], colors[3]), surfaceText: ratio('#fffdf7', colors[2]), pill: ratio('#fffaf2', colors[1]) }
+        }""")
+        assert contrast["accent"] >= 4.5, contrast
+        assert contrast["onBackground"] >= 4.5, contrast
+        if "theme-solemnRedGold" in page.locator(".poster-page").get_attribute("class"):
+            assert contrast["surfaceText"] >= 4.5, contrast
+        else:
+            assert contrast["text"] >= 4.5, contrast
+            assert contrast["pill"] >= 4.5, contrast
+    page.locator(".background-presets > button").filter(has_text="æ–°æ˜¥å–œåº†").click()
+    assert "linear-gradient" in page.locator(".poster-page").evaluate("element => getComputedStyle(element).backgroundImage")
+    page.locator(".background-presets > button").filter(has_text="æ¿€åŠ±è¡¨å½°").click()
+    page.locator(".background-presets > button").filter(has_text="å¤§çº¢éé‡‘").click()
+    assert "theme-solemnRedGold" in page.locator(".poster-page").get_attribute("class")
+    assert page.locator(".poster-page").evaluate("element => getComputedStyle(element).backgroundColor") == "rgb(143, 17, 24)"
+    assert page.locator(".poster-page").evaluate("element => getComputedStyle(element).backgroundImage") == "none"
+    assert page.locator(".poster-page").evaluate("element => getComputedStyle(element, '::after').display") == "none"
+    assert page.locator(".component-hero h1").evaluate("element => getComputedStyle(element).webkitTextFillColor") == "rgba(0, 0, 0, 0)"
+    red_gold_card_colors = set(page.locator(".poster-component.has-container:not(.component-hero):not(.component-brand)").evaluate_all("elements => elements.map(element => getComputedStyle(element).backgroundColor)"))
+    assert red_gold_card_colors == {"rgb(247, 239, 217)"}, red_gold_card_colors
+    # Global title and footer signature must respect their own card mode instead of receiving unconditional red surfaces.
+    page.get_by_role("button", name="ç»„ä»¶", exact=True).click()
+    page.get_by_label("æ·»åŠ åˆ°").select_option("header")
+    page.locator(".component-library > button").filter(has_text="ä¸»é¢˜æ ‡é¢˜").click()
+    global_red_title = page.locator(".zone-header .component-hero")
+    assert "no-container" in global_red_title.get_attribute("class")
+    assert global_red_title.evaluate("element => getComputedStyle(element).backgroundColor") == "rgba(0, 0, 0, 0)"
+    assert global_red_title.evaluate("element => getComputedStyle(element).paddingTop") == "0px"
+    page.locator(".card-mode-control").get_by_role("button", name="æ˜¾ç¤º", exact=True).click()
+    assert global_red_title.evaluate("element => getComputedStyle(element).backgroundColor") == "rgb(113, 11, 17)"
+    page.locator(".card-mode-control").get_by_role("button", name="éšè—", exact=True).click()
+    assert global_red_title.evaluate("element => getComputedStyle(element).backgroundColor") == "rgba(0, 0, 0, 0)"
+    assert page.locator(".component-brand.no-container").evaluate("element => getComputedStyle(element).backgroundColor") == "rgba(0, 0, 0, 0)"
+    first_guest_group = page.locator(".component-guestGrid").filter(has_text="ç‰¹é‚€åˆ†äº« Â· å›åº”å˜‰å®¾").first
+    assert first_guest_group.locator(".poster-guest-card").count() >= 6
+    fifth_guest = first_guest_group.locator(".poster-guest-card").nth(4)
+    page.locator(".component-info").first.hover()
+    standard_hover_border = page.locator(".component-info").first.evaluate("element => getComputedStyle(element, '::after').borderTopColor")
+    fifth_guest.hover()
+    assert first_guest_group.evaluate("element => getComputedStyle(element, '::after').display") == "block"
+    assert first_guest_group.evaluate("element => getComputedStyle(element, '::after').borderTopStyle") == "dashed"
+    assert first_guest_group.evaluate("element => getComputedStyle(element, '::after').borderTopColor") == standard_hover_border
+    fifth_guest.click()
+    page.mouse.move(1, 1)
+    assert first_guest_group.evaluate("element => getComputedStyle(element, '::after').borderTopColor") == "rgba(0, 0, 0, 0)"
+    assert first_guest_group.evaluate("element => getComputedStyle(element).borderTopWidth") == "0px"
+    assert first_guest_group.evaluate("element => getComputedStyle(element).boxShadow") == "none"
+    assert fifth_guest.evaluate("element => getComputedStyle(element).outlineStyle") == "solid"
+    assert fifth_guest.evaluate("element => getComputedStyle(element).outlineColor") == "rgb(242, 199, 102)"
+    assert fifth_guest.evaluate("element => getComputedStyle(element).boxShadow") == "none"
+    outer_guest_row = page.locator(".component-rowGroup:has(.component-guestGrid)")
+    assert outer_guest_row.evaluate("element => getComputedStyle(element, '::after').display") == "block"
+    assert outer_guest_row.evaluate("element => getComputedStyle(element, '::after').borderTopColor") == "rgba(0, 0, 0, 0)"
+    first_guest_group.locator(".poster-pill").click()
+    assert "selected-component" in first_guest_group.get_attribute("class")
+    assert first_guest_group.evaluate("element => getComputedStyle(element, '::after').borderTopStyle") == "dashed"
+    assert first_guest_group.evaluate("element => getComputedStyle(element, '::after').borderTopColor") == "rgb(242, 199, 102)"
+    page.locator(".poster-page").screenshot(path=str(RED_GOLD_GUEST_HOVER_SCREENSHOT))
+    page.locator(".poster-page").screenshot(path=str(RED_GOLD_SCREENSHOT))
+    page.get_by_role("button", name="å¸ƒå±€", exact=True).click()
+    page.locator(".layout-presets > button").filter(has_text="ç»å…¸åŒæ ").click()
+    assert set(page.locator(".classic-content-grid .poster-container.grouped-mode").evaluate_all("elements => elements.map(element => getComputedStyle(element).backgroundColor)")) == {"rgb(247, 239, 217)"}
+    assert page.locator(".classic-layout > .zone-header.grouped-mode").evaluate("element => getComputedStyle(element).backgroundColor") == "rgba(0, 0, 0, 0)"
+    assert page.locator(".classic-layout > .zone-header .component-hero.no-container").evaluate("element => getComputedStyle(element).backgroundColor") == "rgba(0, 0, 0, 0)"
+    assert page.locator(".zone-footer.grouped-mode").evaluate("element => getComputedStyle(element).backgroundColor") == "rgba(0, 0, 0, 0)"
+    assert page.locator(".classic-content-grid .component-hero.no-container").evaluate("element => getComputedStyle(element).backgroundColor") == "rgba(0, 0, 0, 0)"
+    assert page.locator(".classic-content-grid .component-hero.no-container h1").evaluate("element => getComputedStyle(element).webkitTextFillColor") == "rgb(138, 21, 25)"
+    page.locator(".poster-page").screenshot(path=str(RED_GOLD_CLASSIC_SCREENSHOT))
+    page.get_by_role("button", name="ç»“æ„", exact=True).click()
+    page.locator(".tree-group").first.locator(".tree-component").click()
+    page.locator(".quick-actions button.danger").click()
+    assert page.locator(".classic-layout > .zone-header").count() == 0
+    page.get_by_role("button", name="å¸ƒå±€", exact=True).click()
+    page.locator(".layout-presets > button").filter(has_text="é‡ç‚¹ä¸‰æ ").click()
+    page.get_by_role("button", name="èƒŒæ™¯", exact=True).click()
+    page.locator(".background-presets > button").filter(has_text="æ™´ç©ºä¸‡é‡Œ").click()
+    assert page.locator(".poster-page").evaluate("element => getComputedStyle(element).backgroundImage.includes('radial-gradient')")
+    page.screenshot(path=str(LAYOUT_SCREENSHOT), full_page=True)
+
+    # The expanded DOM width must be preserved by PNG export.
+    page.locator(".export-control select").select_option("2")
+    with page.expect_download(timeout=30000) as layout_download_info:
+        page.get_by_role("button", name="å¯¼å‡º PNG", exact=False).click()
+    layout_download_info.value.save_as(LAYOUT_EXPORT_FILE)
+    png_header = LAYOUT_EXPORT_FILE.read_bytes()[:24]
+    assert int.from_bytes(png_header[16:20], "big") == 1496 * 2
+
+    # Return to the reference-like classic composition for component editing checks.
+    page.get_by_role("button", name="å¸ƒå±€", exact=True).click()
+    page.locator(".layout-presets > button").filter(has_text="ç»å…¸åŒæ ").click()
+    assert page.locator(".classic-layout").is_visible()
+    assert page.locator(".poster-page").evaluate("element => element.offsetWidth") == 820
+    assert page.locator(".classic-layout > .zone-header").count() == 0
+    assert page.locator(".classic-layout .zone-left .component-hero").is_visible()
+    assert page.locator(".classic-layout .zone-left .component-info").is_visible()
+    page.get_by_role("button", name="ç»“æ„", exact=True).click()
+
+    # Footer typography is editable.
+    page.locator(".tree-component").filter(has_text="ä¹‰èµ·å‘å…‰").click()
+    page.get_by_label("ç½²åå­—å·").fill("34")
+    page.get_by_label("é™„åŠ è¯´æ˜").fill("æ˜å¾·å…±å­¦ç¤¾")
+    page.get_by_label("è¯´æ˜å­—å·").fill("16")
+    assert page.locator(".poster-brand").evaluate("element => getComputedStyle(element).fontSize") == "34px"
+    assert page.locator(".poster-brand-note").evaluate("element => getComputedStyle(element).fontSize") == "16px"
+
+    # Select the first guest group through the structure tree.
+    page.locator(".tree-component").filter(has_text="ç‰¹é‚€åˆ†äº«").click()
+    assert page.get_by_text("å˜‰å®¾ç»„è®¾ç½®", exact=True).is_visible()
+    before = page.locator(".poster-guest-card").count()
+    page.get_by_role("button", name="å¢åŠ å˜‰å®¾", exact=True).click()
+    assert page.locator(".poster-guest-card").count() == before + 1
+    assert page.locator(".property-back").get_attribute("aria-label") == "è¿”å›å˜‰å®¾ç»„"
+    page.locator(".property-back").click()
+    assert page.locator(".properties-title b").inner_text() == "å˜‰å®¾ç»„"
+    page.locator(".guest-editor-list button").last.click()
+
+    # Edit the newly-created content item through form fields.
+    name_input = page.get_by_label("å˜‰å®¾å§“å")
+    name_input.fill("æµ‹è¯•å˜‰å®¾")
+    page.get_by_label("èº«ä»½è¯´æ˜").fill("ç»“æ„åŒ–ç»„ä»¶æµ‹è¯•")
+    assert page.locator(".poster-guest-card").filter(has_text="æµ‹è¯•å˜‰å®¾").is_visible()
+
+    # Replace the photo without changing layout.
+    with page.expect_file_chooser() as chooser_info:
+        page.get_by_role("button", name="æ›¿æ¢ç…§ç‰‡", exact=True).click()
+    chooser_info.value.set_files(str(ROOT / "public" / "reference-poster.png"))
+    page.wait_for_function("document.querySelector('.toast')?.textContent.includes('ç…§ç‰‡å·²ä¼˜åŒ–å¹¶æ›¿æ¢')", timeout=10000)
+    page.get_by_role("button", name="åˆ é™¤", exact=True).click()
+
+    # Batch upload multiple participant photos. Every cell must remain 16:9.
+    page.get_by_role("button", name="ç»“æ„", exact=True).click()
+    page.locator(".tree-component").filter(has_text="å‚ä¼šäººå‘˜").click()
+    page.get_by_label("åˆ†åŒºæ ‡é¢˜").fill(" ")
+    assert page.locator(".component-mosaic .poster-pill").count() == 0
+    page.get_by_label("åˆ†åŒºæ ‡é¢˜").fill("å‚ä¼šäººå‘˜")
+    page.locator("label.field").filter(has_text="ç…§ç‰‡é—´è·").locator("input").fill("12")
+    assert page.locator(".participant-grid").evaluate("element => getComputedStyle(element).gap") == "12px"
+    assert page.locator(".participant-grid").evaluate("element => getComputedStyle(element).backgroundColor") == "rgba(0, 0, 0, 0)"
+    page.locator(".poster-page").screenshot(path=str(SECOND_UPLOAD))
+    with page.expect_file_chooser() as chooser_info:
+        page.get_by_role("button", name="æ‰¹é‡ä¸Šä¼ ç…§ç‰‡", exact=True).click()
+    chooser_info.value.set_files([str(ROOT / "public" / "reference-poster.png"), str(SECOND_UPLOAD)])
+    page.wait_for_function("document.querySelector('.toast')?.textContent.includes('å·²å¯¼å…¥ 2 å¼ ')", timeout=15000)
+    assert page.locator(".participant-cell img").count() == 2
+    assert page.locator(".mosaic-photo-item").count() == 2
+    photo_order_before = page.locator(".mosaic-photo-item img").evaluate_all("elements => elements.map(element => element.src)")
+    page.get_by_role("button", name="ç¬¬ 2 å¼ ç…§ç‰‡å‰ç§»", exact=True).click()
+    photo_order_after = page.locator(".mosaic-photo-item img").evaluate_all("elements => elements.map(element => element.src)")
+    assert photo_order_after == list(reversed(photo_order_before))
+    page.get_by_role("button", name="ç§»é™¤ç¬¬ 1 å¼ ç…§ç‰‡", exact=True).click()
+    assert page.locator(".mosaic-photo-item").count() == 1
+    assert page.locator(".participant-cell img").count() == 1
+    with page.expect_file_chooser() as chooser_info:
+        page.get_by_role("button", name="æ‰¹é‡ä¸Šä¼ ç…§ç‰‡", exact=True).click()
+    chooser_info.value.set_files([str(ROOT / "public" / "reference-poster.png"), str(SECOND_UPLOAD)])
+    page.wait_for_function("document.querySelector('.toast')?.textContent.includes('å·²å¯¼å…¥ 2 å¼ ')", timeout=15000)
+    assert page.locator(".participant-cell img").count() == 2
+    assert page.locator(".participant-grid").get_attribute("data-columns") == "1"
+    cell_box = page.locator(".participant-cell").first.bounding_box()
+    second_box = page.locator(".participant-cell").nth(1).bounding_box()
+    assert abs((cell_box["width"] / cell_box["height"]) - (16 / 9)) < 0.04
+    assert abs(cell_box["x"] - second_box["x"]) < 1
+    assert second_box["y"] > cell_box["y"]
+    page.get_by_label("ç…§ç‰‡ä½æ•°é‡").fill("10")
+    page.get_by_role("button", name="å¸ƒå±€", exact=True).click()
+    page.locator(".layout-presets > button").filter(has_text="ç­‰å®½åŒæ ").click()
+    uploaded_grid_widths = []
+    ten_photo_columns = []
+    for ratio in ["1:1", "1:2", "1:5"]:
+        page.get_by_role("button", name=ratio, exact=True).click()
+        page.wait_for_function("Math.abs(Number(document.querySelector('.participant-grid').dataset.gridWidth) - document.querySelector('.participant-grid').offsetWidth) <= 1")
+        uploaded_grid_widths.append(page.locator(".participant-grid").evaluate("element => element.offsetWidth"))
+        ten_photo_columns.append(int(page.locator(".participant-grid").get_attribute("data-columns")))
+        image_box = page.locator(".participant-cell img").first.bounding_box()
+        live_cell_box = page.locator(".participant-cell").first.bounding_box()
+        assert abs(image_box["width"] - live_cell_box["width"]) < 1
+        assert abs(image_box["height"] - live_cell_box["height"]) < 1
+        grid_height = page.locator(".participant-grid").evaluate("element => element.offsetHeight")
+        row_boxes = page.evaluate("""() => {
+            const grid = document.querySelector('.participant-grid')
+            return [...new Map([...grid.querySelectorAll('.participant-cell')].map(element => {
+                const top = element.offsetTop - grid.offsetTop
+                return [top, { top, bottom: top + element.offsetHeight }]
+            })).values()]
+        }""")
+        top_gap = row_boxes[0]["top"]
+        bottom_gap = grid_height - row_boxes[-1]["bottom"]
+        row_gaps = [row_boxes[index + 1]["top"] - row_boxes[index]["bottom"] for index in range(len(row_boxes) - 1)]
+        assert abs(top_gap) < 1
+        assert bottom_gap >= -1
+        assert all(abs(row_gap - 12) <= 1 for row_gap in row_gaps), row_gaps
+    assert uploaded_grid_widths == sorted(uploaded_grid_widths)
+    assert len(set(uploaded_grid_widths)) == 3
+    assert max(ten_photo_columns) > min(ten_photo_columns)
+    page.locator(".layout-presets > button").filter(has_text="ç»å…¸åŒæ ").click()
+    page.get_by_role("button", name="ç»“æ„", exact=True).click()
+    page.locator(".tree-component").filter(has_text="å‚ä¼šäººå‘˜").click()
+    page.get_by_role("button", name="æ¸…ç©ºå¹¶æ¢å¤å ä½", exact=True).click()
+    assert page.locator(".participant-cell").count() == 20
+    assert page.locator(".participant-grid").get_attribute("data-columns") == "2"
+
+    # Add long content to the left container and verify that poster height grows.
+    page.get_by_role("button", name="ç»„ä»¶", exact=True).click()
+    page.get_by_label("æ·»åŠ åˆ°").select_option("left")
+    page.locator(".component-library > button").filter(has_text="å¤šè¡Œæ–‡æœ¬").click()
+    assert page.get_by_role("heading", name="å¤šè¡Œæ–‡æœ¬", exact=True).is_visible()
+    page.get_by_label("æ ‡é¢˜").fill("  ")
+    assert page.locator(".component-textBlock.selected-component .poster-pill").count() == 0
+    page.get_by_label("æ ‡é¢˜").fill("å®Œæ•´ä¼šè®®çºªè¦")
+    long_body = "\n".join([f"ç¬¬ {index + 1} æ¡ä¼šè®®å†…å®¹ï¼šç»„ä»¶ä¼šæ¨åŠ¨æµ·æŠ¥è‡ªåŠ¨å‘ä¸‹å»¶é•¿ã€‚" for index in range(36)])
+    page.locator(".properties-body textarea").fill(long_body)
+    page.get_by_label("æ­£æ–‡å­—å·").fill("14")
+    page.get_by_label("è¡Œè·").fill("2")
+    assert page.locator(".align-buttons button span").all_inner_texts() == ["å·¦", "ä¸­", "å³"]
+    page.get_by_role("button", name="å³å¯¹é½", exact=True).click()
+    assert page.locator(".poster-body-text").last.evaluate("element => getComputedStyle(element).textAlign") == "right"
+    page.get_by_role("button", name="å·¦å¯¹é½", exact=True).click()
+    assert page.locator(".poster-body-text").last.evaluate("element => getComputedStyle(element).fontSize") == "14px"
+    page.wait_for_function("document.querySelector('.poster-page').offsetHeight > 1220")
+    rendered_height = page.locator(".poster-page").evaluate("element => element.offsetHeight")
+    assert rendered_height > 1220
+
+    # Save structured JSON and verify the schema.
+    page.get_by_role("button", name="ä¿å­˜", exact=True).click()
+    page.wait_for_function("document.querySelector('.toast')?.textContent.includes('é¡¹ç›®å·²ä¿å­˜')")
+    snapshot = page.evaluate("JSON.parse(localStorage.getItem('meeting-poster-components-v2'))")
+    assert snapshot["version"] == 3
+    assert len(snapshot["containers"]) == 7
+    assert snapshot["layout"] == "classic"
+    assert snapshot["containerMode"] == "preset"
+    assert snapshot["layoutRatios"]["dualNarrowWide"] == [1, 5]
+    assert snapshot["paddingTop"] == 38
+    assert snapshot["paddingBottom"] == 34
+    assert snapshot["backgroundStyle"] == "clearSky"
+    assert next(component for component in snapshot["containers"][2]["components"] if component["type"] == "mosaic")["photoGap"] == 12
+    assert any(component["type"] == "textBlock" for component in snapshot["containers"][1]["components"])
+    saved_row_group = next(component for component in snapshot["containers"][1]["components"] if component["type"] == "rowGroup")
+    assert saved_row_group["columns"] == 3
+    assert saved_row_group["ratios"] == [1, 2, 1]
+    assert len([child for child in saved_row_group["children"][:3] if child]) == 3
+
+    # Export a real 2x PNG and retain screenshots for visual review.
+    page.locator(".poster-page").evaluate("element => element.classList.add('is-exporting')")
+    assert page.locator(".poster-page").evaluate("element => getComputedStyle(element, '::after').display") == "none"
+    page.locator(".poster-page").evaluate("element => element.classList.remove('is-exporting')")
+    page.locator(".export-control select").select_option("2")
+    with page.expect_download(timeout=30000) as download_info:
+        page.get_by_role("button", name="å¯¼å‡º PNG", exact=False).click()
+    download_info.value.save_as(EXPORT_FILE)
+    page.wait_for_function("document.querySelector('.toast')?.textContent.includes('å·²å¯¼å‡º')", timeout=30000)
+
+    page.screenshot(path=str(EDITOR_SCREENSHOT), full_page=True)
+    page.locator(".poster-page").screenshot(path=str(POSTER_SCREENSHOT))
+
+    # Canvas inspection can zoom beyond 100%, up to a stable 200% ceiling.
+    for _ in range(30):
+        page.get_by_role("button", name="æ”¾å¤§ç”»å¸ƒ", exact=True).click()
+    assert page.locator(".zoom-control span").inner_text() == "200%"
+    page.get_by_role("button", name="æ”¾å¤§ç”»å¸ƒ", exact=True).click()
+    assert page.locator(".zoom-control span").inner_text() == "200%"
+
+    # Saved projects support automatic previews, renaming, custom covers, overwrite/save-as, and templates.
+    projects = page.evaluate("JSON.parse(localStorage.getItem('meeting-poster-projects-v1'))")
+    assert len(projects) == 1
+    assert projects[0]["name"] == "è‰¯çŸ¥ç­å§”å¤œè¯"
+    assert projects[0]["autoPreview"].startswith("data:image/webp")
+    page.locator(".page-nav button").filter(has_text="æˆ‘çš„é¡¹ç›®").click()
+    assert page.locator(".project-card").count() == 1
+    assert page.locator(".project-card .saved-cover-image").count() == 1
+    page.get_by_role("button", name="ä¿®æ”¹é¡¹ç›®åç§°", exact=False).click()
+    page.get_by_label("é¡¹ç›®åç§°").fill("è‰¯çŸ¥å¤œè¯æµ‹è¯•é¡¹ç›®")
+    page.get_by_role("button", name="ç¡®è®¤ä¿®æ”¹åç§°", exact=True).click()
+    assert page.locator(".project-card h2").inner_text() == "è‰¯çŸ¥å¤œè¯æµ‹è¯•é¡¹ç›®"
+    with page.expect_file_chooser() as chooser_info:
+        page.get_by_role("button", name="æ›´æ¢é¢„è§ˆå›¾", exact=True).click()
+    chooser_info.value.set_files(RED_GOLD_SCREENSHOT)
+    page.wait_for_function("JSON.parse(localStorage.getItem('meeting-poster-projects-v1'))[0].preview.length > 100")
+    assert page.locator(".project-card .saved-cover-image").count() == 1
+    page.screenshot(path=str(PROJECTS_SCREENSHOT), full_page=True)
+    page.get_by_role("button", name="æ‰“å¼€ç»§ç»­ç¼–è¾‘", exact=True).click()
+    assert page.locator(".workspace").is_visible()
+    page.get_by_role("button", name="å¦å­˜ä¸º", exact=True).click()
+    page.get_by_label("æ–°é¡¹ç›®åç§°").fill("è‰¯çŸ¥å¤œè¯ç‰ˆæœ¬ B")
+    page.get_by_role("button", name="åˆ›å»ºæ–°é¡¹ç›®", exact=True).click()
+    page.wait_for_function("JSON.parse(localStorage.getItem('meeting-poster-projects-v1')).length === 2")
+    page.locator(".page-nav button").filter(has_text="æ¨¡æ¿ä¸­å¿ƒ").click()
+    assert page.locator(".template-card").count() == 5
+    page.get_by_role("button", name="åˆ›å»ºå½“å‰æµ·æŠ¥æ¨¡æ¿", exact=True).click()
+    page.get_by_label("æ¨¡æ¿åç§°").fill("æˆ‘çš„ä¼šè®®çºªå®æ¨¡æ¿")
+    page.get_by_role("button", name="ä¿å­˜åˆ°æ¨¡æ¿ä¸­å¿ƒ", exact=True).click()
+    assert page.locator(".custom-template-card").count() == 1
+    assert page.evaluate("JSON.parse(localStorage.getItem('meeting-poster-custom-templates-v1')).length") == 1
+    page.screenshot(path=str(TEMPLATE_CENTER_SCREENSHOT), full_page=True)
+    forum_template = page.locator(".template-card").filter(has_text="ä¸‰æ è®ºå›å…¨æ™¯")
+    forum_template.get_by_role("button", name="ä½¿ç”¨æ­¤æ¨¡æ¿", exact=True).click()
+    assert page.locator(".adaptive-content-grid > .poster-container").count() == 3
+    page.get_by_role("button", name="ä¿å­˜", exact=True).click()
+    page.wait_for_function("JSON.parse(localStorage.getItem('meeting-poster-projects-v1')).length === 3")
+    page.locator(".page-nav button").filter(has_text="æˆ‘çš„é¡¹ç›®").click()
+    assert page.locator(".project-card").count() == 3
+    page.on("dialog", lambda dialog: dialog.accept())
+    page.get_by_role("button", name="åˆ é™¤é¡¹ç›®", exact=False).first.click()
+    assert page.locator(".project-card").count() == 2
+    browser.close()
+
+if errors:
+    raise AssertionError("Browser errors:\n" + "\n".join(errors))
+
+print(f"COMPONENT_SMOKE_OK screenshot={EDITOR_SCREENSHOT}")

@@ -270,5 +270,1311 @@ function createInitialPoster() {
       },
       {
         id: 'extra3', name: 'ä¸­æ å†…å®¹ C', description: 'äº”æ å¸ƒå±€çš„ç¬¬ä¸‰æ‰©å±•å†…å®¹',
-        style: { background: 'rgba(255,253,247,.80)', paÛ­<âÚ$z{-®éÜj×÷6VÆV7CãÂôf–VÆCà¢ÆF—b6Æ74æÖSÒ&6ö×öæVçBÖÆ–'&'’#ç´ö&¦V7BæVçG&–W2…E•UôÔUD’æÖ‚…·G—RÂÖWFÒ’Óâ²6öç7B–6öâÒÖWFæ–6öã²&WGW&âÆ'WGFöâ¶W“×·G—WÒöä6Æ–6³×²‚’ÓâFD6ö×öæVçB‡G—R—ÓãÆF—cãÄ–6öâ6—¦S×³—ÒóãÂöF—cãÇ7ããÆ#ç¶ÖWFæÆ&VÇÓÂö#ãÆVÓç¶ÖWFæFW67&—F–öçÓÂöVÓãÂ÷7ããÅÇW46—&6ÆR6—¦S×³WÒóãÂö'WGFöãâÒ—ÓÂöF—cà¢ÂóçĞ ¢¶7F—fUF"ÓÓÒwF†VÖRrbbÃà¢ÆF—b6Æ74æÖSÒ'6V7F–öâÖ†VF–ær#ãÆF—cãÆ#îjÚ>ˆ;Ş˜xş[Ê^iZ>ˆ8ÎišóÂö#ãÇ7ãîjøşZY~XÈ^Y
-¾XØş‹>y¨N[©^ˆ›.8[Ë®‹>ˆ›.Y(ÎjÚ>ih~ˆ›#Â÷7ããÂöF—cãÂöF—cà¢ÆF—b6Æ74æÖSÒ&&6¶w&÷VæB×&W6WG2#ç´$4´u$õTäEõ$U4UE2æÖ‚‡&W6WB’ÓâÆ'WGFöâ¶W“×·&W6WBæ–GÒ6Æ74æÖS×¶F†VÖRÖ÷F–öâÒG·&W6WBæ–GÒG¶7F—fT&6¶w&÷VæBæ–BÓÓÒ&W6WBæ–Bòv7F—fRr¢rwÖÒöä6Æ–6³×²‚’ÓâÇ”&6¶w&÷VæE&W6WB‡&W6WBæ–B—ÓãÆ’7G–ÆS×·²&6¶w&÷VæC¢&W6WBæ&6¶w&÷VæB×ÒóãÇ7ããÆ#ç·&W6WBæÆ&VÇÓÂö#ãÆVÓç·&W6WBææ÷FWÓÂöVÓãÂ÷7ãç¶7F—fT&6¶w&÷VæBæ–BÓÓÒ&W6WBæ–BbbÇ7G&öæsî)É3Â÷7G&öæsçÓÂö'WGFöãâ—ÓÂöF—cà¢ÆF—b6Æ74æÖSÒ'F†VÖRÖf÷&Ò#ãÄf–VÆBÆ&VÃÒ.ˆz®Zé®K˜[©^ˆ›"#ãÆF—b6Æ74æÖSÒ&6öÆ÷"Ö–çWB#ãÆ–çWBG—SÒ&6öÆ÷""fÇVS×·÷7FW"æ&6¶w&÷VæGÒöä6†ævS×²†WfVçB’Óâ6öÖÖ—B‚†G&gB’Óâ²G&gBæ&6¶w&÷VæE7G–ÆRÒv7W7FöÒs²G&gBæ&6¶w&÷VæBÒWfVçBçF&vWBçfÇVRÒ—ÒóãÆ6öFSç·÷7FW"æ&6¶w&÷VæGÓÂö6öFSãÂöF—cãÂôf–VÆCãÄf–VÆBÆ&VÃÒ.[Ë®‹>ˆ›"#ãÆF—b6Æ74æÖSÒ&6öÆ÷"Ö–çWB#ãÆ–çWBG—SÒ&6öÆ÷""fÇVS×·÷7FW"æ66VçGÒöä6†ævS×²†WfVçB’Óâ6öÖÖ—B‚†G&gB’Óâ²G&gBæ66VçBÒWfVçBçF&vWBçfÇVRÒ—ÒóãÆ6öFSç·÷7FW"æ66VçGÓÂö6öFSãÂöF—cãÂôf–VÆCãÄf–VÆBÆ&VÃÒ.jÚ>ih~š)Îˆ›"#ãÆF—b6Æ74æÖSÒ&6öÆ÷"Ö–çWB#ãÆ–çWBG—SÒ&6öÆ÷""fÇVS×·÷7FW"çFW‡D6öÆ÷'Òöä6†ævS×²†WfVçB’Óâ6öÖÖ—B‚†G&gB’Óâ²G&gBçFW‡D6öÆ÷"ÒWfVçBçF&vWBçfÇVRÒ—ÒóãÆ6öFSç·÷7FW"çFW‡D6öÆ÷'ÓÂö6öFSãÂöF—cãÂôf–VÆCãÂöF—cà¢ÂóçĞ¢ÂöF—cà¢Âö6–FSà ¢Ç6V7F–öâ6Æ74æÖSÒ&6çf2Ö&V"&Vc×·f–Ww÷'E&VgÓà¢ÆF—b6Æ74æÖSÒ&6çf2×FööÆ&"#ãÆF—cãÆ#ç·÷7FW"ææÖWÓÂö#ãÇ7ãç·÷7FW%v–GF‡Ò9r·÷7FW$†V–v‡G×‚+rZëŞš¹ˆz®˜.[©CÂ÷7ããÂöF—cãÆF—b6Æ74æÖSÒ&6çf2ÖÖöFR#ãÄ&÷‚6—¦S×³7ÒóîY»®Zé®jşZëÒ+rc£’Y»îx˜sÂöF—cãÆF—b6Æ74æÖSÒ'¦ööÒÖ6öçG&öÂ#ãÆ'WGFöâ&–ÖÆ&VÃÒ.{Ê[şyK¾[ˆ2"F—FÆSÒ.{Ê[şyK¾[ˆ2"öä6Æ–6³×²‚’Óâ6WE¦ööÒ‚‡fÇVR’ÓâÖF‚æÖ‚‚ã"ÂfÇVRÒã‚’—Óî(‰#Âö'WGFöããÇ7ãç´ÖF‚ç&÷VæB‡¦ööÒ¢—ÒSÂ÷7ããÆ'WGFöâ&–ÖÆ&VÃÒ.iKîZJ~yK¾[ˆ2"F—FÆSÒ.iÈZJr#R"öä6Æ–6³×²‚’Óâ6WE¦ööÒ‚‡fÇVR’ÓâÖF‚æÖ–âƒ"ÂfÇVR²ã‚’—ÓîûÈ³Âö'WGFöããÂöF—cãÂöF—cà¢ÆF—b6Æ74æÖSÒ'7FvR×67&öÆÂ#à¢ÆF—b6Æ74æÖSÒ'7FvR×6—¦R"7G–ÆS×·²v–GFƒ¢÷7FW%v–GF‚¢¦ööÒÂ†V–v‡C¢÷7FW$†V–v‡B¢¦ööÒ×Óà¢ÆF—b6Æ74æÖSÒ'÷7FW"×G&ç6f÷&Ò"7G–ÆS×·²v–GFƒ¢÷7FW%v–GF‚Â†V–v‡C¢÷7FW$†V–v‡BÂG&ç6f÷&Ó¢66ÆR‚G·¦öö×Ò–×Óà¢Æ'F–6ÆR&Vc×·÷7FW%&VgÒFFÖÆ–÷WB×v–GFƒ×·÷7FW%v–GF‡Ò6Æ74æÖS×¶÷7FW"×vRF†VÖRÒG¶7F—fT&6¶w&÷VæBæ–GÒG¶W‡÷'F–æròv—2ÖW‡÷'F–ærr¢rwÖÒ7G–ÆS×·²v–GFƒ¢÷7FW%v–GF‚ÂFF–æs¢G·FF–æuF÷×‚Gµõ5DU"çFF–æu‡×‚G·FF–æt&÷GFö××†ÂrÒ×÷7FW"Ö&rs¢7F—fT&6¶w&÷VæBæ&6RÂrÒÖ66VçBs¢÷7FW"æ66VçBÂrÒ×÷7FW"×FW‡Bs¢÷7FW"çFW‡D6öÆ÷"ÂrÒ×÷7FW"ÖöâÖ&6¶w&÷VæBs¢7F—fT&6¶w&÷VæBæöä&6¶w&÷VæBÇÂ÷7FW"çFW‡D6öÆ÷"Â&6¶w&÷VæC¢7F—fT&6¶w&÷VæBæ&6¶w&÷VæB×Òöä6Æ–6³×²‚’Óâ6WE6VÆV7F–öâ†çVÆÂ—Óà¢¶7F—fTÆ–÷WBæ6Æ76–2òÆF—b6Æ74æÖSÒ'÷7FW"ÖÆ–÷WB6Æ76–2ÖÆ–÷WB"7G–ÆS×·²Ö–ä†V–v‡C¢Æ–÷WDÖ–ä†V–v‡B×Óà¢·6†÷tvÆö&Ä†VFW"bbÅ÷7FW$6öçF–æW"6öçF–æW#×¶vÆö&Ä†VFW'Ò6öçF–æW%v–GFƒ×·÷7FW%v–GF‚Òõ5DU"çFF–æu‚¢'Ò÷7FW#×·÷7FW'Ò6VÆV7F–öã×·6VÆV7F–öçÒöå6VÆV7C×·6WE6VÆV7F–öçÒW‡÷'F–æs×¶W‡÷'F–æwÒ&W6VçFF–öäÖöFS×·&W6VçFF–öäÖöFWÒóçĞ¢ÆF—b6Æ74æÖSÒ&6Æ76–2Ö6öçFVçBÖw&–B"7G–ÆS×·²w&–EFV×ÆFT6öÇVÖç3¢7F—fT6öÇVÖåv–GF‡2æÖ‚‡v–GF‚’ÓâG·v–GF‡×†’æ¦ö–â‚rr’×ÓãÅ÷7FW$6öçF–æW"6öçF–æW#×¶vWD6öçF–æW"‡÷7FW"ÂvÆVgBr—Ò6öçF–æW%v–GFƒ×¶7F—fT6öÇVÖåv–GF‡5³×Ò÷7FW#×·÷7FW'Ò6VÆV7F–öã×·6VÆV7F–öçÒöå6VÆV7C×·6WE6VÆV7F–öçÒW‡÷'F–æs×¶W‡÷'F–æwÒ&W6VçFF–öäÖöFS×·&W6VçFF–öäÖöFWÒóãÅ÷7FW$6öçF–æW"6öçF–æW#×¶vWD6öçF–æW"‡÷7FW"Âw&–v‡Br—Ò6öçF–æW%v–GFƒ×¶7F—fT6öÇVÖåv–GF‡5³×Ò÷7FW#×·÷7FW'Ò6VÆV7F–öã×·6VÆV7F–öçÒöå6VÆV7C×·6WE6VÆV7F–öçÒW‡÷'F–æs×¶W‡÷'F–æwÒ&W6VçFF–öäÖöFS×·&W6VçFF–öäÖöFWÒóãÂöF—cà¢Å÷7FW$6öçF–æW"6öçF–æW#×¶vWD6öçF–æW"‡÷7FW"Âvfö÷FW"r—Ò6öçF–æW%v–GFƒ×·÷7FW%v–GF‚Òõ5DU"çFF–æu‚¢'Ò÷7FW#×·÷7FW'Ò6VÆV7F–öã×·6VÆV7F–öçÒöå6VÆV7C×·6WE6VÆV7F–öçÒW‡÷'F–æs×¶W‡÷'F–æwÒ&W6VçFF–öäÖöFS×·&W6VçFF–öäÖöFWÒóà¢ÂöF—câ¢ÆF—b6Æ74æÖSÒ'÷7FW"ÖÆ–÷WBfÆW†–&ÆRÖÆ–÷WB"7G–ÆS×·²Ö–ä†V–v‡C¢Æ–÷WDÖ–ä†V–v‡B×Óà¢·6†÷tvÆö&Ä†VFW"bbÅ÷7FW$6öçF–æW"6öçF–æW#×¶vÆö&Ä†VFW'Ò6öçF–æW%v–GFƒ×·÷7FW%v–GF‚Òõ5DU"çFF–æu‚¢'Ò÷7FW#×·÷7FW'Ò6VÆV7F–öã×·6VÆV7F–öçÒöå6VÆV7C×·6WE6VÆV7F–öçÒW‡÷'F–æs×¶W‡÷'F–æwÒ&W6VçFF–öäÖöFS×·&W6VçFF–öäÖöFWÒóçĞ¢ÆF—b6Æ74æÖSÒ&FF—fRÖ6öçFVçBÖw&–B"7G–ÆS×·²w&–EFV×ÆFT6öÇVÖç3¢7F—fT6öÇVÖåv–GF‡2æÖ‚‡v–GF‚’ÓâG·v–GF‡×†’æ¦ö–â‚rr’×Óç¶7F—fTÆ–÷WBæ6öçF–æW$–G2æÖ‚†–BÂ–æFW‚’ÓâÅ÷7FW$6öçF–æW"¶W“×¶–GÒ6öçF–æW#×¶vWD6öçF–æW"‡÷7FW"Â–B—Ò6öçF–æW%v–GFƒ×¶7F—fT6öÇVÖåv–GF‡5¶–æFW…×Ò÷7FW#×·÷7FW'Ò6VÆV7F–öã×·6VÆV7F–öçÒöå6VÆV7C×·6WE6VÆV7F–öçÒW‡÷'F–æs×¶W‡÷'F–æwÒ&W6VçFF–öäÖöFS×·&W6VçFF–öäÖöFWÒóâ—ÓÂöF—cà¢Å÷7FW$6öçF–æW"6öçF–æW#×¶vWD6öçF–æW"‡÷7FW"Âvfö÷FW"r—Ò6öçF–æW%v–GFƒ×·÷7FW%v–GF‚Òõ5DU"çFF–æu‚¢'Ò÷7FW#×·÷7FW'Ò6VÆV7F–öã×·6VÆV7F–öçÒöå6VÆV7C×·6WE6VÆV7F–öçÒW‡÷'F–æs×¶W‡÷'F–æwÒ&W6VçFF–öäÖöFS×·&W6VçFF–öäÖöFWÒóà¢ÂöF—cçĞ¢Âö'F–6ÆSà¢ÂöF—cà¢ÂöF—cà¢ÂöF—cà¢·Fö7BbbÆF—b6Æ74æÖSÒ'Fö7B#ãÇ7ãî)É3Â÷7ãç·Fö7GÓÂöF—cçĞ¢Â÷6V7F–öãà ¢Æ6–FR6Æ74æÖSÒ'&–v‡B×æVÂæVÂ×7W&f6R#à¢ÆF—b6Æ74æÖSÒ'&÷W'F–W2Ö†VB#à¢·6VÆV7F–öâbb6VÆV7F–öâæ¶–æBÓÒv6öçF–æW"rbbÆ'WGFöâ6Æ74æÖSÒ'&÷W'G’Ö&6²"&–ÖÆ&VÃ×¶‹ùNY¹âG·&÷W'G”&6´Æ&VÇÖÒF—FÆS×¶‹ùNY¹âG·&÷W'G”&6´Æ&VÇÖÒöä6Æ–6³×¶vô&6µ&÷W'G—ÓãÄ6†Wg&öäÆVgB6—¦S×³wÒóãÂö'WGFöãçĞ¢ÆF—b6Æ74æÖSÒ'&÷W'F–W2×F—FÆR#ãÆ#ç·&÷W'G•F—FÆWÓÂö#ãÇ7ãç·&÷W'G•7V'ÓÂ÷7ããÂöF—cà¢ÂöF—cà¢·&VæFW%&÷W'F–W2‚—Ğ¢ÆF—b6Æ74æÖSÒ&¶W–&ö&BÖ†–çB#ãÇ7ãîZëYšzêyn[ˆ>[Â÷7ããÇ7ãî{¸NK»nh›ş‹ÛŞXh^Zë“Â÷7ããÇ7ãîŠXÙ^KúîiKih~ZÙ~KˆîY»îx˜sÂ÷7ããÂöF—cà¢Âö6–FSà¢ÂöÖ–ãâ¢f–WrÓÓÒwFV×ÆFW2ròÆÖ–â6Æ74æÖSÒ&Æ–'&'’×vR#à¢Ç6V7F–öâ6Æ74æÖSÒ&Æ–'&'’Ö†W&òÆ–'&'’Ö†W&ò×&÷r#ãÆF—cãÇ7ãäÄ”õUB$T4•U3Â÷7ããÆƒîjŠiÛşKŠŞ[ø3ÂöƒãÇîKÛşyJXh^{Úîikj[ú¾˜	ş[ÈZx¾ûÈÎK™şXúşKº^h¨®[Ù>X˜Şk[~hª^k(kxK‹®ˆz®[{y¨NXúşZHŞyJjŠiÛş8#Â÷ãÂöF—cãÆ'WGFöâ6Æ74æÖSÒ&Æ–'&'’Ö7&VFRÖ'WGFöâ"öä6Æ–6³×¶÷VåFV×ÆFTF–ÆöwÓãÄÆ–÷WEFV×ÆFR6—¦S×³wÒóîX‰¾[»®[Ù>X˜Şk[~hª^jŠiÛóÂö'WGFöããÂ÷6V7F–öãà¢¶7W7FöÕFV×ÆFW2æÆVæwF‚âbbÃãÆF—b6Æ74æÖSÒ&Æ–'&'’×6V7F–öâ×F—FÆR#ãÆF—cãÇ7ãäÕ’$T4•U3Â÷7ããÆƒ#îh‰y¨NjŠiÛóÂöƒ#ãÂöF—cãÆVÓç¶7W7FöÕFV×ÆFW2æÆVæwF‡ÒKŠ®KŠ®K«®jŠiÛóÂöVÓãÂöF—cãÇ6V7F–öâ6Æ74æÖSÒ'FV×ÆFRÖw&–B7W7FöÒ×FV×ÆFRÖw&–B#ç¶7W7FöÕFV×ÆFW2æÖ‚‡FV×ÆFR’ÓâÆ'F–6ÆR6Æ74æÖSÒ'FV×ÆFRÖ6&B7W7FöÒ×FV×ÆFRÖ6&B"¶W“×·FV×ÆFRæ–GÒ7G–ÆS×·²rÒÖ6&BÖ66VçBs¢FV×ÆFRç÷7FW#òæ66VçBÇÂr6CCV##r×ÓãÆF—b6Æ74æÖSÒ'FV×ÆFR×÷7FW"×&Wf–Wr7W7FöÒ×&Wf–Wr#ãÅ÷7FW$Ö–æ•&Wf–Wr÷7FW#×·FV×ÆFRç÷7FW'Ò6ö×7BóãÂöF—cãÆF—b6Æ74æÖSÒ'FV×ÆFRÖ6&BÖ6÷’#ãÇ7ãîKŠ®K«®jŠiÛóÂ÷7ããÆƒ#ç·FV×ÆFRææÖWÓÂöƒ#ãÇç·FV×ÆFRæFW67&—F–öçÓÂ÷ãÆF—cãÆVÓç¶æWrFFR‡FV×ÆFRæ7&VFVDB’çFôÆö6ÆTFFU7G&–ær‚w¦‚Ô4âr—ÓÂöVÓãÇ7â6Æ74æÖSÒ'FV×ÆFRÖ6&BÖ7F–öç2#ãÆ'WGFöâ6Æ74æÖSÒ'FV×ÆFRÖFVÆWFR"&–ÖÆ&VÃ×¶XŠ™šNjŠiÛòG·FV×ÆFRææÖWÖÒöä6Æ–6³×²‚’ÓâFVÆWFT7W7FöÕFV×ÆFR‡FV×ÆFR—ÓãÅG&6ƒ"6—¦S×³7ÒóãÂö'WGFöããÆ'WGFöâöä6Æ–6³×²‚’ÓâW6T7W7FöÕFV×ÆFR‡FV×ÆFR—ÓîKÛşyJjÚNjŠiÛóÂö'WGFöããÂ÷7ããÂöF—cãÂöF—cãÂö'F–6ÆSâ—ÓÂ÷6V7F–öããÂóçĞ¢ÆF—b6Æ74æÖSÒ&Æ–'&'’×6V7F–öâ×F—FÆR#ãÆF—cãÇ7ãä5U$DTB$T4•U3Â÷7ããÆƒ#î{+î˜jŠiÛóÂöƒ#ãÂöF—cãÆVÓçµDTÕÄDUõ$U4UE2æÆVæwF‡ÒZY~{¹>ièNikjƒÂöVÓãÂöF—cà¢Ç6V7F–öâ6Æ74æÖSÒ'FV×ÆFRÖw&–B#çµDTÕÄDUõ$U4UE2æÖ‚‡FV×ÆFRÂ–æFW‚’Óâ²6öç7B&6¶w&÷VæBÒ$4´u$õTäEõ$U4UE2æf–æB‚†—FVÒ’Óâ—FVÒæ–BÓÓÒFV×ÆFRæ&6¶w&÷VæB“²&WGW&âÆ'F–6ÆR6Æ74æÖSÒ'FV×ÆFRÖ6&B"¶W“×·FV×ÆFRæ–GÒ7G–ÆS×·²rÒÖ6&BÖ66VçBs¢&6¶w&÷VæCòæ66VçBÇÂr6SSV#‚r×ÓãÆF—b6Æ74æÖSÒ'FV×ÆFR×÷7FW"×&Wf–Wr"7G–ÆS×·²&6¶w&÷VæC¢&6¶w&÷VæCòæ&6¶w&÷VæB×ÓãÆF—b6Æ74æÖSÒ'FV×ÆFR×&Wf–Wr×F—FÆR"óãÆF—b6Æ74æÖSÒ'FV×ÆFR×&Wf–Wr×7V'F—FÆR"óãÆF—b6Æ74æÖSÒ'FV×ÆFR×&Wf–WrÖ6öÇVÖç2"7G–ÆS×·²w&–EFV×ÆFT6öÇVÖç3¢FV×ÆFRæ6öÇVÖç2æÖ‚‡&F–ò’ÓâG·&F–÷Ög&’æ¦ö–â‚rr’×Óç·FV×ÆFRæ6öÇVÖç2æÖ‚…òÂ6öÇVÖä–æFW‚’ÓâÆ’¶W“×¶6öÇVÖä–æFW‡ÓãÆ"óãÆ"óãÆ"óãÂö“â—ÓÂöF—cãÂöF—cãÆF—b6Æ74æÖSÒ'FV×ÆFRÖ6&BÖ6÷’#ãÇ7ãîjŠiÛòµ7G&–ær†–æFW‚²’çE7F'Bƒ"Âsr—ÓÂ÷7ããÆƒ#ç·FV×ÆFRææÖWÓÂöƒ#ãÇç·FV×ÆFRæFW67&—F–öçÓÂ÷ãÆF—cãÆVÓç´Ä”õUEõ$U4UE2æf–æB‚†—FVÒ’Óâ—FVÒæ–BÓÓÒFV×ÆFRæÆ–÷WB“òæÆ&VÇÓÂöVÓãÆ'WGFöâöä6Æ–6³×²‚’ÓâW6UFV×ÆFR‡FV×ÆFRæ–B—ÓîKÛşyJjÚNjŠiÛóÂö'WGFöããÂöF—cãÂöF—cãÂö'F–6ÆSâÒ—ÓÂ÷6V7F–öãà¢ÂöÖ–ãâ¢ÆÖ–â6Æ74æÖSÒ&Æ–'&'’×vR&ö¦V7G2×vR#à¢Ç6V7F–öâ6Æ74æÖSÒ&Æ–'&'’Ö†W&òÆ–'&'’Ö†W&ò×&÷r#ãÆF—cãÇ7ãäÄô4Â$4„•dSÂ÷7ããÆƒîh‰y¨NšyºãÂöƒãÇî(	ÎKùŞZÙ(	ŞKÉ®Šhny¹n[Ù>X˜ŞšyºîûÉ¾™ÈŠhKùŞyYKˆKŠ®ikx˜iÊÎi{nûÈÎŠû~KÛşyJ(	ÎXúnZÙK‹®(	Ş8.šyºîi[hÚîKùŞZÙYÊ[Ù>X˜ŞkXşŠxYšKŠŞ8#Â÷ãÂöF—cãÆ'WGFöâ6Æ74æÖSÒ&Æ–'&'’Ö7&VFRÖ'WGFöâ6V6öæF'’Ö7&VFR"öä6Æ–6³×²‚’Óâ6WDf–Wr‚vVF—F÷"r—ÓãÅÇW26—¦S×³wÒóî{º~{ºŞX‰¾KÙÃÂö'WGFöããÂ÷6V7F–öãà¢·6fVE&ö¦V7G2æÆVæwF‚òÇ6V7F–öâ6Æ74æÖSÒ'&ö¦V7BÖw&–B#ç·6fVE&ö¦V7G2æÖ‚‡&V6÷&B’Óâ²6öç7BÆ–÷WBÒÄ”õUEõ$U4UE2æf–æB‚†—FVÒ’Óâ—FVÒæ–BÓÓÒ&V6÷&Bç÷7FW"æÆ–÷WB“²6öç7B—47W'&VçBÒ÷7FW"ç&ö¦V7D–BÓÓÒ&V6÷&Bæ–C²&WGW&âÆ'F–6ÆR6Æ74æÖS×¶&ö¦V7BÖ6&BG¶—47W'&VçBòv7W'&VçB×&ö¦V7Br¢rwÖÒ¶W“×·&V6÷&Bæ–GÓà¢ÆF—b6Æ74æÖSÒ'&ö¦V7B×7vF6‚#ãÅ÷7FW$Ö–æ•&Wf–Wr÷7FW#×·&V6÷&Bç÷7FW'Ò&Wf–Ws×·&V6÷&Bç&Wf–WtÖöFRÓÓÒv7W7FöÒrò&V6÷&Bç&Wf–Wr¢&V6÷&BæWFõ&Wf–WrÇÂ&V6÷&Bç&Wf–WwÒóãÆF—b6Æ74æÖSÒ&6÷fW"Ö7F–öç2#ãÆ'WGFöâöä6Æ–6³×²‚’ÓâG&–vvW$–ÖvUWÆöB‡²¶–æC¢w&ö¦V7E&Wf–WrrÂ&ö¦V7D–C¢&V6÷&Bæ–BÒ—ÓãÄ–ÖvUÇW26—¦S×³'Òóîi»NhÚ.š(NŠxY»ãÂö'WGFöãç·&V6÷&Bç&Wf–WtÖöFRÓÓÒv7W7FöÒrbbÆ'WGFöâ&–ÖÆ&VÃ×¶h.ZHÒG·&V6÷&BææÖWÒˆz®Xªš(NŠx†Òöä6Æ–6³×²‚’Óâ&W6WE&ö¦V7E&Wf–Wr‡&V6÷&B—ÓãÅ&÷FFT67r6—¦S×³'ÒóãÂö'WGFöãçÓÂöF—cãÂöF—cà¢ÆF—b6Æ74æÖSÒ'&ö¦V7BÖ6&BÖ6öçFVçB#ãÆF—b6Æ74æÖSÒ'&ö¦V7BÖÖWF#ãÇ7ãç¶æWrFFR‡&V6÷&Bç6fVDB’çFôÆö6ÆU7G&–ær‚w¦‚Ô4ârÂ²ÖöçFƒ¢vçVÖW&–2rÂF“¢vçVÖW&–2rÂ†÷W#¢s"ÖF–v—BrÂÖ–çWFS¢s"ÖF–v—BrÒ—ÓÂ÷7ãç¶—47W'&VçBbbÆ#î[Ù>X˜ŞšyºãÂö#çÓÂöF—cà¢·&VæÖ–æu&ö¦V7D–BÓÓÒ&V6÷&Bæ–BòÆF—b6Æ74æÖSÒ'&ö¦V7BÖæÖRÖVF—F÷"#ãÆ–çWB&–ÖÆ&VÃÒ.šyºîYŞz{"WFôfö7W2fÇVS×·&ö¦V7DæÖTG&gGÒöä6†ævS×²†WfVçB’Óâ6WE&ö¦V7DæÖTG&gB†WfVçBçF&vWBçfÇVR—Òöä¶W”F÷vã×²†WfVçB’Óâ²–b†WfVçBæ¶W’ÓÓÒtVçFW"r’&VæÖU&ö¦V7B‡&V6÷&B“²–b†WfVçBæ¶W’ÓÓÒtW66Rr’6WE&VæÖ–æu&ö¦V7D–B†çVÆÂ’×ÒóãÆ'WGFöâ&–ÖÆ&VÃÒ.zîŠêNKúîiKYŞz{"öä6Æ–6³×²‚’Óâ&VæÖU&ö¦V7B‡&V6÷&B—ÓãÄ6†V6²6—¦S×³GÒóãÂö'WGFöããÆ'WGFöâ&–ÖÆ&VÃÒ.XùnkhKúîiKYŞz{"öä6Æ–6³×²‚’Óâ6WE&VæÖ–æu&ö¦V7D–B†çVÆÂ—ÓãÅ‚6—¦S×³GÒóãÂö'WGFöããÂöF—câ¢ÆF—b6Æ74æÖSÒ'&ö¦V7B×F—FÆR×&÷r#ãÆƒ"F—FÆS×·&V6÷&BææÖWÓç·&V6÷&BææÖWÓÂöƒ#ãÆ'WGFöâ&–ÖÆ&VÃ×¶KúîiKšyºîYŞz{G·&V6÷&BææÖWÖÒöä6Æ–6³×²‚’Óâ&Vv–å&VæÖU&ö¦V7B‡&V6÷&B—ÓãÅVæ6–Â6—¦S×³7ÒóãÂö'WGFöããÂöF—cçĞ¢Çç¶Æ–÷WCòæÆ&VÂÇÂ~ˆz®Zé®K˜[ˆ>[wÒ+r·&V6÷&Bç÷7FW"æ6öçF–æW'2ç&VGV6R‚‡7VÒÂ6öçF–æW"’Óâ7VÒ²6öçF–æW"æ6ö×öæVçG2æÆVæwF‚Â—ÒKŠ®{¸NK»cÂ÷à¢ÆF—b6Æ74æÖSÒ'&ö¦V7BÖ6&BÖ7F–öç2#ãÆ'WGFöâ6Æ74æÖSÒ'&ö¦V7BÖ÷Vâ"öä6Æ–6³×²‚’Óâ÷Vå6fVE&ö¦V7B‡&V6÷&B—Óîh™>[È{º~{ºŞ{Én‹éÂö'WGFöããÆ'WGFöâ&–ÖÆ&VÃ×¶X‰¾[»¢G·&V6÷&BææÖWÒXšşiÊÆÒF—FÆSÒ.X‰¾[»®XšşiÊÂ"öä6Æ–6³×²‚’ÓâGWÆ–6FU&ö¦V7B‡&V6÷&B—ÓãÄ6÷’6—¦S×³GÒóãÂö'WGFöããÆ'WGFöâ6Æ74æÖSÒ&FævW""&–ÖÆ&VÃ×¶XŠ™šNšyºâG·&V6÷&BææÖWÖÒF—FÆSÒ.XŠ™šNšyºâ"öä6Æ–6³×²‚’ÓâFVÆWFU&ö¦V7B‡&V6÷&B—ÓãÅG&6ƒ"6—¦S×³GÒóãÂö'WGFöããÂöF—cà¢ÂöF—cà¢Âö'F–6ÆSâÒ—ÓÂ÷6V7F–öãâ¢Ç6V7F–öâ6Æ74æÖSÒ&V×G’×&ö¦V7G2#ãÅ6fR6—¦S×³#‡ÒóãÆƒ#î‹ùk*iÈKùŞZÙy¨NšyºãÂöƒ#ãÇî‹ùNY¹îk[~hª^{Én‹éYšûÈÎx+X{¾Xû>Kˆ®Šy.(	ÎKùŞZÙ(	ŞûÈÎKÙÎY8[KÉ®X{®xëYÊ‹ù˜xÎ8#Â÷ãÆ'WGFöâöä6Æ–6³×²‚’Óâ6WDf–Wr‚vVF—F÷"r—Óî‹ùNY¹î{Én‹éYšƒÂö'WGFöããÂ÷6V7F–öãçĞ¢ÂöÖ–ãçĞ¢Æ–çWB&Vc×¶f–ÆT–çWE&VgÒ†–FFVâG—SÒ&f–ÆR"66WCÒ&–ÖvR÷ærÆ–ÖvRö§VrÆ–ÖvR÷vV'"öä6†ævS×²†WfVçB’Óâ²†æFÆT–ÖvW2†WfVçBçF&vWBæf–ÆW2“²WfVçBçF&vWBçfÇVRÒrs²WfVçBçF&vWBæ×VÇF—ÆRÒfÇ6R×Òóà¢·6fT4÷VâbbÆF—b6Æ74æÖSÒ&F–ÆörÖ&6¶G&÷"&öÆSÒ'&W6VçFF–öâ"öäÖ÷W6TF÷vã×²†WfVçB’Óâ²–b†WfVçBçF&vWBÓÓÒWfVçBæ7W'&VçEF&vWB’6WE6fT4÷Vâ†fÇ6R’×ÓãÇ6V7F–öâ6Æ74æÖSÒ&76WBÖF–Æör"&öÆSÒ&F–Æör"&–ÖÖöFÃÒ'G'VR"&–ÖÆ&VÆÆVF'“Ò'6fRÖ2×F—FÆR#ãÆ'WGFöâ6Æ74æÖSÒ&F–ÆörÖ6Æ÷6R"&–ÖÆ&VÃÒ.X[>™zŞXúnZÙK‹¢"öä6Æ–6³×²‚’Óâ6WE6fT4÷Vâ†fÇ6R—ÓãÅ‚6—¦S×³wÒóãÂö'WGFöããÇ7ãä5$TDRdU%4”ôãÂ÷7ããÆƒ"–CÒ'6fRÖ2×F—FÆR#îXúnZÙK‹®ikšyºãÂöƒ#ãÇîikšyºîKÉ®h‰K‹®[Ù>X˜Ş{Én‹éx˜iÊÎûÈÎXéşšyºîKùŞhÈKˆŞXù8#Â÷ãÄf–VÆBÆ&VÃÒ.ikšyºîYŞz{#ãÆ–çWBWFôfö7W2fÇVS×·6fT4æÖWÒöä6†ævS×²†WfVçB’Óâ6WE6fT4æÖR†WfVçBçF&vWBçfÇVR—Òöä¶W”F÷vã×²†WfVçB’ÓâWfVçBæ¶W’ÓÓÒtVçFW"rbb6fU&ö¦V7D2‚—ÒóãÂôf–VÆCãÆF—b6Æ74æÖSÒ&F–ÆörÖ7F–öç2#ãÆ'WGFöâöä6Æ–6³×²‚’Óâ6WE6fT4÷Vâ†fÇ6R—ÓîXùnkhƒÂö'WGFöããÆ'WGFöâ6Æ74æÖSÒ'&–Ö'’ÖF–ÆörÖ7F–öâ"öä6Æ–6³×·6fU&ö¦V7D7ÓãÄ6÷’6—¦S×³GÒóîX‰¾[»®ikšyºãÂö'WGFöããÂöF—cãÂ÷6V7F–öããÂöF—cçĞ¢·FV×ÆFTF–Æöt÷VâbbÆF—b6Æ74æÖSÒ&F–ÆörÖ&6¶G&÷"&öÆSÒ'&W6VçFF–öâ"öäÖ÷W6TF÷vã×²†WfVçB’Óâ²–b†WfVçBçF&vWBÓÓÒWfVçBæ7W'&VçEF&vWB’6WEFV×ÆFTF–Æöt÷Vâ†fÇ6R’×ÓãÇ6V7F–öâ6Æ74æÖSÒ&76WBÖF–ÆörFV×ÆFRÖF–Æör"&öÆSÒ&F–Æör"&–ÖÖöFÃÒ'G'VR"&–ÖÆ&VÆÆVF'“Ò'FV×ÆFRÖF–Æör×F—FÆR#ãÆ'WGFöâ6Æ74æÖSÒ&F–ÆörÖ6Æ÷6R"&–ÖÆ&VÃÒ.X[>™zŞX‰¾[»®jŠiÛò"öä6Æ–6³×²‚’Óâ6WEFV×ÆFTF–Æöt÷Vâ†fÇ6R—ÓãÅ‚6—¦S×³wÒóãÂö'WGFöããÆF—b6Æ74æÖSÒ&F–Æör×FV×ÆFR×&Wf–Wr#ãÅ÷7FW$Ö–æ•&Wf–Wr÷7FW#×·÷7FW'Ò6ö×7BóãÂöF—cãÆF—b6Æ74æÖSÒ&F–Æör×FV×ÆFRÖf÷&Ò#ãÇ7ãä%T”ÄB$T4•SÂ÷7ããÆƒ"–CÒ'FV×ÆFRÖF–Æör×F—FÆR#îX‰¾[»®KŠ®K«®jŠiÛóÂöƒ#ãÇîKùŞZÙ[Ù>X˜Ş[ˆ>[8{¸NK»nY(Îš8îjÎ8.Kº^YîKÛşyJi{nKÉ®ˆz®XªX‰¾[»®xºÎz¸¾šyºîûÈÎKˆŞ[ÛY8ŞjŠiÛşiÊÎ‹ª¾8#Â÷ãÄf–VÆBÆ&VÃÒ.jŠiÛşYŞz{#ãÆ–çWBWFôfö7W2fÇVS×·FV×ÆFTG&gBææÖWÒöä6†ævS×²†WfVçB’Óâ6WEFV×ÆFTG&gB‚†7W'&VçB’Óâ‡²ââæ7W'&VçBÂæÖS¢WfVçBçF&vWBçfÇVRÒ’—ÒóãÂôf–VÆCãÄf–VÆBÆ&VÃÒ.jŠiÛşŠûNiˆâ#ãÇFW‡F&V&÷w3Ò#2"fÇVS×·FV×ÆFTG&gBæFW67&—F–öçÒöä6†ævS×²†WfVçB’Óâ6WEFV×ÆFTG&gB‚†7W'&VçB’Óâ‡²ââæ7W'&VçBÂFW67&—F–öã¢WfVçBçF&vWBçfÇVRÒ’—ÒóãÂôf–VÆCãÆF—b6Æ74æÖSÒ&F–ÆörÖ7F–öç2#ãÆ'WGFöâöä6Æ–6³×²‚’Óâ6WEFV×ÆFTF–Æöt÷Vâ†fÇ6R—ÓîXùnkhƒÂö'WGFöããÆ'WGFöâ6Æ74æÖSÒ'&–Ö'’ÖF–ÆörÖ7F–öâ"öä6Æ–6³×¶7&VFT7W7FöÕFV×ÆFWÓãÄÆ–÷WEFV×ÆFR6—¦S×³GÒóîKùŞZÙX‹jŠiÛşKŠŞ[ø3Âö'WGFöããÂöF—cãÂöF—cãÂ÷6V7F–öããÂöF—cçĞ¢ÂöF—cà¢§Ğ ¦7&VFU&ö÷B†Fö7VÖVçBævWDVÆVÖVçD'”–B‚w&ö÷Br’’ç&VæFW"ƒÄóâ 
+        style: { background: 'rgba(255,253,247,.80)', padding: 18, gap: 14, radius: 20 },
+        components: [],
+      },
+      {
+        id: 'footer', name: 'å…¨å±€é¡µè„š', description: 'è·¨æ æ˜¾ç¤ºå“ç‰Œä¸ç»„ç»‡ç½²å',
+        style: { background: 'transparent', padding: 0, gap: 8, radius: 0 },
+        components: [componentDefaults('brand')],
+      },
+    ],
+  }
+}
+
+const deepClone = (value) => structuredClone(value)
+const getContainer = (poster, id) => poster.containers.find((container) => container.id === id)
+
+function findComponentContext(list, componentId, parent = null) {
+  for (let index = 0; index < (list || []).length; index += 1) {
+    const component = list[index]
+    if (!component) continue
+    if (component.id === componentId) return { component, list, index, parent }
+    if (Array.isArray(component.children)) {
+      const nested = findComponentContext(component.children, componentId, component)
+      if (nested) return nested
+    }
+  }
+  return null
+}
+
+const getComponentContext = (poster, containerId, componentId) => findComponentContext(getContainer(poster, containerId)?.components || [], componentId)
+const getComponent = (poster, containerId, componentId) => getComponentContext(poster, containerId, componentId)?.component
+
+function visitComponents(components, visitor) {
+  ;(components || []).forEach((component) => {
+    if (!component) return
+    visitor(component)
+    if (Array.isArray(component.children)) visitComponents(component.children, visitor)
+  })
+}
+
+function cloneComponentWithFreshIds(component) {
+  const copy = deepClone(component)
+  const refresh = (current) => {
+    current.id = uid()
+    if (Array.isArray(current.items)) current.items = current.items.map((item) => ({ ...item, id: uid() }))
+    if (Array.isArray(current.children)) current.children.filter(Boolean).forEach(refresh)
+  }
+  refresh(copy)
+  return copy
+}
+
+function ensureColumnHeaderLayout(poster) {
+  if (poster.headerLayoutVersion === 2) return
+  const header = getContainer(poster, 'header')
+  const firstColumn = getContainer(poster, 'left')
+  if (header && firstColumn) {
+    const pageHeaderComponents = header.components.filter((component) => ['hero', 'info'].includes(component.type))
+    if (pageHeaderComponents.length) {
+      firstColumn.components.unshift(...pageHeaderComponents)
+      header.components = header.components.filter((component) => !pageHeaderComponents.includes(component))
+    }
+  }
+  poster.headerLayoutVersion = 2
+}
+
+const LEGACY_CONTAINER_NAMES = {
+  header: ['é¡µå¤´å®¹å™¨', 'å…¨å±€é¡µå¤´'],
+  left: ['å·¦æ å†…å®¹å®¹å™¨', 'é¦–æ å†…å®¹'],
+  right: ['å³æ å‚ä¼šå®¹å™¨', 'æœ«æ  Â· å‚ä¼šå†…å®¹', 'æœ«æ å†…å®¹'],
+  extra1: ['æ‰©å±•å†…å®¹æ  3', 'ä¸­æ å†…å®¹ A'],
+  extra2: ['æ‰©å±•å†…å®¹æ  4', 'ä¸­æ å†…å®¹ B'],
+  extra3: ['æ‰©å±•å†…å®¹æ  5', 'ä¸­æ å†…å®¹ C'],
+  footer: ['é¡µè„šå®¹å™¨', 'å…¨å±€é¡µè„š'],
+}
+
+function migrateStructureNames(poster) {
+  const fresh = createInitialPoster()
+  poster.containers.forEach((container) => {
+    const acceptedNames = LEGACY_CONTAINER_NAMES[container.id]
+    if (acceptedNames?.includes(container.name)) {
+      const replacement = getContainer(fresh, container.id)
+      container.name = replacement.name
+      container.description = replacement.description
+    }
+  })
+}
+
+function buildTemplatePoster(templateId) {
+  const template = TEMPLATE_PRESETS.find((item) => item.id === templateId) || TEMPLATE_PRESETS[0]
+  const poster = createInitialPoster()
+  const background = BACKGROUND_PRESETS.find((item) => item.id === template.background) || BACKGROUND_PRESETS[0]
+  poster.projectId = uid()
+  poster.name = template.name
+  poster.layout = template.layout
+  poster.backgroundStyle = background.id
+  poster.background = background.base
+  poster.accent = background.accent
+  poster.textColor = background.text
+
+  const left = getContainer(poster, 'left')
+  const right = getContainer(poster, 'right')
+  const extra1 = getContainer(poster, 'extra1')
+  if (template.id === 'forumTriple') {
+    const [hero, info, firstGuest, secondGuest, thirdGuest] = left.components
+    left.components = [hero, info, firstGuest]
+    extra1.components = [secondGuest, thirdGuest]
+  }
+  if (template.id === 'newYearGathering') {
+    const hero = left.components.find((component) => component.type === 'hero')
+    hero.title = 'åŒå¿ƒè¿æ–° Â· å…±èµ´æ–°ç¨‹'
+    hero.subtitle = 'æ˜Ÿç«æˆé•¿ç­æ–°æ˜¥å›¢æ‹œå…±åˆ›ä¼š'
+    hero.subtitleDecoration = 'stars'
+  }
+  if (template.id === 'recognitionCeremony') {
+    const hero = left.components.find((component) => component.type === 'hero')
+    hero.title = 'å‘å…‰è€Œè¡Œ Â· è£è€€æ—¶åˆ»'
+    hero.subtitle = 'å¹´åº¦ä¼˜ç§€ç­å§”æ¿€åŠ±è¡¨å½°ç››å…¸'
+    hero.subtitleDecoration = 'diamonds'
+  }
+  if (template.id === 'singleStory') {
+    left.components.push(...right.components)
+    right.components = []
+  }
+  return poster
+}
+
+function readSavedProjects() {
+  try {
+    const value = JSON.parse(localStorage.getItem(PROJECTS_KEY) || '[]')
+    return Array.isArray(value) ? value : []
+  } catch {
+    return []
+  }
+}
+
+function readCustomTemplates() {
+  try {
+    const value = JSON.parse(localStorage.getItem(CUSTOM_TEMPLATES_KEY) || '[]')
+    return Array.isArray(value) ? value : []
+  } catch { return [] }
+}
+
+function getPosterTitle(poster) {
+  let title = ''
+  for (const container of poster?.containers || []) {
+    visitComponents(container.components, (component) => {
+      if (!title && component.type === 'hero' && component.title?.trim()) title = component.title.trim()
+    })
+    if (title) break
+  }
+  return title || poster?.name?.trim() || 'æœªå‘½åæµ·æŠ¥'
+}
+
+async function compressPreviewBlob(blob, maxWidth = 360) {
+  const bitmap = await createImageBitmap(blob)
+  const scale = Math.min(1, maxWidth / bitmap.width)
+  const canvas = document.createElement('canvas')
+  canvas.width = Math.max(1, Math.round(bitmap.width * scale))
+  canvas.height = Math.max(1, Math.round(bitmap.height * scale))
+  const context = canvas.getContext('2d')
+  context.imageSmoothingEnabled = true
+  context.imageSmoothingQuality = 'high'
+  context.drawImage(bitmap, 0, 0, canvas.width, canvas.height)
+  bitmap.close()
+  return canvas.toDataURL('image/webp', .76)
+}
+
+function optimizeImageFile(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onerror = reject
+    reader.onload = () => {
+      const image = new Image()
+      image.onerror = reject
+      image.onload = () => {
+        const maxEdge = 1200
+        const scale = Math.min(1, maxEdge / Math.max(image.naturalWidth, image.naturalHeight))
+        const width = Math.max(1, Math.round(image.naturalWidth * scale))
+        const height = Math.max(1, Math.round(image.naturalHeight * scale))
+        const canvas = document.createElement('canvas')
+        canvas.width = width
+        canvas.height = height
+        const context = canvas.getContext('2d')
+        context.imageSmoothingEnabled = true
+        context.imageSmoothingQuality = 'high'
+        context.drawImage(image, 0, 0, width, height)
+        resolve(canvas.toDataURL('image/webp', .84))
+      }
+      image.src = reader.result
+    }
+    reader.readAsDataURL(file)
+  })
+}
+
+function IconButton({ label, onClick, disabled, children }) {
+  return <button className="icon-button" aria-label={label} title={label} onClick={onClick} disabled={disabled}>{children}</button>
+}
+
+function Field({ label, hint, children }) {
+  return <label className="field"><span>{label}{hint && <em>{hint}</em>}</span>{children}</label>
+}
+
+function PosterMiniPreview({ poster, preview, compact = false }) {
+  const layout = LAYOUT_PRESETS.find((item) => item.id === poster?.layout) || LAYOUT_PRESETS[0]
+  const background = BACKGROUND_PRESETS.find((item) => item.id === poster?.backgroundStyle)
+  const allComponents = poster?.containers?.flatMap((container) => container.components || []) || []
+  const hero = allComponents.find((component) => component.type === 'hero')
+  const visibleColumns = layout.containerIds.map((id) => getContainer(poster, id)).filter(Boolean)
+  if (preview) return <img className="saved-cover-image" src={preview} alt="é¡¹ç›®è‡ªå®šä¹‰é¢„è§ˆå›¾" />
+  return (
+    <div className={`poster-miniature theme-mini-${background?.id || 'custom'} ${compact ? 'compact' : ''}`} style={{ '--mini-bg': background?.background || poster?.background || '#f4e7d2', '--mini-accent': background?.accent || poster?.accent || '#d95b22', '--mini-text': background?.text || poster?.textColor || '#5d3d2e' }}>
+      <div className="poster-miniature-frame">
+        <strong>{hero?.title || poster?.name || 'ä¼šè®®æµ·æŠ¥'}</strong>
+        <span>{hero?.subtitle || 'ç»“æ„åŒ–å†…å®¹é¢„è§ˆ'}</span>
+        <div className="poster-miniature-columns" style={{ gridTemplateColumns: layout.columnWidths.map((width) => `${width}fr`).join(' ') }}>
+          {visibleColumns.map((container) => <i key={container.id}>{(container.components || []).filter((component) => component.visible !== false).slice(0, 5).map((component) => <b key={component.id} className={`mini-component mini-${component.type}`} />)}</i>)}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function PropertyNav({ items }) {
+  const jumpTo = (sectionId) => {
+    const target = document.querySelector(`.right-panel [data-property-section="${sectionId}"]`)
+    const scroller = target?.closest('.properties-body')
+    if (target && scroller) scroller.scrollTo({ top: Math.max(0, target.offsetTop - 48), behavior: 'smooth' })
+  }
+  return (
+    <nav className="properties-nav" aria-label="å±æ€§è®¾ç½®å¯¼èˆª">
+      {items.map(([id, label]) => <button key={id} onClick={() => jumpTo(id)}>{label}</button>)}
+    </nav>
+  )
+}
+
+function EmptyPhoto({ index = 0 }) {
+  return (
+    <div className={`empty-photo tone-${index % 5}`}>
+      <CircleUserRound size={28} />
+      <span>å¾…ä¸Šä¼ </span>
+    </div>
+  )
+}
+
+function GuestCard({ item, index, selected, onSelect }) {
+  return (
+    <button className={`poster-guest-card ${selected ? 'selected-item' : ''}`} onClick={(event) => { event.stopPropagation(); onSelect() }}>
+      <div className="guest-photo">{item.image ? <img src={item.image} alt="" /> : <EmptyPhoto index={index} />}</div>
+      <strong>{item.name || 'æœªå‘½åå˜‰å®¾'}</strong>
+      <span>{item.role || 'ç‚¹å‡»å¡«å†™èº«ä»½'}</span>
+    </button>
+  )
+}
+
+function useMeasuredContentWidth(enabled) {
+  const elementRef = useRef(null)
+  const [contentWidth, setContentWidth] = useState(0)
+  useEffect(() => {
+    const element = elementRef.current
+    if (!enabled || !element) return undefined
+    const measure = () => {
+      const style = getComputedStyle(element)
+      const horizontalPadding = (parseFloat(style.paddingLeft) || 0) + (parseFloat(style.paddingRight) || 0)
+      const width = Math.max(0, element.clientWidth - horizontalPadding)
+      setContentWidth((current) => Math.abs(current - width) > .5 ? width : current)
+    }
+    measure()
+    const observer = new ResizeObserver(measure)
+    observer.observe(element)
+    return () => observer.disconnect()
+  }, [enabled])
+  return [elementRef, contentWidth]
+}
+
+function PosterComponent({ component, container, containerWidth, containerId, selection, onSelect, exporting, presentationMode }) {
+  const [mosaicRef, measuredMosaicWidth] = useMeasuredContentWidth(component.type === 'mosaic')
+  if (!component.visible) return null
+  const selected = !exporting && selection?.kind === 'component' && selection.componentId === component.id
+  const selectComponent = (event) => {
+    event.stopPropagation()
+    onSelect({ kind: 'component', containerId, componentId: component.id })
+  }
+  const showContainer = componentShowsCard(component, presentationMode)
+  const hasHeading = typeof component.heading === 'string' ? component.heading.trim().length > 0 : null
+  const className = `poster-component component-${component.type} ${showContainer ? 'has-container' : 'no-container'} ${hasHeading === null ? '' : hasHeading ? 'has-heading' : 'no-heading'} ${selected ? 'selected-component' : ''}`
+
+  if (component.type === 'rowGroup') {
+    const columns = Math.max(2, Math.min(4, component.columns || 2))
+    const ratios = Array.from({ length: columns }, (_, index) => Math.max(1, Math.min(5, Number(component.ratios?.[index]) || 1)))
+    const slotGap = component.slotGap ?? 12
+    const groupWidth = getComponentContentWidth(component, container, containerWidth, presentationMode)
+    const usableWidth = Math.max(80, groupWidth - slotGap * (columns - 1))
+    const ratioTotal = ratios.reduce((sum, ratio) => sum + ratio, 0)
+    return (
+      <section className={className} style={{ marginBottom: component.gapAfter }} onClick={selectComponent}>
+        <div className="row-component-grid" style={{ gridTemplateColumns: ratios.map((ratio) => `${ratio}fr`).join(' '), gap: slotGap }}>
+          {Array.from({ length: columns }, (_, index) => {
+            const child = component.children?.[index]
+            const slotWidth = usableWidth * ratios[index] / ratioTotal
+            return <div className={`row-component-slot ${child ? 'has-child' : 'is-empty'}`} key={child?.id || `slot-${index}`}>{child ? <PosterComponent component={child} container={container} containerWidth={slotWidth} containerId={containerId} selection={selection} onSelect={onSelect} exporting={exporting} presentationMode={presentationMode} /> : !exporting && <div className="row-empty-slot"><Plus size={16} /><span>ç©ºä½ç½® {index + 1}</span></div>}</div>
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  if (component.type === 'hero') {
+    return (
+      <section className={className} style={{ textAlign: component.align, marginBottom: component.gapAfter }} onClick={selectComponent}>
+        <h1 style={{ fontSize: component.titleSize }}>{component.title}</h1>
+        {component.subtitle?.trim() && <div className={`hero-subtitle decoration-${component.subtitleDecoration || 'solid'}`} style={{ fontSize: component.subtitleSize ?? 12 }}><i /><span>{component.subtitle}</span><i /></div>}
+      </section>
+    )
+  }
+
+  if (component.type === 'info') {
+    return (
+      <section className={className} style={{ marginBottom: component.gapAfter }} onClick={selectComponent}>
+        {hasHeading && <div className="poster-pill">{component.heading}</div>}
+        <ul>{component.rows.map((row, index) => <li key={`${component.id}-${index}`}>{row}</li>)}</ul>
+      </section>
+    )
+  }
+
+  if (component.type === 'guestGrid') {
+    return (
+      <section className={className} style={{ marginBottom: component.gapAfter }} onClick={selectComponent}>
+        {hasHeading && <div className="poster-pill">{component.heading}</div>}
+        <div className="guest-grid" style={{ gridTemplateColumns: `repeat(${component.columns}, minmax(0, 1fr))` }}>
+          {component.items.map((item, index) => (
+            <GuestCard key={item.id} item={item} index={index} selected={!exporting && selection?.kind === 'item' && selection.componentId === component.id && selection.itemId === item.id} onSelect={() => onSelect({ kind: 'item', containerId, componentId: component.id, itemId: item.id })} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  if (component.type === 'mosaic') {
+    const photos = component.photos || []
+    const total = Math.max(1, Math.min(300, Math.max(component.count || 0, photos.length)))
+    const photoGap = component.photoGap ?? 3
+    const gridWidth = measuredMosaicWidth || getComponentContentWidth(component, container, containerWidth, presentationMode)
+    const gridHeight = PARTICIPANT_GRID.targetHeight
+    const columns = getParticipantColumns(total, photoGap, gridWidth, gridHeight)
+    const cells = Array.from({ length: total })
+    return (
+      <section ref={mosaicRef} className={className} style={{ marginBottom: component.gapAfter }} onClick={selectComponent}>
+        {hasHeading && <div className="poster-pill">{component.heading}</div>}
+        <div className="participant-grid" data-columns={columns} data-gap={photoGap} data-grid-width={gridWidth} data-grid-height={gridHeight} style={{ gridTemplateColumns: `repeat(${columns}, 1fr)`, gap: photoGap }}>
+          {cells.map((_, index) => (
+            <div className="participant-cell" key={index}>
+              {photos[index] ? <img src={photos[index]} alt={`å‚ä¼šäººå‘˜ ${index + 1}`} /> : <div className="participant-empty"><CircleUserRound size={15} /><span>å¾…ä¸Šä¼ </span></div>}
+            </div>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  if (component.type === 'imageBlock') {
+    return (
+      <section className={className} style={{ marginBottom: component.gapAfter }} onClick={selectComponent}>
+        {hasHeading && <div className="poster-pill">{component.heading}</div>}
+        <div className="poster-image-block">{component.image ? <img src={component.image} alt="" style={{ objectFit: component.fit }} /> : <div><ImagePlus size={28} /><span>ä¸Šä¼ å›¾ç‰‡</span></div>}</div>
+        {component.caption && <p>{component.caption}</p>}
+      </section>
+    )
+  }
+
+  if (component.type === 'textBlock') {
+    return (
+      <section className={className} style={{ marginBottom: component.gapAfter, textAlign: component.align }} onClick={selectComponent}>
+        {hasHeading && <div className="poster-pill">{component.heading}</div>}
+        <p className="poster-body-text" style={{ fontSize: component.fontSize ?? 11, lineHeight: component.lineHeight ?? 1.72 }}>{component.body}</p>
+      </section>
+    )
+  }
+
+  if (component.type === 'brand') {
+    return <section className={className} onClick={selectComponent}><strong className="poster-brand" style={{ fontSize: component.textSize ?? 25 }}>{component.text}</strong>{component.note && <span className="poster-brand-note" style={{ fontSize: component.noteSize ?? 8 }}>{component.note}</span>}</section>
+  }
+  return null
+}
+
+function PosterContainer({ container, containerWidth, poster, selection, onSelect, exporting, presentationMode }) {
+  const selected = !exporting && selection?.kind === 'container' && selection.containerId === container.id
+  const style = {
+    background: container.style.background,
+    padding: container.style.padding,
+    gap: container.style.gap,
+    borderRadius: container.style.radius,
+    '--container-bg': container.style.background,
+    '--container-padding': `${container.style.padding}px`,
+    '--container-radius': `${container.style.radius}px`,
+  }
+  return (
+    <div className={`poster-container zone-${container.id} ${presentationMode}-mode ${selected ? 'selected-container' : ''}`} style={style} onClick={(event) => { event.stopPropagation(); onSelect({ kind: 'container', containerId: container.id }) }}>
+      {!exporting && <span className="container-tag">{container.name}</span>}
+      {container.components.map((component) => <PosterComponent key={component.id} component={component} container={container} containerWidth={containerWidth} containerId={container.id} selection={selection} onSelect={onSelect} exporting={exporting} poster={poster} presentationMode={presentationMode} />)}
+      {!exporting && container.components.length === 0 && <div className="empty-container-message"><Plus size={18} /><span>ç©ºå†…å®¹æ </span><em>ä»ç»„ä»¶åº“æ·»åŠ å†…å®¹</em></div>}
+    </div>
+  )
+}
+
+function StructureComponentNode({ component, index, containerId, selection, onSelect, nested = false }) {
+  const Icon = TYPE_META[component.type].icon
+  const label = component.type === 'hero' ? component.title : component.heading || component.text || TYPE_META[component.type].label
+  return <div className={nested ? 'tree-nested-node' : ''}>
+    <button className={`tree-component ${nested ? 'nested' : ''} ${selection?.componentId === component.id ? 'active' : ''}`} onClick={() => onSelect({ kind: 'component', containerId, componentId: component.id })}><span className="tree-index">{nested ? 'â†³' : index + 1}</span><Icon size={14} /><em>{label}</em>{component.visible ? <Eye size={12} /> : <EyeOff size={12} />}</button>
+    {component.type === 'rowGroup' && <div className="tree-nested-components">{(component.children || []).slice(0, component.columns || 2).filter(Boolean).map((child, childIndex) => <StructureComponentNode key={child.id} component={child} index={childIndex} containerId={containerId} selection={selection} onSelect={onSelect} nested />)}</div>}
+  </div>
+}
+
+function App() {
+  const initial = useMemo(() => createInitialPoster(), [])
+  const [poster, setPoster] = useState(initial)
+  const [appView, setAppView] = useState('editor')
+  const [savedProjects, setSavedProjects] = useState(() => readSavedProjects())
+  const [customTemplates, setCustomTemplates] = useState(() => readCustomTemplates())
+  const [renamingProjectId, setRenamingProjectId] = useState(null)
+  const [projectNameDraft, setProjectNameDraft] = useState('')
+  const [saveAsOpen, setSaveAsOpen] = useState(false)
+  const [saveAsName, setSaveAsName] = useState('')
+  const [templateDialogOpen, setTemplateDialogOpen] = useState(false)
+  const [templateDraft, setTemplateDraft] = useState({ name: '', description: '' })
+  const [selection, setSelection] = useState({ kind: 'component', containerId: 'left', componentId: getContainer(initial, 'left').components[0].id })
+  const [activeTab, setActiveTab] = useState('structure')
+  const [addTarget, setAddTarget] = useState('left')
+  const [zoom, setZoom] = useState(.55)
+  const [posterHeight, setPosterHeight] = useState(POSTER.minHeight)
+  const [exportScale, setExportScale] = useState(3)
+  const [toast, setToast] = useState('ç»“æ„åŒ–æ¨¡æ¿å·²å°±ç»ª')
+  const [savedAt, setSavedAt] = useState('')
+  const [exporting, setExporting] = useState(false)
+  const [historyUi, setHistoryUi] = useState({ canUndo: false, canRedo: false })
+  const [expanded, setExpanded] = useState({ header: true, left: true, right: true, footer: true })
+  const posterRef = useRef(null)
+  const viewportRef = useRef(null)
+  const fileInputRef = useRef(null)
+  const uploadTargetRef = useRef(null)
+  const historyRef = useRef({ items: [JSON.stringify(initial)], index: 0 })
+
+  const selectedContainer = getContainer(poster, selection?.containerId)
+  const selectedComponentContext = selection?.componentId ? getComponentContext(poster, selection.containerId, selection.componentId) : null
+  const selectedComponent = selection?.componentId ? getComponent(poster, selection.containerId, selection.componentId) : null
+  const selectedItem = selection?.kind === 'item' ? selectedComponent?.items?.find((item) => item.id === selection.itemId) : null
+  const globalHeader = getContainer(poster, 'header')
+  const showGlobalHeader = globalHeader?.components.some((component) => component.visible)
+  const activeLayout = LAYOUT_PRESETS.find((preset) => preset.id === poster.layout) || LAYOUT_PRESETS[0]
+  const activeRatioBase = Math.min(...activeLayout.columnWidths)
+  const savedRatios = poster.layoutRatios?.[activeLayout.id]
+  const activeRatios = Array.isArray(savedRatios) && savedRatios.length === activeLayout.columnWidths.length
+    ? savedRatios
+    : activeLayout.columnWidths.map((width) => Number((width / activeRatioBase).toFixed(2)))
+  const activeColumnWidths = Array.isArray(savedRatios) && savedRatios.length === activeLayout.columnWidths.length
+    ? activeRatios.map((ratio) => Math.round(activeRatioBase * Math.max(1, Math.min(5, Number(ratio) || 1))))
+    : activeLayout.columnWidths
+  const posterWidth = expandedPosterWidth(activeColumnWidths)
+  const presentationMode = poster.containerMode === 'grouped' || poster.containerMode === 'cards'
+    ? poster.containerMode
+    : activeLayout.classic ? 'grouped' : 'cards'
+  const paddingTop = poster.paddingTop ?? 38
+  const paddingBottom = poster.paddingBottom ?? 34
+  const layoutMinHeight = Math.max(0, POSTER.minHeight - paddingTop - paddingBottom)
+  const getRenderContainerWidth = (containerId) => {
+    if (['header', 'footer'].includes(containerId)) return posterWidth - POSTER.paddingX * 2
+    if (activeLayout.classic && ['header', 'left'].includes(containerId)) return activeColumnWidths[0]
+    if (activeLayout.classic && containerId === 'right') return activeColumnWidths[1]
+    const index = activeLayout.containerIds.indexOf(containerId)
+    return index >= 0 ? activeColumnWidths[index] : PARTICIPANT_GRID.width
+  }
+  const activeBackground = BACKGROUND_PRESETS.find((preset) => preset.id === poster.backgroundStyle) || { id: 'custom', label: 'è‡ªå®šä¹‰åº•è‰²', base: poster.background, background: poster.background, accent: poster.accent, text: poster.textColor }
+  const activeStructureContainerIds = ['header', ...activeLayout.containerIds, 'footer']
+
+  const propertyBackLabel = selection?.kind === 'item'
+    ? TYPE_META[selectedComponent?.type]?.label || 'ç»„ä»¶'
+    : selectedComponentContext?.parent
+      ? TYPE_META[selectedComponentContext.parent.type]?.label || 'ä¸Šçº§ç»„ä»¶'
+      : selectedContainer?.name || 'å®¹å™¨'
+
+  const goBackProperty = () => {
+    if (!selection || selection.kind === 'container') return
+    if (selection.kind === 'item') {
+      setSelection({ kind: 'component', containerId: selection.containerId, componentId: selection.componentId })
+      return
+    }
+    if (selectedComponentContext?.parent) {
+      setSelection({ kind: 'component', containerId: selection.containerId, componentId: selectedComponentContext.parent.id })
+      return
+    }
+    setSelection({ kind: 'container', containerId: selection.containerId })
+  }
+
+  const notify = useCallback((message) => {
+    setToast(message)
+    window.clearTimeout(notify.timer)
+    notify.timer = window.setTimeout(() => setToast(''), 2200)
+  }, [])
+
+  const commit = useCallback((mutator) => {
+    setPoster((current) => {
+      const next = deepClone(current)
+      mutator(next)
+      const serialized = JSON.stringify(next)
+      const history = historyRef.current
+      if (history.items[history.index] !== serialized) {
+        history.items = history.items.slice(0, history.index + 1)
+        history.items.push(serialized)
+        if (history.items.length > 60) history.items.shift()
+        history.index = history.items.length - 1
+      }
+      setHistoryUi({ canUndo: history.index > 0, canRedo: history.index < history.items.length - 1 })
+      return next
+    })
+  }, [])
+
+  const travelHistory = (direction) => {
+    const history = historyRef.current
+    const nextIndex = history.index + direction
+    if (nextIndex < 0 || nextIndex >= history.items.length) return
+    history.index = nextIndex
+    setPoster(JSON.parse(history.items[nextIndex]))
+    setSelection(null)
+    setHistoryUi({ canUndo: nextIndex > 0, canRedo: nextIndex < history.items.length - 1 })
+  }
+
+  useEffect(() => {
+    const fit = () => {
+      const viewport = viewportRef.current
+      if (!viewport) return
+      const value = Math.min((viewport.clientWidth - 76) / posterWidth, (viewport.clientHeight - 92) / POSTER.minHeight, .8)
+      setZoom(Math.max(.2, value))
+    }
+    fit()
+    const observer = new ResizeObserver(fit)
+    if (viewportRef.current) observer.observe(viewportRef.current)
+    return () => observer.disconnect()
+  }, [posterWidth])
+
+  useEffect(() => {
+    const element = posterRef.current
+    if (!element) return
+    const measure = () => setPosterHeight(Math.max(POSTER.minHeight, Math.ceil(element.offsetHeight)))
+    measure()
+    const observer = new ResizeObserver(measure)
+    observer.observe(element)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    const handler = (event) => {
+      const typing = ['INPUT', 'TEXTAREA', 'SELECT'].includes(event.target?.tagName)
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'z' && !typing) {
+        event.preventDefault(); travelHistory(event.shiftKey ? 1 : -1)
+      }
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'y' && !typing) {
+        event.preventDefault(); travelHistory(1)
+      }
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  })
+
+  const updateContainer = (patch) => commit((draft) => Object.assign(getContainer(draft, selection.containerId), patch))
+  const updateContainerStyle = (patch) => commit((draft) => Object.assign(getContainer(draft, selection.containerId).style, patch))
+  const updateComponent = (patch) => commit((draft) => Object.assign(getComponent(draft, selection.containerId, selection.componentId), patch))
+  const updateItem = (patch) => commit((draft) => Object.assign(getComponent(draft, selection.containerId, selection.componentId).items.find((item) => item.id === selection.itemId), patch))
+
+  const reorderMosaicPhoto = (fromIndex, toIndex) => {
+    if (fromIndex === toIndex || fromIndex < 0 || toIndex < 0) return
+    commit((draft) => {
+      const component = getComponent(draft, selection.containerId, selection.componentId)
+      if (!component?.photos?.[fromIndex] || toIndex >= component.photos.length) return
+      const [photo] = component.photos.splice(fromIndex, 1)
+      component.photos.splice(toIndex, 0, photo)
+    })
+    notify(`ç…§ç‰‡å·²ç§»åŠ¨åˆ°ç¬¬ ${toIndex + 1} ä½`)
+  }
+
+  const removeMosaicPhoto = (index) => {
+    commit((draft) => {
+      const component = getComponent(draft, selection.containerId, selection.componentId)
+      component.photos.splice(index, 1)
+      component.count = Math.max(1, component.photos.length)
+    })
+    notify('å·²ç§»é™¤ä¸€å¼ å‚ä¼šç…§ç‰‡')
+  }
+
+  const updateInfoRow = (index, value) => commit((draft) => { getComponent(draft, selection.containerId, selection.componentId).rows[index] = value })
+  const removeInfoRow = (index) => commit((draft) => { getComponent(draft, selection.containerId, selection.componentId).rows.splice(index, 1) })
+  const addInfoRow = () => commit((draft) => { getComponent(draft, selection.containerId, selection.componentId).rows.push('æ–°å¢ä¿¡æ¯å†…å®¹') })
+
+  const updateRowGroupColumns = (columns) => commit((draft) => {
+    const group = getComponent(draft, selection.containerId, selection.componentId)
+    group.columns = columns
+    group.ratios = Array.from({ length: columns }, (_, index) => group.ratios?.[index] || 1)
+    if (!Array.isArray(group.children)) group.children = []
+  })
+
+  const updateRowGroupRatio = (index, value) => commit((draft) => {
+    const group = getComponent(draft, selection.containerId, selection.componentId)
+    group.ratios[index] = Math.max(1, Math.min(5, Number(value) || 1))
+  })
+
+  const setRowGroupSlotType = (index, type) => {
+    const child = { ...componentDefaults(type), gapAfter: 0 }
+    commit((draft) => {
+      const group = getComponent(draft, selection.containerId, selection.componentId)
+      while (group.children.length <= index) group.children.push(null)
+      group.children[index] = child
+    })
+    setSelection({ kind: 'component', containerId: selection.containerId, componentId: child.id })
+    notify(`ç¬¬ ${index + 1} ä¸ªä½ç½®å·²åˆ‡æ¢ä¸º${TYPE_META[type].label}`)
+  }
+
+  const clearRowGroupSlot = (index) => commit((draft) => {
+    const group = getComponent(draft, selection.containerId, selection.componentId)
+    group.children[index] = null
+  })
+
+  const addComponent = (type) => {
+    const component = componentDefaults(type)
+    commit((draft) => getContainer(draft, addTarget).components.push(component))
+    setSelection({ kind: 'component', containerId: addTarget, componentId: component.id })
+    setExpanded((value) => ({ ...value, [addTarget]: true }))
+    notify(`${TYPE_META[type].label}å·²åŠ å…¥${getContainer(poster, addTarget).name}`)
+  }
+
+  const applyLayoutPreset = (presetId) => {
+    const preset = LAYOUT_PRESETS.find((item) => item.id === presetId)
+    if (!preset) return
+    commit((draft) => {
+      ensureColumnHeaderLayout(draft)
+      const allComponents = CONTENT_CONTAINER_IDS.flatMap((id) => getContainer(draft, id)?.components || [])
+      CONTENT_CONTAINER_IDS.forEach((id) => { const container = getContainer(draft, id); if (container) container.components = [] })
+      const targets = preset.containerIds
+      if (preset.classic) {
+        const mosaics = allComponents.filter((component) => component.type === 'mosaic')
+        const regular = allComponents.filter((component) => component.type !== 'mosaic')
+        getContainer(draft, 'left').components = regular
+        getContainer(draft, 'right').components = mosaics
+      } else if (targets.length === 1) {
+        getContainer(draft, targets[0]).components = allComponents
+      } else {
+        const mosaics = allComponents.filter((component) => component.type === 'mosaic')
+        const columnHeaders = allComponents.filter((component) => ['hero', 'info'].includes(component.type))
+        const regular = allComponents.filter((component) => component.type !== 'mosaic' && !['hero', 'info'].includes(component.type))
+        getContainer(draft, targets[0]).components.push(...columnHeaders)
+        if (mosaics.length) {
+          const regularTargets = targets.slice(0, -1)
+          regular.forEach((component, index) => getContainer(draft, regularTargets[index % regularTargets.length]).components.push(component))
+          mosaics.forEach((component) => getContainer(draft, targets[targets.length - 1]).components.push(component))
+        } else {
+          regular.forEach((component, index) => getContainer(draft, targets[index % targets.length]).components.push(component))
+        }
+      }
+      draft.layout = preset.id
+    })
+    setSelection(null)
+    setAddTarget(preset.containerIds[0])
+    notify(`å·²åˆ‡æ¢ä¸º${preset.label}ï¼Œå…¨éƒ¨ç»„ä»¶å·²é‡æ–°æ’å¸ƒ`)
+  }
+
+  const applyBackgroundPreset = (presetId) => {
+    const preset = BACKGROUND_PRESETS.find((item) => item.id === presetId)
+    if (!preset) return
+    commit((draft) => {
+      draft.backgroundStyle = preset.id
+      draft.background = preset.base
+      draft.accent = preset.accent
+      draft.textColor = preset.text
+    })
+    notify(`å·²åº”ç”¨${preset.label}èƒŒæ™¯`)
+  }
+
+  const setActiveLayoutRatios = (ratios) => {
+    commit((draft) => {
+      if (!draft.layoutRatios) draft.layoutRatios = {}
+      draft.layoutRatios[activeLayout.id] = ratios.map((ratio) => Math.max(1, Math.min(5, Number(ratio) || 1)))
+    })
+  }
+
+  const updateColumnRatio = (index, value) => {
+    const next = [...activeRatios]
+    next[index] = Number(value)
+    setActiveLayoutRatios(next)
+  }
+
+  const resetColumnRatios = () => commit((draft) => {
+    if (draft.layoutRatios) delete draft.layoutRatios[activeLayout.id]
+  })
+
+  const addGuest = () => {
+    const guest = defaultGuest()
+    const adjusted = selectedComponent.items.length >= 6 && selectedComponent.columns === 2
+    commit((draft) => {
+      const component = getComponent(draft, selection.containerId, selection.componentId)
+      component.items.push(guest)
+      if (component.items.length > 6 && component.columns === 2) {
+        component.columns = 3
+      }
+    })
+    setSelection({ ...selection, kind: 'item', itemId: guest.id })
+    notify(adjusted ? 'å·²å¢åŠ å˜‰å®¾ï¼Œå¹¶è‡ªåŠ¨è°ƒæ•´ä¸º 3 åˆ—' : 'å·²å¢åŠ ä¸€ä¸ªå˜‰å®¾å¡ç‰‡')
+  }
+
+  const deleteSelected = () => {
+    if (!selection || selection.kind === 'container') return
+    if (selection.kind === 'item') {
+      commit((draft) => {
+        const component = getComponent(draft, selection.containerId, selection.componentId)
+        component.items = component.items.filter((item) => item.id !== selection.itemId)
+      })
+      setSelection({ kind: 'component', containerId: selection.containerId, componentId: selection.componentId })
+      notify('å˜‰å®¾å¡ç‰‡å·²åˆ é™¤')
+      return
+    }
+    commit((draft) => {
+      const context = getComponentContext(draft, selection.containerId, selection.componentId)
+      if (!context) return
+      if (context.parent?.type === 'rowGroup') context.list[context.index] = null
+      else context.list.splice(context.index, 1)
+    })
+    setSelection({ kind: 'container', containerId: selection.containerId })
+    notify('ç»„ä»¶å·²åˆ é™¤')
+  }
+
+  const duplicateSelected = () => {
+    if (!selectedComponent) return
+    if (selection.kind === 'item') {
+      const copy = { ...deepClone(selectedItem), id: uid(), name: `${selectedItem.name} å‰¯æœ¬` }
+      commit((draft) => getComponent(draft, selection.containerId, selection.componentId).items.push(copy))
+      setSelection({ ...selection, itemId: copy.id })
+      return
+    }
+    const copy = cloneComponentWithFreshIds(selectedComponent)
+    if (selectedComponentContext?.parent?.type === 'rowGroup') {
+      const visibleSlots = selectedComponentContext.parent.columns || 2
+      const emptyIndex = Array.from({ length: visibleSlots }).findIndex((_, index) => !selectedComponentContext.parent.children?.[index])
+      if (emptyIndex < 0) return notify('å½“å‰æ¨ªå‘ç»„ä»¶ç»„æ²¡æœ‰ç©ºä½ç½®')
+      commit((draft) => {
+        const context = getComponentContext(draft, selection.containerId, selection.componentId)
+        context.parent.children[emptyIndex] = copy
+      })
+      setSelection({ kind: 'component', containerId: selection.containerId, componentId: copy.id })
+      return notify('ç»„ä»¶å·²å¤åˆ¶åˆ°ç»„å†…ç©ºä½ç½®')
+    }
+    commit((draft) => {
+      const context = getComponentContext(draft, selection.containerId, selection.componentId)
+      if (context) context.list.splice(context.index + 1, 0, copy)
+    })
+    setSelection({ kind: 'component', containerId: selection.containerId, componentId: copy.id })
+    notify('ç»„ä»¶å·²å¤åˆ¶')
+  }
+
+  const moveComponent = (direction) => {
+    if (!selectedComponent || selection.kind === 'item') return
+    commit((draft) => {
+      const context = getComponentContext(draft, selection.containerId, selection.componentId)
+      if (!context) return
+      const next = context.index + direction
+      if (next < 0 || next >= context.list.length) return
+      if (context.parent?.type === 'rowGroup') {
+        ;[context.list[context.index], context.list[next]] = [context.list[next], context.list[context.index]]
+        return
+      }
+      const [item] = context.list.splice(context.index, 1)
+      context.list.splice(next, 0, item)
+    })
+  }
+
+  const resetTemplate = () => {
+    if (!window.confirm('é‡æ–°è½½å…¥æ¨¡æ¿ä¼šæ¸…ç©ºå½“å‰ç¼–è¾‘ï¼Œç¡®å®šç»§ç»­å—ï¼Ÿ')) return
+    const fresh = createInitialPoster()
+    setPoster(fresh)
+    historyRef.current = { items: [JSON.stringify(fresh)], index: 0 }
+    setHistoryUi({ canUndo: false, canRedo: false })
+    setSelection({ kind: 'component', containerId: 'left', componentId: getContainer(fresh, 'left').components[0].id })
+    notify('æ¨¡æ¿å·²é‡æ–°è½½å…¥')
+  }
+
+  const capturePosterPreview = async () => {
+    const element = posterRef.current
+    if (!element) return ''
+    element.classList.add('is-exporting')
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)))
+    try {
+      const blob = await toBlob(element, { pixelRatio: .5, cacheBust: true, backgroundColor: activeBackground.base })
+      return blob ? await compressPreviewBlob(blob) : ''
+    } catch (error) {
+      console.warn('é¡¹ç›®é¢„è§ˆå›¾ç”Ÿæˆå¤±è´¥', error)
+      return ''
+    } finally {
+      element.classList.remove('is-exporting')
+    }
+  }
+
+  const persistProject = async (nextPoster, message = 'é¡¹ç›®å·²ä¿å­˜') => {
+    try {
+      const savedAtIso = new Date().toISOString()
+      const previous = savedProjects.find((item) => item.id === nextPoster.projectId)
+      const actualPreview = await capturePosterPreview()
+      const hasCustomPreview = previous?.previewMode === 'custom' || (!previous?.autoPreview && Boolean(previous?.preview))
+      const record = {
+        id: nextPoster.projectId,
+        name: nextPoster.name,
+        savedAt: savedAtIso,
+        preview: hasCustomPreview ? previous.preview : '',
+        previewMode: hasCustomPreview ? 'custom' : 'auto',
+        autoPreview: actualPreview || previous?.autoPreview || '',
+        poster: deepClone(nextPoster),
+      }
+      const projects = [record, ...savedProjects.filter((item) => item.id !== record.id)]
+      localStorage.setItem(SAVE_KEY, JSON.stringify(nextPoster))
+      localStorage.setItem(PROJECTS_KEY, JSON.stringify(projects))
+      setSavedProjects(projects)
+      setPoster(nextPoster)
+      const time = new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })
+      setSavedAt(time)
+      notify(`${message} Â· ${time}`)
+      return true
+    } catch (error) {
+      console.error('é¡¹ç›®ä¿å­˜å¤±è´¥', error)
+      notify('å­˜æ¡£ç©ºé—´ä¸è¶³ï¼Œè¯·å‡å°‘å›¾ç‰‡åé‡è¯•')
+      return false
+    }
+  }
+
+  const saveProject = () => {
+    const name = poster.projectNameCustom ? poster.name : getPosterTitle(poster)
+    return persistProject({ ...deepClone(poster), projectId: poster.projectId || uid(), name }, 'é¡¹ç›®å·²ä¿å­˜ï¼ˆè¦†ç›–å½“å‰é¡¹ç›®ï¼‰')
+  }
+
+  const openSaveAs = () => {
+    setSaveAsName(`${getPosterTitle(poster)} å‰¯æœ¬`)
+    setSaveAsOpen(true)
+  }
+
+  const saveProjectAs = async () => {
+    const name = saveAsName.trim()
+    if (!name) return notify('è¯·å…ˆå¡«å†™æ–°é¡¹ç›®åç§°')
+    const next = { ...deepClone(poster), projectId: uid(), name, projectNameCustom: true }
+    if (await persistProject(next, 'å·²å¦å­˜ä¸ºæ–°é¡¹ç›®')) setSaveAsOpen(false)
+  }
+
+  const beginRenameProject = (record) => {
+    setRenamingProjectId(record.id)
+    setProjectNameDraft(record.name)
+  }
+
+  const renameProject = (record) => {
+    const name = projectNameDraft.trim()
+    if (!name) return notify('é¡¹ç›®åç§°ä¸èƒ½ä¸ºç©º')
+    const projects = savedProjects.map((item) => item.id === record.id ? { ...item, name, poster: { ...item.poster, name, projectNameCustom: true } } : item)
+    localStorage.setItem(PROJECTS_KEY, JSON.stringify(projects))
+    setSavedProjects(projects)
+    if (poster.projectId === record.id) {
+      const next = { ...poster, name, projectNameCustom: true }
+      setPoster(next)
+      localStorage.setItem(SAVE_KEY, JSON.stringify(next))
+    }
+    setRenamingProjectId(null)
+    notify('é¡¹ç›®åç§°å·²æ›´æ–°')
+  }
+
+  const duplicateProject = (record) => {
+    const name = `${record.name} å‰¯æœ¬`
+    const nextPoster = { ...deepClone(record.poster), projectId: uid(), name, projectNameCustom: true }
+    const recordCopy = { ...record, id: nextPoster.projectId, name, savedAt: new Date().toISOString(), poster: nextPoster }
+    const projects = [recordCopy, ...savedProjects]
+    localStorage.setItem(PROJECTS_KEY, JSON.stringify(projects))
+    setSavedProjects(projects)
+    notify('å·²åˆ›å»ºé¡¹ç›®å‰¯æœ¬')
+  }
+
+  const deleteProject = (record) => {
+    if (!window.confirm(`ç¡®å®šåˆ é™¤â€œ${record.name}â€å—ï¼Ÿæ­¤æ“ä½œæ— æ³•æ’¤é”€ã€‚`)) return
+    const projects = savedProjects.filter((item) => item.id !== record.id)
+    localStorage.setItem(PROJECTS_KEY, JSON.stringify(projects))
+    setSavedProjects(projects)
+    if (poster.projectId === record.id) {
+      const detached = { ...poster, projectId: uid() }
+      setPoster(detached)
+      setSavedAt('')
+      localStorage.setItem(SAVE_KEY, JSON.stringify(detached))
+    }
+    notify('é¡¹ç›®å·²åˆ é™¤')
+  }
+
+  const resetProjectPreview = (record) => {
+    const projects = savedProjects.map((item) => item.id === record.id ? { ...item, preview: '', previewMode: 'auto' } : item)
+    localStorage.setItem(PROJECTS_KEY, JSON.stringify(projects))
+    setSavedProjects(projects)
+    notify('å·²æ¢å¤çœŸå®æµ·æŠ¥é¢„è§ˆ')
+  }
+
+  const openTemplateDialog = () => {
+    setTemplateDraft({ name: `${getPosterTitle(poster)}æ¨¡æ¿`, description: 'åŸºäºå½“å‰æµ·æŠ¥ç»“æ„åˆ›å»ºï¼Œå¯é‡å¤ä½¿ç”¨å¹¶ç»§ç»­ç¼–è¾‘ã€‚' })
+    setTemplateDialogOpen(true)
+  }
+
+  const createCustomTemplate = () => {
+    const name = templateDraft.name.trim()
+    if (!name) return notify('è¯·å¡«å†™æ¨¡æ¿åç§°')
+    const templatePoster = deepClone(poster)
+    const record = { id: `custom-${uid()}`, name, description: templateDraft.description.trim() || 'ä¸ªäººè‡ªå®šä¹‰æµ·æŠ¥æ¨¡æ¿', createdAt: new Date().toISOString(), poster: templatePoster }
+    const templates = [record, ...customTemplates]
+    localStorage.setItem(CUSTOM_TEMPLATES_KEY, JSON.stringify(templates))
+    setCustomTemplates(templates)
+    setTemplateDialogOpen(false)
+    notify('æ¨¡æ¿å·²åŠ å…¥æ¨¡æ¿ä¸­å¿ƒ')
+  }
+
+  const useCustomTemplate = (record) => {
+    const next = { ...deepClone(record.poster), projectId: uid(), name: record.name }
+    setPoster(next)
+    historyRef.current = { items: [JSON.stringify(next)], index: 0 }
+    setHistoryUi({ canUndo: false, canRedo: false })
+    setSelection(null)
+    setSavedAt('')
+    setAppView('editor')
+    notify(`å·²ä½¿ç”¨ä¸ªäººæ¨¡æ¿ï¼š${record.name}`)
+  }
+
+  const deleteCustomTemplate = (record) => {
+    if (!window.confirm(`ç¡®å®šåˆ é™¤æ¨¡æ¿â€œ${record.name}â€å—ï¼Ÿ`)) return
+    const templates = customTemplates.filter((item) => item.id !== record.id)
+    localStorage.setItem(CUSTOM_TEMPLATES_KEY, JSON.stringify(templates))
+    setCustomTemplates(templates)
+    notify('ä¸ªäººæ¨¡æ¿å·²åˆ é™¤')
+  }
+
+  const loadProject = () => {
+    const saved = localStorage.getItem(SAVE_KEY)
+    if (!saved) return notify('è¿˜æ²¡æœ‰ç»“æ„åŒ–é¡¹ç›®å­˜æ¡£')
+    try {
+      const next = JSON.parse(saved)
+      const fresh = createInitialPoster()
+      ;['extra1', 'extra2', 'extra3'].forEach((id) => {
+        if (!getContainer(next, id)) next.containers.splice(next.containers.length - 1, 0, deepClone(getContainer(fresh, id)))
+      })
+      if (!next.layout) next.layout = 'classic'
+      if (!next.containerMode) next.containerMode = 'preset'
+      if (!next.layoutRatios || typeof next.layoutRatios !== 'object') next.layoutRatios = {}
+      if (typeof next.paddingTop !== 'number') next.paddingTop = 38
+      if (typeof next.paddingBottom !== 'number') next.paddingBottom = 34
+      if (!next.backgroundStyle) next.backgroundStyle = 'warmPaper'
+      ensureColumnHeaderLayout(next)
+      migrateStructureNames(next)
+      next.containers.forEach((container) => visitComponents(container.components, (component) => {
+        if (!component.cardMode) {
+          if (typeof component.showContainer === 'boolean') component.cardMode = component.showContainer ? 'show' : 'hide'
+          else if (component.type === 'hero' || component.type === 'brand') component.cardMode = 'hide'
+          else if (component.type === 'info') component.cardMode = 'show'
+          else component.cardMode = 'inherit'
+        }
+        delete component.showContainer
+        if (component.type === 'hero') {
+          if (!component.subtitleSize) component.subtitleSize = 12
+          if (!component.subtitleDecoration) component.subtitleDecoration = 'solid'
+        }
+        if (component.type === 'textBlock') {
+          if (!component.fontSize) component.fontSize = 11
+          if (!component.lineHeight) component.lineHeight = 1.72
+        }
+        if (component.type === 'brand') {
+          if (!component.textSize) component.textSize = 25
+          if (!component.noteSize) component.noteSize = 8
+        }
+        if (component.type === 'mosaic') {
+          if (!Array.isArray(component.photos)) component.photos = []
+          if (typeof component.photoGap !== 'number') component.photoGap = 3
+          delete component.columns
+        }
+        if (component.type === 'rowGroup') {
+          if (!component.columns) component.columns = 2
+          if (!Array.isArray(component.ratios)) component.ratios = Array(component.columns).fill(1)
+          if (!Array.isArray(component.children)) component.children = []
+          if (typeof component.slotGap !== 'number') component.slotGap = 12
+        }
+      }))
+      next.version = 3
+      setPoster(next)
+      historyRef.current = { items: [JSON.stringify(next)], index: 0 }
+      setHistoryUi({ canUndo: false, canRedo: false })
+      setSelection(null)
+      notify('å·²æ¢å¤æœ¬åœ°é¡¹ç›®')
+    } catch { notify('å­˜æ¡£æ ¼å¼æ— æ•ˆ') }
+  }
+
+  const useTemplate = (templateId) => {
+    const next = buildTemplatePoster(templateId)
+    setPoster(next)
+    historyRef.current = { items: [JSON.stringify(next)], index: 0 }
+    setHistoryUi({ canUndo: false, canRedo: false })
+    setSelection({ kind: 'component', containerId: 'left', componentId: getContainer(next, 'left').components[0].id })
+    setSavedAt('')
+    setAppView('editor')
+    notify(`å·²ä½¿ç”¨æ¨¡æ¿ï¼š${next.name}`)
+  }
+
+  const openSavedProject = (record) => {
+    localStorage.setItem(SAVE_KEY, JSON.stringify(record.poster))
+    loadProject()
+    setSavedAt(new Date(record.savedAt).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }))
+    setAppView('editor')
+  }
+
+  const triggerImageUpload = (target, multiple = false) => {
+    uploadTargetRef.current = target
+    if (fileInputRef.current) fileInputRef.current.multiple = multiple
+    fileInputRef.current?.click()
+  }
+
+  const handleImages = async (fileList) => {
+    const files = Array.from(fileList || []).filter((file) => file.type.startsWith('image/'))
+    if (!files.length) return notify('è¯·é€‰æ‹©å›¾ç‰‡æ–‡ä»¶')
+    const target = uploadTargetRef.current
+    try {
+      const optimized = await Promise.all(files.map(optimizeImageFile))
+      if (target.kind === 'projectPreview') {
+        const projects = savedProjects.map((item) => item.id === target.projectId ? { ...item, preview: optimized[0], previewMode: 'custom' } : item)
+        localStorage.setItem(PROJECTS_KEY, JSON.stringify(projects))
+        setSavedProjects(projects)
+        notify('é¡¹ç›®é¢„è§ˆå›¾å·²æ›´æ–°')
+      } else if (target.kind === 'mosaicBatch') {
+        commit((draft) => {
+          const component = getComponent(draft, target.containerId, target.componentId)
+          component.photos = optimized
+          component.count = optimized.length
+        })
+        notify(`å·²å¯¼å…¥ ${optimized.length} å¼  16:9 å‚ä¼šç…§ç‰‡`)
+      } else if (target.kind === 'item') {
+        commit((draft) => { getComponent(draft, target.containerId, target.componentId).items.find((item) => item.id === target.itemId).image = optimized[0] })
+        notify('ç…§ç‰‡å·²ä¼˜åŒ–å¹¶æ›¿æ¢ï¼Œæ˜¾ç¤ºæ¯”ä¾‹ä¸º 16:9')
+      } else {
+        commit((draft) => { getComponent(draft, target.containerId, target.componentId).image = optimized[0] })
+        notify('å›¾ç‰‡å·²ä¼˜åŒ–å¹¶æ›¿æ¢ï¼Œæ’ç‰ˆä¿æŒä¸å˜')
+      }
+    } catch {
+      notify('å›¾ç‰‡è¯»å–å¤±è´¥ï¼Œè¯·æ›´æ¢æ–‡ä»¶')
+    }
+  }
+
+  const exportPoster = async () => {
+    if (!posterRef.current) return
+    setExporting(true)
+    await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)))
+    try {
+      const blob = await toBlob(posterRef.current, { pixelRatio: exportScale, cacheBust: true, backgroundColor: activeBackground.base })
+      if (!blob) throw new Error('æ— æ³•ç”Ÿæˆå›¾ç‰‡')
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      link.href = url
+      link.download = `ä¼šè®®æµ·æŠ¥-${new Date().toISOString().slice(0, 10)}.png`
+      document.body.appendChild(link)
+      link.click()
+      link.remove()
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000)
+      const currentHeight = Math.ceil(posterRef.current.offsetHeight)
+      notify(`å·²å¯¼å‡º ${posterWidth * exportScale}Ã—${currentHeight * exportScale} PNG`)
+    } catch (error) {
+      console.error(error)
+      notify('å¯¼å‡ºå¤±è´¥ï¼Œè¯·é™ä½æ¸…æ™°åº¦é‡è¯•')
+    } finally { setExporting(false) }
+  }
+
+  const renderProperties = () => {
+    if (!selection) return <div className="empty-properties"><div><Settings2 size={24} /></div><b>é€‰æ‹©ä¸€ä¸ªå®¹å™¨æˆ–ç»„ä»¶</b><p>å·¦ä¾§é€‰æ‹©ç»“æ„èŠ‚ç‚¹ï¼Œæˆ–ç›´æ¥ç‚¹å‡»æµ·æŠ¥ä¸­çš„ç»„ä»¶ã€‚</p></div>
+
+    if (selection.kind === 'container') {
+      return (
+        <div className="properties-body">
+          <PropertyNav items={[["container", "å®¹å™¨è®¾ç½®"]]} />
+          <div className="form-section" data-property-section="container"><h3>å®¹å™¨è®¾ç½®</h3>
+            <Field label="å®¹å™¨åç§°"><input value={selectedContainer.name} onChange={(event) => updateContainer({ name: event.target.value })} /></Field>
+            <Field label="èƒŒæ™¯é¢œè‰²"><div className="color-input"><input type="color" value={selectedContainer.style.background.startsWith('#') ? selectedContainer.style.background : '#fffdf7'} onChange={(event) => updateContainerStyle({ background: event.target.value })} /><code>{selectedContainer.style.background}</code></div></Field>
+            <div className="field-grid">
+              <Field label="å†…è¾¹è·"><input type="number" min="0" max="60" value={selectedContainer.style.padding} onChange={(event) => updateContainerStyle({ padding: Number(event.target.value) })} /></Field>
+              <Field label="ç»„ä»¶é—´è·"><input type="number" min="0" max="60" value={selectedContainer.style.gap} onChange={(event) => updateContainerStyle({ gap: Number(event.target.value) })} /></Field>
+              <Field label="åœ†è§’"><input type="number" min="0" max="60" value={selectedContainer.style.radius} onChange={(event) => updateContainerStyle({ radius: Number(event.target.value) })} /></Field>
+              <Field label="ç»„ä»¶æ•°é‡"><input disabled value={selectedContainer.components.length} /></Field>
+            </div>
+          </div>
+        </div>
+      )
+    }
+
+    if (selection.kind === 'item') {
+      return (
+        <div className="properties-body">
+          <PropertyNav items={[["content", "å˜‰å®¾å†…å®¹"]]} />
+          <div className="quick-actions"><button onClick={duplicateSelected}><Copy size={14} />å¤åˆ¶å˜‰å®¾</button><button className="danger" onClick={deleteSelected}><Trash2 size={14} />åˆ é™¤</button></div>
+          <div className="form-section" data-property-section="content"><h3>å˜‰å®¾å†…å®¹</h3>
+            <div className="image-setting"><div className="image-thumb">{selectedItem.image ? <img src={selectedItem.image} alt="" /> : <EmptyPhoto />}</div><button onClick={() => triggerImageUpload({ ...selection })}><Upload size={14} />æ›¿æ¢ç…§ç‰‡</button></div>
+            <Field label="å˜‰å®¾å§“å"><input value={selectedItem.name} onChange={(event) => updateItem({ name: event.target.value })} /></Field>
+            <Field label="èº«ä»½è¯´æ˜"><textarea rows="3" value={selectedItem.role} onChange={(event) => updateItem({ role: event.target.value })} /></Field>
+          </div>
+          <div className="context-note">ç…§ç‰‡å°ºå¯¸ã€åœ†è§’å’Œæ–‡å­—ä½ç½®ç”±â€œå˜‰å®¾ç»„â€ç»„ä»¶ç»Ÿä¸€æ§åˆ¶ï¼Œä¸éœ€è¦é€ä¸ªå¯¹é½ã€‚</div>
+        </div>
+      )
+    }
+
+    const contentNavLabel = {
+      rowGroup: 'æ’åˆ—è®¾ç½®', hero: 'æ ‡é¢˜å†…å®¹', info: 'ä¼šè®®ä¿¡æ¯', guestGrid: 'å˜‰å®¾è®¾ç½®',
+      mosaic: 'ç…§ç‰‡ç½‘æ ¼', imageBlock: 'å›¾ç‰‡å†…å®¹', textBlock: 'æ–‡æœ¬å†…å®¹', brand: 'é¡µè„šç½²å',
+    }[selectedComponent.type] || 'å†…å®¹è®¾ç½®'
+
+    return (
+      <div className="properties-body">
+        <PropertyNav items={[["content", contentNavLabel], ["display", "æ˜¾ç¤ºä¸é—´è·"]]} />
+        <div className="quick-actions">
+          <button onClick={() => moveComponent(-1)}><MoveUp size={14} />ä¸Šç§»</button>
+          <button onClick={() => moveComponent(1)}><MoveDown size={14} />ä¸‹ç§»</button>
+          <button onClick={duplicateSelected}><Copy size={14} />å¤åˆ¶</button>
+          <button className="danger" onClick={deleteSelected}><Trash2 size={14} /></button>
+        </div>
+
+        {selectedComponent.type === 'rowGroup' && <div className="form-section" data-property-section="content"><h3>æ¨ªå‘æ’åˆ—è®¾ç½®</h3>
+          <Field label="å¹¶åˆ—æ•°é‡"><div className="segmented row-count-control">{[2, 3, 4].map((number) => <button key={number} className={selectedComponent.columns === number ? 'active' : ''} onClick={() => updateRowGroupColumns(number)}>{number} ä¸ª</button>)}</div></Field>
+          <div className="row-ratio-editor">{Array.from({ length: selectedComponent.columns || 2 }, (_, index) => <Field key={index} label={`ä½ç½® ${index + 1}`} hint={`${selectedComponent.ratios?.[index] || 1} ä»½`}><input aria-label={`ä½ç½® ${index + 1} å®½åº¦æ¯”ä¾‹`} type="number" min="1" max="5" step=".25" value={selectedComponent.ratios?.[index] || 1} onChange={(event) => updateRowGroupRatio(index, event.target.value)} /></Field>)}</div>
+          <Field label="ç»„ä»¶é—´è·" hint={`${selectedComponent.slotGap ?? 12}px`}><input type="range" min="0" max="40" value={selectedComponent.slotGap ?? 12} onChange={(event) => updateComponent({ slotGap: Number(event.target.value) })} /></Field>
+          <div className="row-slot-editor">{Array.from({ length: selectedComponent.columns || 2 }, (_, index) => { const child = selectedComponent.children?.[index]; return <div className="row-slot-editor-item" key={index}><span>{index + 1}</span><select aria-label={`ä½ç½® ${index + 1} ç»„ä»¶ç±»å‹`} value={child?.type || ''} onChange={(event) => event.target.value ? setRowGroupSlotType(index, event.target.value) : clearRowGroupSlot(index)}><option value="">ç©ºä½ç½®</option>{Object.entries(TYPE_META).filter(([type]) => type !== 'rowGroup').map(([type, meta]) => <option key={type} value={type}>{meta.label}</option>)}</select>{child && <button onClick={() => setSelection({ kind: 'component', containerId: selection.containerId, componentId: child.id })}>ç¼–è¾‘</button>}</div> })}</div>
+          <div className="auto-layout-note">æ¯ä¸ªä½ç½®éƒ½æ˜¯ç‹¬ç«‹ç»„ä»¶ã€‚å…ˆé€‰æ‹©ç±»å‹ï¼Œå†ç›´æ¥ç‚¹å‡»æµ·æŠ¥ä¸­çš„å­ç»„ä»¶ç¼–è¾‘æ–‡å­—ã€å›¾ç‰‡å’Œå¡ç‰‡æ ·å¼ã€‚</div>
+        </div>}
+
+        {selectedComponent.type === 'hero' && <div className="form-section" data-property-section="content"><h3>æ ‡é¢˜å†…å®¹</h3>
+          <Field label="ä¸»æ ‡é¢˜"><input value={selectedComponent.title} onChange={(event) => updateComponent({ title: event.target.value })} /></Field>
+          <Field label="å‰¯æ ‡é¢˜"><textarea rows="2" value={selectedComponent.subtitle} onChange={(event) => updateComponent({ subtitle: event.target.value })} /></Field>
+          <div className="field-grid"><Field label="æ ‡é¢˜å­—å·"><input type="number" min="24" max="80" value={selectedComponent.titleSize} onChange={(event) => updateComponent({ titleSize: Number(event.target.value) })} /></Field><Field label="å‰¯æ ‡é¢˜å­—å·"><input type="number" min="8" max="36" value={selectedComponent.subtitleSize ?? 12} onChange={(event) => updateComponent({ subtitleSize: Number(event.target.value) })} /></Field></div>
+          <Field label="æ ‡é¢˜å¯¹é½"><div className="align-buttons">{[['left', AlignLeft, 'å·¦', 'å·¦å¯¹é½'], ['center', AlignCenter, 'ä¸­', 'å±…ä¸­'], ['right', AlignRight, 'å³', 'å³å¯¹é½']].map(([value, Icon, text, label]) => <button key={value} aria-label={label} title={label} className={selectedComponent.align === value ? 'active' : ''} onClick={() => updateComponent({ align: value })}><Icon size={15} /><span>{text}</span></button>)}</div></Field>
+          <Field label="å‰¯æ ‡é¢˜è£…é¥°"><div className="decoration-options">{[['solid', 'å®çº¿'], ['double', 'åŒçº¿'], ['dashed', 'è™šçº¿'], ['fade', 'æ¸éš'], ['stars', 'äº”è§’æ˜Ÿ'], ['diamonds', 'è±å½¢'], ['dots', 'åœ†ç‚¹'], ['none', 'æ— ']].map(([value, label]) => <button key={value} className={(selectedComponent.subtitleDecoration || 'solid') === value ? 'active' : ''} onClick={() => updateComponent({ subtitleDecoration: value })}><i className={`decoration-sample sample-${value}`} />{label}</button>)}</div></Field>
+        </div>}
+
+        {selectedComponent.type === 'info' && <div className="form-section" data-property-section="content"><h3>ä¼šè®®ä¿¡æ¯</h3>
+          <Field label="ç»„ä»¶æ ‡é¢˜"><input value={selectedComponent.heading} onChange={(event) => updateComponent({ heading: event.target.value })} /></Field>
+          <div className="repeat-list">{selectedComponent.rows.map((row, index) => <div className="repeat-row" key={index}><input value={row} onChange={(event) => updateInfoRow(index, event.target.value)} /><button onClick={() => removeInfoRow(index)}><Trash2 size={13} /></button></div>)}</div>
+          <button className="add-row" onClick={addInfoRow}><Plus size={14} />æ·»åŠ ä¸€æ¡ä¿¡æ¯</button>
+        </div>}
+
+        {selectedComponent.type === 'guestGrid' && <div className="form-section" data-property-section="content"><h3>å˜‰å®¾ç»„è®¾ç½®</h3>
+          <Field label="åˆ†åŒºæ ‡é¢˜"><input value={selectedComponent.heading} onChange={(event) => updateComponent({ heading: event.target.value })} /></Field>
+          <Field label="æ¯è¡Œåˆ—æ•°"><div className="segmented">{[1, 2, 3].map((number) => <button key={number} className={selectedComponent.columns === number ? 'active' : ''} onClick={() => updateComponent({ columns: number })}>{number} åˆ—</button>)}</div></Field>
+          <div className="guest-editor-list">{selectedComponent.items.map((item, index) => <button key={item.id} className={selection.itemId === item.id ? 'active' : ''} onClick={() => setSelection({ ...selection, kind: 'item', itemId: item.id })}><span>{index + 1}</span><div><b>{item.name}</b><em>{item.role}</em></div><ChevronRight size={14} /></button>)}</div>
+          <button className="add-row" onClick={addGuest}><Plus size={14} />å¢åŠ å˜‰å®¾</button>
+        </div>}
+
+        {selectedComponent.type === 'mosaic' && <div className="form-section" data-property-section="content"><h3>å‚ä¼šç…§ç‰‡ç½‘æ ¼</h3>
+          <Field label="åˆ†åŒºæ ‡é¢˜"><input value={selectedComponent.heading} onChange={(event) => updateComponent({ heading: event.target.value })} /></Field>
+          <div className="image-setting large"><div className="image-thumb">{selectedComponent.photos?.[0] ? <img src={selectedComponent.photos[0]} alt="" /> : <Users size={25} />}</div><div><button onClick={() => triggerImageUpload({ ...selection, kind: 'mosaicBatch' }, true)}><Upload size={14} />æ‰¹é‡ä¸Šä¼ ç…§ç‰‡</button>{selectedComponent.photos?.length > 0 && <button className="text-button" onClick={() => updateComponent({ photos: [], count: 20 })}>æ¸…ç©ºå¹¶æ¢å¤å ä½</button>}</div></div>
+          {selectedComponent.photos?.length > 0 && <div className="mosaic-photo-manager">
+            <div className="mosaic-photo-manager-head"><b>ç…§ç‰‡é¡ºåº</b><span>{selectedComponent.photos.length} å¼  Â· å¯æ‹–æ‹½è°ƒæ•´</span></div>
+            <div className="mosaic-photo-list">{selectedComponent.photos.map((photo, index) => <div className="mosaic-photo-item" key={`${photo.slice(-24)}-${index}`} draggable onDragStart={(event) => { event.dataTransfer.effectAllowed = 'move'; event.dataTransfer.setData('text/plain', String(index)) }} onDragOver={(event) => { event.preventDefault(); event.dataTransfer.dropEffect = 'move' }} onDrop={(event) => { event.preventDefault(); reorderMosaicPhoto(Number(event.dataTransfer.getData('text/plain')), index) }}>
+              <span>{index + 1}</span><img src={photo} alt={`å‚ä¼šç…§ç‰‡ ${index + 1}`} />
+              <div><button aria-label={`ç¬¬ ${index + 1} å¼ ç…§ç‰‡å‰ç§»`} title="å‰ç§»" disabled={index === 0} onClick={() => reorderMosaicPhoto(index, index - 1)}><MoveUp size={12} /></button><button aria-label={`ç¬¬ ${index + 1} å¼ ç…§ç‰‡åç§»`} title="åç§»" disabled={index === selectedComponent.photos.length - 1} onClick={() => reorderMosaicPhoto(index, index + 1)}><MoveDown size={12} /></button><button className="danger" aria-label={`ç§»é™¤ç¬¬ ${index + 1} å¼ ç…§ç‰‡`} title="ç§»é™¤" onClick={() => removeMosaicPhoto(index)}><Trash2 size={12} /></button></div>
+            </div>)}</div>
+          </div>}
+          <div className="upload-hint">å¯ä¸€æ¬¡é€‰æ‹©å¤šå¼ å›¾ç‰‡ï¼›æ¯å¼ ç…§ç‰‡ä¼šè‡ªåŠ¨å¡«å…¥ç‹¬ç«‹çš„ 16:9 ç½‘æ ¼ï¼Œä¸ä¼šåˆå¹¶æˆä¸€å¼ æˆªå›¾ã€‚</div>
+          <div className="field-grid"><Field label="ç…§ç‰‡ä½æ•°é‡"><input type="number" min="1" max="300" value={selectedComponent.count} onChange={(event) => updateComponent({ count: Number(event.target.value) })} /></Field><Field label="åŠ¨æ€åˆ—æ•°" hint="éšæ å®½æ¯”ä¾‹"><input disabled value={`${getParticipantColumns(Math.max(selectedComponent.count || 0, selectedComponent.photos?.length || 0), selectedComponent.photoGap ?? 3, getComponentContentWidth(selectedComponent, selectedContainer, getRenderContainerWidth(selection.containerId), presentationMode))} åˆ—`} /></Field></div>
+          <Field label="ç…§ç‰‡é—´è·" hint={`${selectedComponent.photoGap ?? 3}px`}><input type="range" min="0" max="20" step="1" value={selectedComponent.photoGap ?? 3} onChange={(event) => updateComponent({ photoGap: Number(event.target.value) })} /></Field>
+          <div className="auto-layout-note">ç³»ç»Ÿè¯»å–æ ç›®çœŸå®å®½åº¦å¹¶æ¯”è¾ƒæ‰€æœ‰å¯ç”¨æ’æ³•ï¼Œå°½é‡é“ºæ»¡å½“å‰åŒºåŸŸï¼›ç…§ç‰‡é—´è·ä¸¥æ ¼ä½¿ç”¨ä¸Šæ–¹è®¾ç½®å€¼ï¼Œæ— æ³•é“ºæ»¡çš„ä½™é‡ç»Ÿä¸€ä¿ç•™åœ¨åº•éƒ¨ï¼Œç…§ç‰‡å§‹ç»ˆä¿æŒ 16:9ã€‚</div>
+        </div>}
+
+        {selectedComponent.type === 'imageBlock' && <div className="form-section" data-property-section="content"><h3>å›¾ç‰‡åŒº</h3>
+          <Field label="æ ‡é¢˜"><input value={selectedComponent.heading} onChange={(event) => updateComponent({ heading: event.target.value })} /></Field>
+          <div className="image-setting large"><div className="image-thumb">{selectedComponent.image ? <img src={selectedComponent.image} alt="" /> : <ImagePlus size={25} />}</div><button onClick={() => triggerImageUpload({ kind: 'component', ...selection })}><Upload size={14} />ä¸Šä¼ å›¾ç‰‡</button></div>
+          <Field label="å›¾ç‰‡è¯´æ˜"><textarea rows="2" value={selectedComponent.caption} onChange={(event) => updateComponent({ caption: event.target.value })} /></Field>
+          <Field label="å›¾ç‰‡é€‚åº”"><select value={selectedComponent.fit} onChange={(event) => updateComponent({ fit: event.target.value })}><option value="cover">é“ºæ»¡è£åˆ‡</option><option value="contain">å®Œæ•´æ˜¾ç¤º</option></select></Field>
+        </div>}
+
+        {selectedComponent.type === 'textBlock' && <div className="form-section" data-property-section="content"><h3>å¤šè¡Œæ–‡æœ¬</h3>
+          <Field label="æ ‡é¢˜"><input value={selectedComponent.heading} onChange={(event) => updateComponent({ heading: event.target.value })} /></Field>
+          <Field label="æ­£æ–‡" hint="æ”¯æŒæ¢è¡Œ"><textarea rows="8" value={selectedComponent.body} onChange={(event) => updateComponent({ body: event.target.value })} /></Field>
+          <div className="field-grid"><Field label="æ­£æ–‡å­—å·"><input type="number" min="8" max="40" value={selectedComponent.fontSize ?? 11} onChange={(event) => updateComponent({ fontSize: Number(event.target.value) })} /></Field><Field label="è¡Œè·"><input type="number" min="1" max="3" step="0.1" value={selectedComponent.lineHeight ?? 1.72} onChange={(event) => updateComponent({ lineHeight: Number(event.target.value) })} /></Field></div>
+          <Field label="æ–‡æœ¬å¯¹é½"><div className="align-buttons">{[['left', AlignLeft, 'å·¦', 'å·¦å¯¹é½'], ['center', AlignCenter, 'ä¸­', 'å±…ä¸­'], ['right', AlignRight, 'å³', 'å³å¯¹é½']].map(([value, Icon, text, label]) => <button key={value} aria-label={label} title={label} className={selectedComponent.align === value ? 'active' : ''} onClick={() => updateComponent({ align: value })}><Icon size={15} /><span>{text}</span></button>)}</div></Field>
+        </div>}
+
+        {selectedComponent.type === 'brand' && <div className="form-section" data-property-section="content"><h3>é¡µè„šç½²å</h3>
+          <Field label="å“ç‰Œæ–‡å­—"><input value={selectedComponent.text} onChange={(event) => updateComponent({ text: event.target.value })} /></Field>
+          <Field label="é™„åŠ è¯´æ˜"><input value={selectedComponent.note} onChange={(event) => updateComponent({ note: event.target.value })} /></Field>
+          <div className="field-grid"><Field label="ç½²åå­—å·"><input type="number" min="10" max="72" value={selectedComponent.textSize ?? 25} onChange={(event) => updateComponent({ textSize: Number(event.target.value) })} /></Field><Field label="è¯´æ˜å­—å·"><input type="number" min="6" max="40" value={selectedComponent.noteSize ?? 8} onChange={(event) => updateComponent({ noteSize: Number(event.target.value) })} /></Field></div>
+        </div>}
+
+        <div className="form-section" data-property-section="display"><h3>ç»„ä»¶æ˜¾ç¤º</h3>
+          <div className="visibility-row"><span>åœ¨æµ·æŠ¥ä¸­æ˜¾ç¤º</span><button className={selectedComponent.visible ? 'on' : ''} onClick={() => updateComponent({ visible: !selectedComponent.visible })}>{selectedComponent.visible ? <Eye size={14} /> : <EyeOff size={14} />}{selectedComponent.visible ? 'æ˜¾ç¤º' : 'éšè—'}</button></div>
+          <Field label="ç»„ä»¶å¡ç‰‡"><div className="segmented card-mode-control">{[['inherit', 'è·Ÿéšå¸ƒå±€'], ['show', 'æ˜¾ç¤º'], ['hide', 'éšè—']].map(([value, label]) => <button key={value} className={(selectedComponent.cardMode || 'inherit') === value ? 'active' : ''} onClick={() => updateComponent({ cardMode: value })}>{label}</button>)}</div></Field>
+          <div className="auto-layout-note">â€œè·Ÿéšå¸ƒå±€â€ä¼šä½¿ç”¨å¸ƒå±€é¢æ¿çš„æ‰¿è½½æ–¹å¼ï¼›æ˜¾ç¤ºæˆ–éšè—å¯ä½œä¸ºå½“å‰ç»„ä»¶çš„ç‹¬ç«‹ä¾‹å¤–ã€‚</div>
+          <Field label="ç»„ä»¶ä¸‹é—´è·"><input type="range" min="0" max="50" value={selectedComponent.gapAfter} onChange={(event) => updateComponent({ gapAfter: Number(event.target.value) })} /></Field>
+        </div>
+      </div>
+    )
+  }
+
+  const propertyTitle = selection?.kind === 'container' ? selectedContainer?.name : selection?.kind === 'item' ? selectedItem?.name : selectedComponent ? TYPE_META[selectedComponent.type].label : 'å±æ€§è®¾ç½®'
+  const propertySub = selection?.kind === 'container'
+    ? 'å®¹å™¨è®¾ç½®'
+    : selection?.kind === 'item'
+      ? `${selectedContainer?.name} / ${TYPE_META[selectedComponent?.type]?.label || 'ç»„ä»¶'} / å†…å®¹é¡¹`
+      : selectedComponent
+        ? `${selectedContainer?.name}${selectedComponentContext?.parent ? ` / ${TYPE_META[selectedComponentContext.parent.type]?.label || 'ä¸Šçº§ç»„ä»¶'}` : ''} / ç»„ä»¶`
+        : 'é€‰æ‹©æµ·æŠ¥ä¸­çš„å†…å®¹å¼€å§‹ç¼–è¾‘'
+
+  return (
+    <div className="app-shell">
+      <header className="topbar">
+        <div className="brand"><div className="brand-mark"><Box size={18} /></div><div><strong>æ©é¾ </strong><span>æµ·æŠ¥å·¥åŠ</span></div></div>
+        <nav className="page-nav"><button className={appView === 'editor' ? 'active' : ''} onClick={() => setAppView('editor')}>æµ·æŠ¥ç¼–è¾‘</button><button className={appView === 'templates' ? 'active' : ''} onClick={() => setAppView('templates')}>æ¨¡æ¿ä¸­å¿ƒ</button><button className={appView === 'projects' ? 'active' : ''} onClick={() => setAppView('projects')}>æˆ‘çš„é¡¹ç›®{savedProjects.length > 0 && <span>{savedProjects.length}</span>}</button></nav>
+        {appView === 'editor' ? <div className="top-actions">
+          <div className="history-actions"><IconButton label="æ’¤é”€" disabled={!historyUi.canUndo} onClick={() => travelHistory(-1)}><Undo2 size={17} /></IconButton><IconButton label="é‡åš" disabled={!historyUi.canRedo} onClick={() => travelHistory(1)}><Redo2 size={17} /></IconButton></div>
+          <span className="save-state">{savedAt ? `å·²ä¿å­˜ ${savedAt}` : 'ç»“æ„è‡ªåŠ¨æ’ç‰ˆä¸­'}</span>
+          <button className="template-save-button" onClick={openTemplateDialog}><LayoutTemplate size={15} /><span>å­˜ä¸ºæ¨¡æ¿</span></button>
+          <div className="save-actions"><button className="button ghost" onClick={saveProject}><Save size={16} />ä¿å­˜</button><button className="save-as-button" onClick={openSaveAs}>å¦å­˜ä¸º</button></div>
+          <div className="export-control"><select value={exportScale} onChange={(event) => setExportScale(Number(event.target.value))}><option value="2">é«˜æ¸… 2Ã—</option><option value="3">è¶…æ¸… 3Ã—</option><option value="4">å°åˆ· 4Ã—</option></select><button className="button primary" onClick={exportPoster} disabled={exporting}><Download size={16} />{exporting ? 'ç”Ÿæˆä¸­â€¦' : 'å¯¼å‡º PNG'}</button></div>
+        </div> : <div className="library-state"><Sparkles size={15} />{appView === 'templates' ? `${TEMPLATE_PRESETS.length + customTemplates.length} ä¸ªå¯ç”¨æ¨¡æ¿` : `${savedProjects.length} ä¸ªæµè§ˆå™¨æœ¬åœ°é¡¹ç›®`}</div>}
+      </header>
+
+      {appView === 'editor' ? <main className="workspace">
+        <aside className="left-panel panel-surface">
+          <nav className="tool-tabs"><button className={activeTab === 'structure' ? 'active' : ''} onClick={() => setActiveTab('structure')}><Layers3 size={18} />ç»“æ„</button><button className={activeTab === 'layout' ? 'active' : ''} onClick={() => setActiveTab('layout')}><PanelTop size={18} />å¸ƒå±€</button><button className={activeTab === 'components' ? 'active' : ''} onClick={() => setActiveTab('components')}><LayoutGrid size={18} />ç»„ä»¶</button><button className={activeTab === 'theme' ? 'active' : ''} onClick={() => setActiveTab('theme')}><Palette size={18} />èƒŒæ™¯</button></nav>
+          <div className="left-content">
+            {activeTab === 'structure' && <>
+              <div className="section-heading"><div><b>æµ·æŠ¥ç»“æ„</b><span>å®¹å™¨å†³å®šåŒºåŸŸï¼Œç»„ä»¶å†³å®šå†…å®¹</span></div><button className="mini-link" onClick={resetTemplate}><RotateCcw size={13} />é‡ç½®</button></div>
+              <div className="structure-tree">
+                {activeStructureContainerIds.map((id) => getContainer(poster, id)).filter(Boolean).map((container) => <div className="tree-group" key={container.id}>
+                  <button className={`tree-container ${selection?.kind === 'container' && selection.containerId === container.id ? 'active' : ''}`} onClick={() => setSelection({ kind: 'container', containerId: container.id })}><span onClick={(event) => { event.stopPropagation(); setExpanded((value) => ({ ...value, [container.id]: !value[container.id] })) }}>{expanded[container.id] ? <ChevronDown size={14} /> : <ChevronRight size={14} />}</span><Box size={15} /><div><b>{container.name}</b><em>{container.components.length} ä¸ªç»„ä»¶</em></div></button>
+                  {expanded[container.id] && <div className="tree-components">{container.components.map((component, index) => <StructureComponentNode key={component.id} component={component} index={index} containerId={container.id} selection={selection} onSelect={setSelection} />)}</div>}
+                </div>)}
+              </div>
+              <div className="structure-tip"><Sparkles size={15} /><p><b>ç¨³å®šæ’ç‰ˆ</b>å¢åˆ å˜‰å®¾æˆ–ä¿®æ”¹é•¿æ–‡å­—æ—¶ï¼Œç»„ä»¶ä¼šåœ¨æ‰€å±å®¹å™¨ä¸­è‡ªåŠ¨é‡æ’ã€‚</p></div>
+              <button className="button secondary wide" onClick={loadProject}>æ¢å¤æœ¬åœ°å­˜æ¡£</button>
+            </>}
+
+            {activeTab === 'layout' && <>
+              <div className="section-heading"><div><b>ç‰ˆå¼å¸ƒå±€</b><span>æ ‡é¢˜ä¿¡æ¯å½’å…¥é¦–æ ï¼Œå…¨å±€é¡µå¤´æŒ‰éœ€è·¨æ </span></div></div>
+              <div className="layout-presets">{LAYOUT_PRESETS.map((preset) => <button key={preset.id} className={activeLayout.id === preset.id ? 'active' : ''} onClick={() => applyLayoutPreset(preset.id)}><div className="layout-mini" style={{ gridTemplateColumns: preset.columnWidths.map((width) => `${width}fr`).join(' ') }}>{preset.containerIds.map((id, index) => <i key={`${id}-${index}`} />)}</div><span><b>{preset.label}</b><em>{preset.note} Â· ç”»å¸ƒ {preset.width}px</em></span>{activeLayout.id === preset.id && <strong>å½“å‰</strong>}</button>)}</div>
+              <div className="layout-control-block"><div className="control-title"><b>å†…å®¹æ‰¿è½½æ–¹å¼</b><span>å½“å‰ï¼š{presentationMode === 'grouped' ? 'å¤§å®¹å™¨åˆ†ç»„' : 'ç‹¬ç«‹ç»„ä»¶å¡ç‰‡'}</span></div><div className="segmented container-mode-control">{[['preset', 'è·Ÿéšå¸ƒå±€'], ['grouped', 'å¤§å®¹å™¨'], ['cards', 'ç‹¬ç«‹å¡ç‰‡']].map(([value, label]) => <button key={value} className={(poster.containerMode || 'preset') === value ? 'active' : ''} onClick={() => commit((draft) => { draft.containerMode = value })}>{label}</button>)}</div></div>
+              {activeLayout.containerIds.length > 1 && <div className="layout-control-block"><div className="control-title"><b>æ å®½æ¯”ä¾‹</b><button className="mini-link" onClick={resetColumnRatios}><RotateCcw size={12} />æ¢å¤é¢„è®¾</button></div>{activeLayout.containerIds.length === 2 && <div className="ratio-presets">{[[1, 1], [1, 1.5], [1, 2], [1, 3], [1, 4], [1, 5], [2, 1], [3, 1], [4, 1], [5, 1]].map((ratios) => <button key={ratios.join(':')} className={activeRatios.every((ratio, index) => Math.abs(ratio - ratios[index]) < .01) ? 'active' : ''} onClick={() => setActiveLayoutRatios(ratios)}>{ratios.join(':')}</button>)}</div>}<div className="ratio-inputs">{activeRatios.map((ratio, index) => <Field key={index} label={`ç¬¬ ${index + 1} æ `} hint={`${activeColumnWidths[index]}px`}><input aria-label={`ç¬¬ ${index + 1} æ æ¯”ä¾‹`} type="number" min="1" max="5" step="0.25" value={ratio} onChange={(event) => updateColumnRatio(index, event.target.value)} /></Field>)}</div><div className="ratio-summary">1 ä»½ = {activeRatioBase}px Â· å½“å‰ç”»å¸ƒ {posterWidth}px</div></div>}
+              <div className="layout-control-block spacing-control"><div className="control-title"><b>ç”»å¸ƒä¸Šä¸‹ç•™ç™½</b><span>æ§åˆ¶å†…å®¹ä¸æµ·æŠ¥è¾¹ç¼˜çš„è·ç¦»</span></div><Field label="é¡¶éƒ¨ç•™ç™½" hint={`${paddingTop}px`}><input type="range" min="0" max="160" step="2" value={paddingTop} onChange={(event) => commit((draft) => { draft.paddingTop = Number(event.target.value) })} /></Field><Field label="åº•éƒ¨ç•™ç™½" hint={`${paddingBottom}px`}><input type="range" min="0" max="160" step="2" value={paddingBottom} onChange={(event) => commit((draft) => { draft.paddingBottom = Number(event.target.value) })} /></Field></div>
+              <div className="structure-tip"><LayoutGrid size={15} /><p><b>é¦–æ ä¸ºé»˜è®¤å†…å®¹èµ·ç‚¹</b>ä¸»æ ‡é¢˜å’Œä¼šè®®ä¿¡æ¯åœ¨æ‰€æœ‰ç‰ˆå¼ä¸­éƒ½ä½äºç¬¬ä¸€æ ã€‚å…¨å±€é¡µå¤´é»˜è®¤ç•™ç©ºï¼›éœ€è¦è·¨æ å†…å®¹æ—¶ï¼Œå¯ä»ç»„ä»¶åº“æ·»åŠ åˆ°â€œå…¨å±€é¡µå¤´â€ã€‚æ å®½å¢å¤§æˆ–æ ç›®å¢åŠ æ—¶ï¼Œç”»å¸ƒä¼šåŒæ­¥æ‰©å®½ã€‚</p></div>
+            </>}
+
+            {activeTab === 'components' && <>
+              <div className="section-heading"><div><b>ç»„ä»¶åº“</b><span>é€‰æ‹©å®¹å™¨åæ·»åŠ ç»„ä»¶</span></div></div>
+              <Field label="æ·»åŠ åˆ°"><select value={addTarget} onChange={(event) => setAddTarget(event.target.value)}>{STRUCTURE_CONTAINER_IDS.map((id) => getContainer(poster, id)).filter((container) => container && (['header', 'footer'].includes(container.id) || activeLayout.containerIds.includes(container.id))).map((container) => <option key={container.id} value={container.id}>{container.name}</option>)}</select></Field>
+              <div className="component-library">{Object.entries(TYPE_META).map(([type, meta]) => { const Icon = meta.icon; return <button key={type} onClick={() => addComponent(type)}><div><Icon size={19} /></div><span><b>{meta.label}</b><em>{meta.description}</em></span><PlusCircle size={15} /></button> })}</div>
+            </>}
+
+            {activeTab === 'theme' && <>
+              <div className="section-heading"><div><b>æ­£èƒ½é‡å¼¥æ•£èƒŒæ™¯</b><span>æ¯å¥—åŒ…å«åè°ƒçš„åº•è‰²ã€å¼ºè°ƒè‰²å’Œæ­£æ–‡è‰²</span></div></div>
+              <div className="background-presets">{BACKGROUND_PRESETS.map((preset) => <button key={preset.id} className={`theme-option-${preset.id} ${activeBackground.id === preset.id ? 'active' : ''}`} onClick={() => applyBackgroundPreset(preset.id)}><i style={{ background: preset.background }} /><span><b>{preset.label}</b><em>{preset.note}</em></span>{activeBackground.id === preset.id && <strong>âœ“</strong>}</button>)}</div>
+              <div className="theme-form"><Field label="è‡ªå®šä¹‰åº•è‰²"><div className="color-input"><input type="color" value={poster.background} onChange={(event) => commit((draft) => { draft.backgroundStyle = 'custom'; draft.background = event.target.value })} /><code>{poster.background}</code></div></Field><Field label="å¼ºè°ƒè‰²"><div className="color-input"><input type="color" value={poster.accent} onChange={(event) => commit((draft) => { draft.accent = event.target.value })} /><code>{poster.accent}</code></div></Field><Field label="æ­£æ–‡é¢œè‰²"><div className="color-input"><input type="color" value={poster.textColor} onChange={(event) => commit((draft) => { draft.textColor = event.target.value })} /><code>{poster.textColor}</code></div></Field></div>
+            </>}
+          </div>
+        </aside>
+
+        <section className="canvas-area" ref={viewportRef}>
+              <div className="canvas-toolbar"><div><b>{poster.name}</b><span>{posterWidth} Ã— {posterHeight}px Â· å®½é«˜è‡ªé€‚åº”</span></div><div className="canvas-mode"><Box size={13} />å›ºå®šæ å®½ Â· 16:9 å›¾ç‰‡</div><div className="zoom-control"><button aria-label="ç¼©å°ç”»å¸ƒ" title="ç¼©å°ç”»å¸ƒ" onClick={() => setZoom((value) => Math.max(.2, value - .08))}>âˆ’</button><span>{Math.round(zoom * 100)}%</span><button aria-label="æ”¾å¤§ç”»å¸ƒ" title="æœ€å¤§ 200%" onClick={() => setZoom((value) => Math.min(2, value + .08))}>ï¼‹</button></div></div>
+          <div className="stage-scroll">
+            <div className="stage-size" style={{ width: posterWidth * zoom, height: posterHeight * zoom }}>
+              <div className="poster-transform" style={{ width: posterWidth, height: posterHeight, transform: `scale(${zoom})` }}>
+                <article ref={posterRef} data-layout-width={posterWidth} className={`poster-page theme-${activeBackground.id} ${exporting ? 'is-exporting' : ''}`} style={{ width: posterWidth, padding: `${paddingTop}px ${POSTER.paddingX}px ${paddingBottom}px`, '--poster-bg': activeBackground.base, '--accent': poster.accent, '--poster-text': poster.textColor, '--poster-on-background': activeBackground.onBackground || poster.textColor, background: activeBackground.background }} onClick={() => setSelection(null)}>
+                  {activeLayout.classic ? <div className="poster-layout classic-layout" style={{ minHeight: layoutMinHeight }}>
+                    {showGlobalHeader && <PosterContainer container={globalHeader} containerWidth={posterWidth - POSTER.paddingX * 2} poster={poster} selection={selection} onSelect={setSelection} exporting={exporting} presentationMode={presentationMode} />}
+                    <div className="classic-content-grid" style={{ gridTemplateColumns: activeColumnWidths.map((width) => `${width}px`).join(' ') }}><PosterContainer container={getContainer(poster, 'left')} containerWidth={activeColumnWidths[0]} poster={poster} selection={selection} onSelect={setSelection} exporting={exporting} presentationMode={presentationMode} /><PosterContainer container={getContainer(poster, 'right')} containerWidth={activeColumnWidths[1]} poster={poster} selection={selection} onSelect={setSelection} exporting={exporting} presentationMode={presentationMode} /></div>
+                    <PosterContainer container={getContainer(poster, 'footer')} containerWidth={posterWidth - POSTER.paddingX * 2} poster={poster} selection={selection} onSelect={setSelection} exporting={exporting} presentationMode={presentationMode} />
+                  </div> : <div className="poster-layout flexible-layout" style={{ minHeight: layoutMinHeight }}>
+                    {showGlobalHeader && <PosterContainer container={globalHeader} containerWidth={posterWidth - POSTER.paddingX * 2} poster={poster} selection={selection} onSelect={setSelection} exporting={exporting} presentationMode={presentationMode} />}
+                    <div className="adaptive-content-grid" style={{ gridTemplateColumns: activeColumnWidths.map((width) => `${width}px`).join(' ') }}>{activeLayout.containerIds.map((id, index) => <PosterContainer key={id} container={getContainer(poster, id)} containerWidth={activeColumnWidths[index]} poster={poster} selection={selection} onSelect={setSelection} exporting={exporting} presentationMode={presentationMode} />)}</div>
+                    <PosterContainer container={getContainer(poster, 'footer')} containerWidth={posterWidth - POSTER.paddingX * 2} poster={poster} selection={selection} onSelect={setSelection} exporting={exporting} presentationMode={presentationMode} />
+                  </div>}
+                </article>
+              </div>
+            </div>
+          </div>
+          {toast && <div className="toast"><span>âœ“</span>{toast}</div>}
+        </section>
+
+        <aside className="right-panel panel-surface">
+          <div className="properties-head">
+            {selection && selection.kind !== 'container' && <button className="property-back" aria-label={`è¿”å›${propertyBackLabel}`} title={`è¿”å›${propertyBackLabel}`} onClick={goBackProperty}><ChevronLeft size={17} /></button>}
+            <div className="properties-title"><b>{propertyTitle}</b><span>{propertySub}</span></div>
+          </div>
+          {renderProperties()}
+          <div className="keyboard-hint"><span>å®¹å™¨ç®¡ç†å¸ƒå±€</span><span>ç»„ä»¶æ‰¿è½½å†…å®¹</span><span>è¡¨å•ä¿®æ”¹æ–‡å­—ä¸å›¾ç‰‡</span></div>
+        </aside>
+      </main> : appView === 'templates' ? <main className="library-page">
+        <section className="library-hero library-hero-row"><div><span>LAYOUT RECIPES</span><h1>æ¨¡æ¿ä¸­å¿ƒ</h1><p>ä½¿ç”¨å†…ç½®æ–¹æ¡ˆå¿«é€Ÿå¼€å§‹ï¼Œä¹Ÿå¯ä»¥æŠŠå½“å‰æµ·æŠ¥æ²‰æ·€ä¸ºè‡ªå·±çš„å¯å¤ç”¨æ¨¡æ¿ã€‚</p></div><button className="library-create-button" onClick={openTemplateDialog}><LayoutTemplate size={17} />åˆ›å»ºå½“å‰æµ·æŠ¥æ¨¡æ¿</button></section>
+        {customTemplates.length > 0 && <><div className="library-section-title"><div><span>MY RECIPES</span><h2>æˆ‘çš„æ¨¡æ¿</h2></div><em>{customTemplates.length} ä¸ªä¸ªäººæ¨¡æ¿</em></div><section className="template-grid custom-template-grid">{customTemplates.map((template) => <article className="template-card custom-template-card" key={template.id} style={{ '--card-accent': template.poster?.accent || '#d45b20' }}><div className="template-poster-preview custom-preview"><PosterMiniPreview poster={template.poster} compact /></div><div className="template-card-copy"><span>ä¸ªäººæ¨¡æ¿</span><h2>{template.name}</h2><p>{template.description}</p><div><em>{new Date(template.createdAt).toLocaleDateString('zh-CN')}</em><span className="template-card-actions"><button className="template-delete" aria-label={`åˆ é™¤æ¨¡æ¿ ${template.name}`} onClick={() => deleteCustomTemplate(template)}><Trash2 size={13} /></button><button onClick={() => useCustomTemplate(template)}>ä½¿ç”¨æ­¤æ¨¡æ¿</button></span></div></div></article>)}</section></>}
+        <div className="library-section-title"><div><span>CURATED RECIPES</span><h2>ç²¾é€‰æ¨¡æ¿</h2></div><em>{TEMPLATE_PRESETS.length} å¥—ç»“æ„æ–¹æ¡ˆ</em></div>
+        <section className="template-grid">{TEMPLATE_PRESETS.map((template, index) => { const background = BACKGROUND_PRESETS.find((item) => item.id === template.background); return <article className="template-card" key={template.id} style={{ '--card-accent': background?.accent || '#e55b18' }}><div className="template-poster-preview" style={{ background: background?.background }}><div className="template-preview-title" /><div className="template-preview-subtitle" /><div className="template-preview-columns" style={{ gridTemplateColumns: template.columns.map((ratio) => `${ratio}fr`).join(' ') }}>{template.columns.map((_, columnIndex) => <i key={columnIndex}><b /><b /><b /></i>)}</div></div><div className="template-card-copy"><span>æ¨¡æ¿ {String(index + 1).padStart(2, '0')}</span><h2>{template.name}</h2><p>{template.description}</p><div><em>{LAYOUT_PRESETS.find((item) => item.id === template.layout)?.label}</em><button onClick={() => useTemplate(template.id)}>ä½¿ç”¨æ­¤æ¨¡æ¿</button></div></div></article> })}</section>
+      </main> : <main className="library-page projects-page">
+        <section className="library-hero library-hero-row"><div><span>LOCAL ARCHIVE</span><h1>æˆ‘çš„é¡¹ç›®</h1><p>â€œä¿å­˜â€ä¼šè¦†ç›–å½“å‰é¡¹ç›®ï¼›éœ€è¦ä¿ç•™ä¸€ä¸ªæ–°ç‰ˆæœ¬æ—¶ï¼Œè¯·ä½¿ç”¨â€œå¦å­˜ä¸ºâ€ã€‚é¡¹ç›®æ•°æ®ä¿å­˜åœ¨å½“å‰æµè§ˆå™¨ä¸­ã€‚</p></div><button className="library-create-button secondary-create" onClick={() => setAppView('editor')}><Plus size={17} />ç»§ç»­åˆ›ä½œ</button></section>
+        {savedProjects.length ? <section className="project-grid">{savedProjects.map((record) => { const layout = LAYOUT_PRESETS.find((item) => item.id === record.poster.layout); const isCurrent = poster.projectId === record.id; return <article className={`project-card ${isCurrent ? 'current-project' : ''}`} key={record.id}>
+          <div className="project-swatch"><PosterMiniPreview poster={record.poster} preview={record.previewMode === 'custom' ? record.preview : record.autoPreview || record.preview} /><div className="cover-actions"><button onClick={() => triggerImageUpload({ kind: 'projectPreview', projectId: record.id })}><ImagePlus size={12} />æ›´æ¢é¢„è§ˆå›¾</button>{record.previewMode === 'custom' && <button aria-label={`æ¢å¤ ${record.name} è‡ªåŠ¨é¢„è§ˆ`} onClick={() => resetProjectPreview(record)}><RotateCcw size={12} /></button>}</div></div>
+          <div className="project-card-content"><div className="project-meta"><span>{new Date(record.savedAt).toLocaleString('zh-CN', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>{isCurrent && <b>å½“å‰é¡¹ç›®</b>}</div>
+            {renamingProjectId === record.id ? <div className="project-name-editor"><input aria-label="é¡¹ç›®åç§°" autoFocus value={projectNameDraft} onChange={(event) => setProjectNameDraft(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter') renameProject(record); if (event.key === 'Escape') setRenamingProjectId(null) }} /><button aria-label="ç¡®è®¤ä¿®æ”¹åç§°" onClick={() => renameProject(record)}><Check size={14} /></button><button aria-label="å–æ¶ˆä¿®æ”¹åç§°" onClick={() => setRenamingProjectId(null)}><X size={14} /></button></div> : <div className="project-title-row"><h2 title={record.name}>{record.name}</h2><button aria-label={`ä¿®æ”¹é¡¹ç›®åç§° ${record.name}`} onClick={() => beginRenameProject(record)}><Pencil size={13} /></button></div>}
+            <p>{layout?.label || 'è‡ªå®šä¹‰å¸ƒå±€'} Â· {record.poster.containers.reduce((sum, container) => sum + container.components.length, 0)} ä¸ªç»„ä»¶</p>
+            <div className="project-card-actions"><button className="project-open" onClick={() => openSavedProject(record)}>æ‰“å¼€ç»§ç»­ç¼–è¾‘</button><button aria-label={`åˆ›å»º ${record.name} å‰¯æœ¬`} title="åˆ›å»ºå‰¯æœ¬" onClick={() => duplicateProject(record)}><Copy size={14} /></button><button className="danger" aria-label={`åˆ é™¤é¡¹ç›® ${record.name}`} title="åˆ é™¤é¡¹ç›®" onClick={() => deleteProject(record)}><Trash2 size={14} /></button></div>
+          </div>
+        </article> })}</section> : <section className="empty-projects"><Save size={28} /><h2>è¿˜æ²¡æœ‰ä¿å­˜çš„é¡¹ç›®</h2><p>è¿”å›æµ·æŠ¥ç¼–è¾‘å™¨ï¼Œç‚¹å‡»å³ä¸Šè§’â€œä¿å­˜â€ï¼Œä½œå“å°±ä¼šå‡ºç°åœ¨è¿™é‡Œã€‚</p><button onClick={() => setAppView('editor')}>è¿”å›ç¼–è¾‘å™¨</button></section>}
+      </main>}
+      <input ref={fileInputRef} hidden type="file" accept="image/png,image/jpeg,image/webp" onChange={(event) => { handleImages(event.target.files); event.target.value = ''; event.target.multiple = false }} />
+      {saveAsOpen && <div className="dialog-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setSaveAsOpen(false) }}><section className="asset-dialog" role="dialog" aria-modal="true" aria-labelledby="save-as-title"><button className="dialog-close" aria-label="å…³é—­å¦å­˜ä¸º" onClick={() => setSaveAsOpen(false)}><X size={17} /></button><span>CREATE A VERSION</span><h2 id="save-as-title">å¦å­˜ä¸ºæ–°é¡¹ç›®</h2><p>æ–°é¡¹ç›®ä¼šæˆä¸ºå½“å‰ç¼–è¾‘ç‰ˆæœ¬ï¼ŒåŸé¡¹ç›®ä¿æŒä¸å˜ã€‚</p><Field label="æ–°é¡¹ç›®åç§°"><input autoFocus value={saveAsName} onChange={(event) => setSaveAsName(event.target.value)} onKeyDown={(event) => event.key === 'Enter' && saveProjectAs()} /></Field><div className="dialog-actions"><button onClick={() => setSaveAsOpen(false)}>å–æ¶ˆ</button><button className="primary-dialog-action" onClick={saveProjectAs}><Copy size={14} />åˆ›å»ºæ–°é¡¹ç›®</button></div></section></div>}
+      {templateDialogOpen && <div className="dialog-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setTemplateDialogOpen(false) }}><section className="asset-dialog template-dialog" role="dialog" aria-modal="true" aria-labelledby="template-dialog-title"><button className="dialog-close" aria-label="å…³é—­åˆ›å»ºæ¨¡æ¿" onClick={() => setTemplateDialogOpen(false)}><X size={17} /></button><div className="dialog-template-preview"><PosterMiniPreview poster={poster} compact /></div><div className="dialog-template-form"><span>BUILD A RECIPE</span><h2 id="template-dialog-title">åˆ›å»ºä¸ªäººæ¨¡æ¿</h2><p>ä¿å­˜å½“å‰å¸ƒå±€ã€ç»„ä»¶å’Œé£æ ¼ã€‚ä»¥åä½¿ç”¨æ—¶ä¼šè‡ªåŠ¨åˆ›å»ºç‹¬ç«‹é¡¹ç›®ï¼Œä¸å½±å“æ¨¡æ¿æœ¬èº«ã€‚</p><Field label="æ¨¡æ¿åç§°"><input autoFocus value={templateDraft.name} onChange={(event) => setTemplateDraft((current) => ({ ...current, name: event.target.value }))} /></Field><Field label="æ¨¡æ¿è¯´æ˜"><textarea rows="3" value={templateDraft.description} onChange={(event) => setTemplateDraft((current) => ({ ...current, description: event.target.value }))} /></Field><div className="dialog-actions"><button onClick={() => setTemplateDialogOpen(false)}>å–æ¶ˆ</button><button className="primary-dialog-action" onClick={createCustomTemplate}><LayoutTemplate size={14} />ä¿å­˜åˆ°æ¨¡æ¿ä¸­å¿ƒ</button></div></div></section></div>}
+    </div>
+  )
+}
+
+createRoot(document.getElementById('root')).render(<App />)
