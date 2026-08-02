@@ -58,7 +58,8 @@ Debug APK 适合直接安装测试；正式发布时使用 `--release --apk` 或
 
 - 访问 `/portal` 可打开橐龠品牌门户；顶部品牌标志也可随时返回门户
 - 门户采用 Editorial Atelier 方向：真实品牌 Logo、朱砂宣纸、金色细线与书法展示字体；正文和操作文字保持高可读性
-- 门户提供在线编辑器入口、模板中心入口，以及桌面端 / Android 下载页入口（指向 GitHub Releases）
+- 门户提供在线编辑器入口、模板中心入口，以及桌面端 / Android 下载入口；桌面端按钮会按蓝奏云分享的当前文件动态生成带时间签名的直链，点击即可直接下载便携版
+- 蓝奏云分享使用短期签名，若重新上传或更换分享文件，需要同步更新 `src/main.jsx` 中的 `LANZOU_SHARE_ID` 与 `LANZOU_FILE_ID`
 - Tauri 桌面端与 Android 端已统一使用品牌 Logo 图标；重新生成图标可执行 `npx tauri icon public/brand-logo.png -o src-tauri/icons`
 
 ## 已实现
