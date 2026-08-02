@@ -46,6 +46,12 @@ npx tauri android build --debug --apk --target aarch64 --ci
 
 Debug APK 适合直接安装测试；正式发布时使用 `--release --apk` 或 `--aab` 并配置签名。Windows 构建目录建议使用纯 ASCII 路径，避免 Android Gradle 和 NDK 链接器对中文路径的兼容问题。
 
+## 品牌门户
+
+- 访问 `/portal` 可打开橐龠品牌门户；顶部品牌标志也可随时返回门户
+- 门户采用 Editorial Atelier 方向：真实品牌 Logo、朱砂宣纸、金色细线与书法展示字体；正文和操作文字保持高可读性
+- 门户提供在线编辑器入口、模板中心入口，以及桌面端 / Android 下载页入口（指向 GitHub Releases）
+
 ## 已实现
 
 - 顶部提供“海报编辑 / 模板中心 / 我的项目”三个页面入口

@@ -7,6 +7,7 @@ import {
   AlignCenter,
   AlignLeft,
   AlignRight,
+  ArrowUpRight,
   Box,
   ChevronDown,
   ChevronLeft,
@@ -17,6 +18,7 @@ import {
   Eye,
   EyeOff,
   FileText,
+  Globe2,
   ImagePlus,
   Layers3,
   LayoutGrid,
@@ -30,6 +32,7 @@ import {
   Redo2,
   RotateCcw,
   Save,
+  Smartphone,
   Settings2,
   Sparkles,
   Pencil,
@@ -40,6 +43,7 @@ import {
   Undo2,
   Upload,
   Users,
+  Monitor,
 } from 'lucide-react'
 import './styles.css'
 
@@ -684,10 +688,43 @@ function StructureComponentNode({ component, index, containerId, selection, onSe
   </div>
 }
 
+function BrandPortal({ onStart, onTemplates, onProjects }) {
+  return <main className="brand-portal">
+    <div className="portal-grain" aria-hidden="true" />
+    <section className="portal-hero">
+      <div className="portal-hero-copy">
+        <div className="portal-kicker"><span className="portal-kicker-mark" />STRUCTURED POSTER ATELIER<span className="portal-kicker-line" /></div>
+        <h1>把一场会议，<br /><em>排成一幅作品。</em></h1>
+        <p className="portal-lede">橐龠海报工坊把复杂的会议内容拆成可复用组件，让标题、人物与信息在每一次编辑中都保持秩序与气韵。</p>
+        <div className="portal-hero-actions"><button className="portal-primary-cta" onClick={onStart}>开始创作 <ArrowUpRight size={17} /></button><button className="portal-text-cta" onClick={onTemplates}>浏览版式 <span>01</span></button></div>
+        <div className="portal-proof"><div><strong>01</strong><span>组件化排版</span></div><i /><div><strong>03</strong><span>端上自由创作</span></div><i /><div><strong>∞</strong><span>风格可沉淀</span></div></div>
+      </div>
+      <div className="portal-hero-art">
+        <div className="portal-orbit orbit-one" /><div className="portal-orbit orbit-two" />
+        <div className="portal-seal"><img src="/brand-logo.png" alt="橐龠品牌标志" /><span>橐龠<br />海报工坊</span></div>
+        <div className="portal-poster-card"><div className="portal-poster-meta">YI QI · 2026</div><div className="portal-poster-title">良知班委夜话</div><div className="portal-poster-rule" /><div className="portal-poster-subtitle">让每一次相遇，都值得被记录</div><div className="portal-poster-grid">{Array.from({ length: 9 }).map((_, index) => <i key={index} style={{ '--delay': `${index * 80}ms` }} />)}</div><div className="portal-poster-footer">STRUCTURED BY TUOYUE</div></div>
+        <div className="portal-art-caption"><span>EDITORIAL<br />ATELIER</span><i /><b>卷首 · 01</b></div>
+      </div>
+    </section>
+
+    <section className="portal-platforms" id="download">
+      <div className="portal-section-intro"><span>ONE SYSTEM · THREE DOORS</span><h2>在适合你的地方，<em>继续创作。</em></h2><p>同一套组件与排版逻辑，覆盖浏览器、桌面端与 Android。先在线试用，喜欢再带走。</p></div>
+      <div className="platform-grid">
+        <button className="platform-card platform-card-main" onClick={onStart}><span className="platform-index">01 / WEB</span><Globe2 size={21} /><h3>在线工作台</h3><p>无需安装，打开即用。适合快速起稿、协作与导出。</p><strong>进入编辑器 <ArrowUpRight size={15} /></strong></button>
+        <a className="platform-card" href="https://github.com/zhlf2008/tuoyue-poster-studio/releases" target="_blank" rel="noreferrer"><span className="platform-index">02 / DESKTOP</span><Monitor size={21} /><h3>桌面端</h3><p>更大的画布、更稳定的本地导出，适合长期制作。</p><strong>前往下载页 <ArrowUpRight size={15} /></strong></a>
+        <a className="platform-card" href="https://github.com/zhlf2008/tuoyue-poster-studio/releases" target="_blank" rel="noreferrer"><span className="platform-index">03 / ANDROID</span><Smartphone size={21} /><h3>Android</h3><p>把工作台装进手机，在现场也能快速整理与发布。</p><strong>前往下载页 <ArrowUpRight size={15} /></strong></a>
+      </div>
+    </section>
+
+    <section className="portal-manifesto"><div className="manifesto-mark">「</div><div><span>OUR METHOD</span><p>先把内容理顺，<br /><em>再让美感自然发生。</em></p></div><div className="manifesto-note">从会议信息到参会照片，每个模块都有自己的位置。<br />不靠散落图层，靠清晰的结构持续生长。</div></section>
+    <footer className="portal-footer"><div className="portal-footer-brand"><img src="/brand-logo.png" alt="橐龠品牌标志" /><span><strong>橐龠</strong><small>海报工坊</small></span></div><nav><button onClick={onStart}>在线编辑</button><button onClick={onTemplates}>模板中心</button><button onClick={onProjects}>我的项目</button></nav><span>© 2026 TUOYUE POSTER STUDIO</span></footer>
+  </main>
+}
+
 function App() {
   const initial = useMemo(() => createInitialPoster(), [])
   const [poster, setPoster] = useState(initial)
-  const [appView, setAppView] = useState('editor')
+  const [appView, setAppView] = useState(() => window.location.pathname === '/portal' ? 'portal' : 'editor')
   const [mobilePanel, setMobilePanel] = useState(null)
   const [savedProjects, setSavedProjects] = useState(() => readSavedProjects())
   const [customTemplates, setCustomTemplates] = useState(() => readCustomTemplates())
@@ -1507,18 +1544,18 @@ function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <div className="brand"><div className="brand-mark"><Box size={18} /></div><div><strong>橐龠</strong><span>海报工坊</span></div></div>
-        <nav className="page-nav"><button className={appView === 'editor' ? 'active' : ''} onClick={() => setAppView('editor')}>海报编辑</button><button className={appView === 'templates' ? 'active' : ''} onClick={() => setAppView('templates')}>模板中心</button><button className={appView === 'projects' ? 'active' : ''} onClick={() => setAppView('projects')}>我的项目{savedProjects.length > 0 && <span>{savedProjects.length}</span>}</button></nav>
+        <button className="brand" onClick={() => setAppView('portal')} aria-label="返回品牌首页"><div className="brand-mark"><img src="/brand-logo.png" alt="" /></div><div><strong>橐龠</strong><span>海报工坊</span></div></button>
+        <nav className="page-nav"><button className={appView === 'portal' ? 'active' : ''} onClick={() => setAppView('portal')}>品牌首页</button><button className={appView === 'editor' ? 'active' : ''} onClick={() => setAppView('editor')}>海报编辑</button><button className={appView === 'templates' ? 'active' : ''} onClick={() => setAppView('templates')}>模板中心</button><button className={appView === 'projects' ? 'active' : ''} onClick={() => setAppView('projects')}>我的项目{savedProjects.length > 0 && <span>{savedProjects.length}</span>}</button></nav>
         {appView === 'editor' ? <div className="top-actions">
           <div className="history-actions"><IconButton label="撤销" disabled={!historyUi.canUndo} onClick={() => travelHistory(-1)}><Undo2 size={17} /></IconButton><IconButton label="重做" disabled={!historyUi.canRedo} onClick={() => travelHistory(1)}><Redo2 size={17} /></IconButton></div>
           <span className="save-state">{savedAt ? `已保存 ${savedAt}` : '结构自动排版中'}</span>
           <button className="template-save-button" onClick={openTemplateDialog}><LayoutTemplate size={15} /><span>存为模板</span></button>
           <div className="save-actions"><button className="button ghost" onClick={saveProject}><Save size={16} />保存</button><button className="save-as-button" onClick={openSaveAs}>另存为</button></div>
           <div className="export-control"><select value={exportScale} onChange={(event) => setExportScale(Number(event.target.value))}><option value="2">高清 2×</option><option value="3">超清 3×</option><option value="4">印刷 4×</option></select><button className="button primary" onClick={exportPoster} disabled={exporting}><Download size={16} />{exporting ? '生成中…' : '导出 PNG'}</button></div>
-        </div> : <div className="library-state"><Sparkles size={15} />{appView === 'templates' ? `${TEMPLATE_PRESETS.length + customTemplates.length} 个可用模板` : `${savedProjects.length} 个浏览器本地项目`}</div>}
+        </div> : <div className="library-state"><Sparkles size={15} />{appView === 'portal' ? '品牌门户' : appView === 'templates' ? `${TEMPLATE_PRESETS.length + customTemplates.length} 个可用模板` : `${savedProjects.length} 个浏览器本地项目`}</div>}
       </header>
 
-      {appView === 'editor' ? <main className="workspace">
+      {appView === 'portal' ? <BrandPortal onStart={() => setAppView('editor')} onTemplates={() => setAppView('templates')} onProjects={() => setAppView('projects')} /> : appView === 'editor' ? <main className="workspace">
         <aside className={`left-panel panel-surface ${mobilePanel === 'tools' ? 'mobile-open' : ''}`}>
           <button className="mobile-panel-close" aria-label="关闭编辑工具" onClick={() => setMobilePanel(null)}><X size={17} /></button>
           <nav className="tool-tabs"><button className={activeTab === 'structure' ? 'active' : ''} onClick={() => setActiveTab('structure')}><Layers3 size={18} />结构</button><button className={activeTab === 'layout' ? 'active' : ''} onClick={() => setActiveTab('layout')}><PanelTop size={18} />布局</button><button className={activeTab === 'components' ? 'active' : ''} onClick={() => setActiveTab('components')}><LayoutGrid size={18} />组件</button><button className={activeTab === 'theme' ? 'active' : ''} onClick={() => setActiveTab('theme')}><Palette size={18} />背景</button></nav>
