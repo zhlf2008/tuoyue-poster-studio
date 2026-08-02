@@ -17,6 +17,22 @@ npm run dev
 npm run build
 ```
 
+## Tauri 2 桌面版
+
+项目已经接入 Tauri 2，可直接复用现有 React/Vite 编辑器运行 Windows 桌面版：
+
+```powershell
+npm run tauri dev
+```
+
+生成 Windows MSI 与 NSIS 安装包：
+
+```powershell
+npx tauri build --no-sign
+```
+
+安装包会输出到 `src-tauri/target/release/bundle/`。后续接入系统文件保存、原生文件选择器和移动端能力时，可通过 `@tauri-apps/api` 与 Tauri 插件扩展。
+
 ## 已实现
 
 - 顶部提供“海报编辑 / 模板中心 / 我的项目”三个页面入口
