@@ -8,6 +8,17 @@
   "permissions": [
     "core:default",
     "dialog:default",
-    "fs:default"
+    {
+      "identifier": "fs:allow-write-file",
+      "allow": [
+        { "path": "$HOME/**" },
+        { "path": "$DESKTOP/**" },
+        { "path": "$DOCUMENT/**" },
+        { "path": "$DOWNLOAD/**" },
+        { "path": "$PICTURE/**" },
+        { "path": "$PUBLIC/**" },
+        { "path": "$TEMP/**" }
+      ]
+    }
   ]
 }
