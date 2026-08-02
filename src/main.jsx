@@ -1,6 +1,8 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { toBlob } from 'html-to-image'
+import { save as chooseSavePath } from '@tauri-apps/plugin-dialog'
+import { writeFile } from '@tauri-apps/plugin-fs'
 import {
   AlignCenter,
   AlignLeft,
@@ -686,6 +688,7 @@ function App() {
   const initial = useMemo(() => createInitialPoster(), [])
   const [poster, setPoster] = useState(initial)
   const [appView, setAppView] = useState('editor')
+  const [mobilePanel, setMobilePanel] = useState(null)
   const [savedProjects, setSavedProjects] = useState(() => readSavedProjects())
   const [customTemplates, setCustomTemplates] = useState(() => readCustomTemplates())
   const [renamingProjectId, setRenamingProjectId] = useState(null)
@@ -1320,17 +1323,47 @@ function App() {
     try {
       const blob = await toBlob(posterRef.current, { pixelRatio: exportScale, cacheBust: true, backgroundColor: activeBackground.base })
       if (!blob) throw new Error('无法生成图片')
-      const url = URL.createObjectURL(blob)
-      const link = document.createElement('a')
-      link.href = url
-      link.download = `会议海报-${new Date().toISOString().slice(0, 10)}.png`
-      document.body.appendChild(link)
-      link.click()
-      link.remove()
-      window.setTimeout(() => URL.revokeObjectURL(url), 1000)
+      const fileName = `会议海报-${new Date().toISOString().slice(0, 10)}.png`
+      const isTauriDesktop = Boolean(window.__TAURI_INTERNALS__) && !/Android/i.test(navigator.userAgent)
+      if (isTauriDesktop) {
+        const path = await chooseSavePath({
+          title: '保存会议海报',
+          defaultPath: fileName,
+          filters: [{ name: 'PNG 图片', extensions: ['png'] }],
+        })
+        if (!path) {
+          notify('已取消导出')
+          return
+        }
+        await writeFile(path, new Uint8Array(await blob.arrayBuffer()))
+        notify(`海报已保存到 ${path}`)
+      } else if ('showSaveFilePicker' in window) {
+        const handle = await window.showSaveFilePicker({
+          suggestedName: fileName,
+          types: [{ description: 'PNG 图片', accept: { 'image/png': ['.png'] } }],
+        })
+        const writable = await handle.createWritable()
+        await writable.write(blob)
+        await writable.close()
+        notify('海报已保存到你选择的位置')
+      } else {
+        const url = URL.createObjectURL(blob)
+        const link = document.createElement('a')
+        link.href = url
+        link.download = fileName
+        document.body.appendChild(link)
+        link.click()
+        link.remove()
+        window.setTimeout(() => URL.revokeObjectURL(url), 1000)
+        notify('海报已导出到浏览器下载目录')
+      }
       const currentHeight = Math.ceil(posterRef.current.offsetHeight)
-      notify(`已导出 ${posterWidth * exportScale}×${currentHeight * exportScale} PNG`)
+      if (isTauriDesktop || 'showSaveFilePicker' in window) notify(`已导出 ${posterWidth * exportScale}×${currentHeight * exportScale} PNG`)
     } catch (error) {
+      if (error?.name === 'AbortError') {
+        notify('已取消导出')
+        return
+      }
       console.error(error)
       notify('导出失败，请降低清晰度重试')
     } finally { setExporting(false) }
@@ -1486,7 +1519,8 @@ function App() {
       </header>
 
       {appView === 'editor' ? <main className="workspace">
-        <aside className="left-panel panel-surface">
+        <aside className={`left-panel panel-surface ${mobilePanel === 'tools' ? 'mobile-open' : ''}`}>
+          <button className="mobile-panel-close" aria-label="关闭编辑工具" onClick={() => setMobilePanel(null)}><X size={17} /></button>
           <nav className="tool-tabs"><button className={activeTab === 'structure' ? 'active' : ''} onClick={() => setActiveTab('structure')}><Layers3 size={18} />结构</button><button className={activeTab === 'layout' ? 'active' : ''} onClick={() => setActiveTab('layout')}><PanelTop size={18} />布局</button><button className={activeTab === 'components' ? 'active' : ''} onClick={() => setActiveTab('components')}><LayoutGrid size={18} />组件</button><button className={activeTab === 'theme' ? 'active' : ''} onClick={() => setActiveTab('theme')}><Palette size={18} />背景</button></nav>
           <div className="left-content">
             {activeTab === 'structure' && <>
@@ -1525,7 +1559,7 @@ function App() {
         </aside>
 
         <section className="canvas-area" ref={viewportRef}>
-              <div className="canvas-toolbar"><div><b>{poster.name}</b><span>{posterWidth} × {posterHeight}px · 宽高自适应</span></div><div className="canvas-mode"><Box size={13} />固定栏宽 · 16:9 图片</div><div className="zoom-control"><button aria-label="缩小画布" title="缩小画布" onClick={() => setZoom((value) => Math.max(.2, value - .08))}>−</button><span>{Math.round(zoom * 100)}%</span><button aria-label="放大画布" title="最大 200%" onClick={() => setZoom((value) => Math.min(2, value + .08))}>＋</button></div></div>
+              <div className="canvas-toolbar"><div><b>{poster.name}</b><span>{posterWidth} × {posterHeight}px · 宽高自适应</span></div><div className="canvas-mode"><Box size={13} />固定栏宽 · 16:9 图片</div><div className="mobile-canvas-actions"><button aria-label="打开编辑工具" onClick={() => setMobilePanel('tools')}><Layers3 size={15} /><span>工具</span></button><button aria-label="打开属性设置" onClick={() => setMobilePanel('properties')}><Settings2 size={15} /><span>属性</span></button></div><div className="zoom-control"><button aria-label="缩小画布" title="缩小画布" onClick={() => setZoom((value) => Math.max(.2, value - .08))}>−</button><span>{Math.round(zoom * 100)}%</span><button aria-label="放大画布" title="最大 200%" onClick={() => setZoom((value) => Math.min(2, value + .08))}>＋</button></div></div>
           <div className="stage-scroll">
             <div className="stage-size" style={{ width: posterWidth * zoom, height: posterHeight * zoom }}>
               <div className="poster-transform" style={{ width: posterWidth, height: posterHeight, transform: `scale(${zoom})` }}>
@@ -1546,7 +1580,8 @@ function App() {
           {toast && <div className="toast"><span>✓</span>{toast}</div>}
         </section>
 
-        <aside className="right-panel panel-surface">
+        <aside className={`right-panel panel-surface ${mobilePanel === 'properties' ? 'mobile-open' : ''}`}>
+          <button className="mobile-panel-close" aria-label="关闭属性设置" onClick={() => setMobilePanel(null)}><X size={17} /></button>
           <div className="properties-head">
             {selection && selection.kind !== 'container' && <button className="property-back" aria-label={`返回${propertyBackLabel}`} title={`返回${propertyBackLabel}`} onClick={goBackProperty}><ChevronLeft size={17} /></button>}
             <div className="properties-title"><b>{propertyTitle}</b><span>{propertySub}</span></div>
@@ -1570,6 +1605,7 @@ function App() {
           </div>
         </article> })}</section> : <section className="empty-projects"><Save size={28} /><h2>还没有保存的项目</h2><p>返回海报编辑器，点击右上角“保存”，作品就会出现在这里。</p><button onClick={() => setAppView('editor')}>返回编辑器</button></section>}
       </main>}
+      {mobilePanel && <button className="mobile-panel-backdrop" aria-label="关闭面板" onClick={() => setMobilePanel(null)} />}
       <input ref={fileInputRef} hidden type="file" accept="image/png,image/jpeg,image/webp" onChange={(event) => { handleImages(event.target.files); event.target.value = ''; event.target.multiple = false }} />
       {saveAsOpen && <div className="dialog-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setSaveAsOpen(false) }}><section className="asset-dialog" role="dialog" aria-modal="true" aria-labelledby="save-as-title"><button className="dialog-close" aria-label="关闭另存为" onClick={() => setSaveAsOpen(false)}><X size={17} /></button><span>CREATE A VERSION</span><h2 id="save-as-title">另存为新项目</h2><p>新项目会成为当前编辑版本，原项目保持不变。</p><Field label="新项目名称"><input autoFocus value={saveAsName} onChange={(event) => setSaveAsName(event.target.value)} onKeyDown={(event) => event.key === 'Enter' && saveProjectAs()} /></Field><div className="dialog-actions"><button onClick={() => setSaveAsOpen(false)}>取消</button><button className="primary-dialog-action" onClick={saveProjectAs}><Copy size={14} />创建新项目</button></div></section></div>}
       {templateDialogOpen && <div className="dialog-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setTemplateDialogOpen(false) }}><section className="asset-dialog template-dialog" role="dialog" aria-modal="true" aria-labelledby="template-dialog-title"><button className="dialog-close" aria-label="关闭创建模板" onClick={() => setTemplateDialogOpen(false)}><X size={17} /></button><div className="dialog-template-preview"><PosterMiniPreview poster={poster} compact /></div><div className="dialog-template-form"><span>BUILD A RECIPE</span><h2 id="template-dialog-title">创建个人模板</h2><p>保存当前布局、组件和风格。以后使用时会自动创建独立项目，不影响模板本身。</p><Field label="模板名称"><input autoFocus value={templateDraft.name} onChange={(event) => setTemplateDraft((current) => ({ ...current, name: event.target.value }))} /></Field><Field label="模板说明"><textarea rows="3" value={templateDraft.description} onChange={(event) => setTemplateDraft((current) => ({ ...current, description: event.target.value }))} /></Field><div className="dialog-actions"><button onClick={() => setTemplateDialogOpen(false)}>取消</button><button className="primary-dialog-action" onClick={createCustomTemplate}><LayoutTemplate size={14} />保存到模板中心</button></div></div></section></div>}
