@@ -114,6 +114,13 @@ button, select { cursor: pointer; }
 .platform-card h3 { margin: 19px 0 8px; color: currentColor; font-family: STKaiti, KaiTi, serif; font-size: 25px; font-weight: 500; }
 .platform-card p { min-height: 44px; margin: 0; color: currentColor; opacity: .72; font-size: 10px; line-height: 1.75; }
 .platform-card strong { margin-top: auto; display: inline-flex; align-items: center; gap: 8px; font-size: 9px; letter-spacing: .4px; }
+.platform-card-android { position: relative; }
+.platform-card-footer { width: 100%; margin-top: auto; display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; }
+.platform-card-footer strong { margin-top: 0; }
+.platform-qr { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 5px; color: currentColor; font-size: 8px; letter-spacing: .4px; }
+.platform-qr-frame { width: 74px; height: 74px; padding: 5px; display: grid; place-items: center; background: #fff9ed; border: 1px solid rgba(117,72,42,.28); box-shadow: 0 5px 14px rgba(90,42,23,.12); }
+.platform-qr-frame img { width: 100%; height: 100%; display: block; image-rendering: pixelated; }
+.platform-qr-frame span { color: #a34d28; font-size: 8px; }
 .portal-manifesto { padding: 90px clamp(30px, 13vw, 210px); display: grid; grid-template-columns: 80px minmax(260px, 1fr) minmax(260px, .8fr); gap: 24px; align-items: start; background: #492119; color: #f2d9b1; }
 .manifesto-mark { color: #c98547; font-family: Georgia, serif; font-size: 76px; line-height: .7; }
 .portal-manifesto p { margin: 16px 0 0; font-family: STXingkai, FZKai-Z03, STKaiti, KaiTi, serif; font-size: 42px; line-height: 1.25; }

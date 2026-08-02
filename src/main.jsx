@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { toBlob } from 'html-to-image'
-import CryptoJS from 'crypto-js'
+import QRCode from 'qrcode'
 import { save as chooseSavePath } from '@tauri-apps/plugin-dialog'
 import { writeFile } from '@tauri-apps/plugin-fs'
 import {
@@ -54,20 +54,8 @@ const PROJECTS_KEY = 'meeting-poster-projects-v1'
 const CUSTOM_TEMPLATES_KEY = 'meeting-poster-custom-templates-v1'
 const uid = () => Math.random().toString(36).slice(2, 9)
 const PARTICIPANT_GRID = { width: 348, gap: 3, targetHeight: 1000, maxColumns: 120 }
-const LANZOU_SHARE_ID = 'FIkl6vqm'
-const LANZOU_FILE_ID = '37712269106'
-const LANZOU_AES_KEY = 'lanZouY-disk-app'
-
-function createLanzouDownloadUrl() {
-  const uuid = localStorage.getItem('uuid') || (crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`)
-  localStorage.setItem('uuid', uuid)
-  const encryptHex = (value) => CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(String(value)), CryptoJS.enc.Utf8.parse(LANZOU_AES_KEY), { mode: CryptoJS.mode.ECB, padding: CryptoJS.pad.Pkcs7 }).ciphertext.toString(CryptoJS.enc.Hex).toUpperCase()
-  const now = Date.now()
-  const downloadId = encryptHex(`${LANZOU_FILE_ID}|`)
-  const timestamp = encryptHex(now)
-  const auth = encryptHex(`${LANZOU_FILE_ID}|${now}`)
-  return `https://apis.ilanzou.com/unproved/file/redirect?downloadId=${downloadId}&enable=1&devType=6&uuid=${encodeURIComponent(uuid)}&timestamp=${timestamp}&auth=${auth}&shareId=${LANZOU_SHARE_ID}`
-}
+const DESKTOP_DOWNLOAD_PAGE = 'https://www.ilanzou.com/s/KIIl6Er3'
+const ANDROID_DOWNLOAD_PAGE = 'https://www.ilanzou.com/s/jqTl6EOJ'
 
 function getParticipantColumns(count, gap = PARTICIPANT_GRID.gap, gridWidth = PARTICIPANT_GRID.width, targetHeight = PARTICIPANT_GRID.targetHeight) {
   const total = Math.max(1, Number(count) || 1)
@@ -703,7 +691,24 @@ function StructureComponentNode({ component, index, containerId, selection, onSe
   </div>
 }
 
-function BrandPortal({ onStart, onTemplates, onProjects, onDesktopDownload }) {
+function DownloadQrCode({ value }) {
+  const [source, setSource] = useState('')
+
+  useEffect(() => {
+    let active = true
+    QRCode.toDataURL(value, { width: 180, margin: 1, color: { dark: '#45251b', light: '#fff9ed' } })
+      .then((url) => { if (active) setSource(url) })
+      .catch(() => { if (active) setSource('') })
+    return () => { active = false }
+  }, [value])
+
+  return <div className="platform-qr" aria-label="扫码打开下载页">
+    <div className="platform-qr-frame">{source ? <img src={source} alt="安卓下载二维码" /> : <span>二维码</span>}</div>
+    <span>扫码下载</span>
+  </div>
+}
+
+function BrandPortal({ onStart, onTemplates, onProjects }) {
   return <main className="brand-portal">
     <div className="portal-grain" aria-hidden="true" />
     <section className="portal-hero">
@@ -726,8 +731,8 @@ function BrandPortal({ onStart, onTemplates, onProjects, onDesktopDownload }) {
       <div className="portal-section-intro"><span>ONE SYSTEM · THREE DOORS</span><h2>在适合你的地方，<em>继续创作。</em></h2><p>同一套组件与排版逻辑，覆盖浏览器、桌面端与 Android。先在线试用，喜欢再带走。</p></div>
       <div className="platform-grid">
         <button className="platform-card platform-card-main" onClick={onStart}><span className="platform-index">01 / WEB</span><Globe2 size={21} /><h3>在线工作台</h3><p>无需安装，打开即用。适合快速起稿、协作与导出。</p><strong>进入编辑器 <ArrowUpRight size={15} /></strong></button>
-        <button className="platform-card" type="button" onClick={onDesktopDownload}><span className="platform-index">02 / DESKTOP</span><Monitor size={21} /><h3>桌面端</h3><p>单文件免安装，下载后即可放入任意文件夹运行。</p><strong>直接下载便携版 <ArrowUpRight size={15} /></strong></button>
-        <a className="platform-card" href="https://github.com/zhlf2008/tuoyue-poster-studio/releases" target="_blank" rel="noreferrer"><span className="platform-index">03 / ANDROID</span><Smartphone size={21} /><h3>Android</h3><p>把工作台装进手机，在现场也能快速整理与发布。</p><strong>前往下载页 <ArrowUpRight size={15} /></strong></a>
+        <a className="platform-card" href={DESKTOP_DOWNLOAD_PAGE} target="_blank" rel="noreferrer"><span className="platform-index">02 / DESKTOP</span><Monitor size={21} /><h3>桌面端</h3><p>单文件免安装，前往蓝奏云下载页获取最新便携版。</p><strong>打开下载页 <ArrowUpRight size={15} /></strong></a>
+        <a className="platform-card platform-card-android" href={ANDROID_DOWNLOAD_PAGE} target="_blank" rel="noreferrer"><span className="platform-index">03 / ANDROID</span><Smartphone size={21} /><h3>Android</h3><p>点击卡片打开蓝奏云下载页，也可以使用右侧二维码扫码下载。</p><div className="platform-card-footer"><strong>打开下载页 <ArrowUpRight size={15} /></strong><DownloadQrCode value={ANDROID_DOWNLOAD_PAGE} /></div></a>
       </div>
     </section>
 
@@ -1570,7 +1575,7 @@ function App() {
         </div> : <div className="library-state"><Sparkles size={15} />{appView === 'portal' ? '品牌门户' : appView === 'templates' ? `${TEMPLATE_PRESETS.length + customTemplates.length} 个可用模板` : `${savedProjects.length} 个浏览器本地项目`}</div>}
       </header>
 
-      {appView === 'portal' ? <BrandPortal onStart={() => setAppView('editor')} onTemplates={() => setAppView('templates')} onProjects={() => setAppView('projects')} onDesktopDownload={() => { window.open(createLanzouDownloadUrl(), '_blank', 'noopener,noreferrer') }} /> : appView === 'editor' ? <main className="workspace">
+      {appView === 'portal' ? <BrandPortal onStart={() => setAppView('editor')} onTemplates={() => setAppView('templates')} onProjects={() => setAppView('projects')} /> : appView === 'editor' ? <main className="workspace">
         <aside className={`left-panel panel-surface ${mobilePanel === 'tools' ? 'mobile-open' : ''}`}>
           <button className="mobile-panel-close" aria-label="关闭编辑工具" onClick={() => setMobilePanel(null)}><X size={17} /></button>
           <nav className="tool-tabs"><button className={activeTab === 'structure' ? 'active' : ''} onClick={() => setActiveTab('structure')}><Layers3 size={18} />结构</button><button className={activeTab === 'layout' ? 'active' : ''} onClick={() => setActiveTab('layout')}><PanelTop size={18} />布局</button><button className={activeTab === 'components' ? 'active' : ''} onClick={() => setActiveTab('components')}><LayoutGrid size={18} />组件</button><button className={activeTab === 'theme' ? 'active' : ''} onClick={() => setActiveTab('theme')}><Palette size={18} />背景</button></nav>
