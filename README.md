@@ -33,6 +33,17 @@ npx tauri build --no-sign
 
 安装包会输出到 `src-tauri/target/release/bundle/`。后续接入系统文件保存、原生文件选择器和移动端能力时，可通过 `@tauri-apps/api` 与 Tauri 插件扩展。
 
+## Tauri 2 Android 版
+
+Android 工程已生成在 `src-tauri/gen/android/`。准备好 JDK 17、Android SDK/NDK 和 Rust Android target 后，可执行：
+
+```powershell
+npx tauri android init --ci --skip-targets-install
+npx tauri android build --debug --apk --target aarch64 --ci
+```
+
+Debug APK 适合直接安装测试；正式发布时使用 `--release --apk` 或 `--aab` 并配置签名。Windows 构建目录建议使用纯 ASCII 路径，避免 Android Gradle 和 NDK 链接器对中文路径的兼容问题。
+
 ## 已实现
 
 - 顶部提供“海报编辑 / 模板中心 / 我的项目”三个页面入口
