@@ -33,6 +33,14 @@ npx tauri build --no-sign
 
 安装包会输出到 `src-tauri/target/release/bundle/`。后续接入系统文件保存、原生文件选择器和移动端能力时，可通过 `@tauri-apps/api` 与 Tauri 插件扩展。
 
+生成 Windows 单文件免安装便携版：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\build-portable.ps1
+```
+
+文件会输出到 `artifacts/desktop/tuoyue-poster-studio-portable.exe`。便携版不写入安装目录，适合放在 U 盘或任意文件夹直接运行；首次运行仍需要系统具备 WebView2 Runtime。
+
 桌面端点击“导出 PNG”会打开原生保存对话框，可自行选择文件名和保存位置；网页端优先使用系统文件保存选择器，无法使用时才回退到浏览器下载目录。
 
 ## Tauri 2 Android 版
@@ -51,6 +59,7 @@ Debug APK 适合直接安装测试；正式发布时使用 `--release --apk` 或
 - 访问 `/portal` 可打开橐龠品牌门户；顶部品牌标志也可随时返回门户
 - 门户采用 Editorial Atelier 方向：真实品牌 Logo、朱砂宣纸、金色细线与书法展示字体；正文和操作文字保持高可读性
 - 门户提供在线编辑器入口、模板中心入口，以及桌面端 / Android 下载页入口（指向 GitHub Releases）
+- Tauri 桌面端与 Android 端已统一使用品牌 Logo 图标；重新生成图标可执行 `npx tauri icon public/brand-logo.png -o src-tauri/icons`
 
 ## 已实现
 
