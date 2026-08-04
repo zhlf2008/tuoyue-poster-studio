@@ -5,6 +5,14 @@ import QRCode from 'qrcode'
 import { save as chooseSavePath } from '@tauri-apps/plugin-dialog'
 import { writeFile } from '@tauri-apps/plugin-fs'
 import {
+  createNewPublicImageFile,
+  PublicImageDir,
+  removeFile as removeAndroidFile,
+  scanPublicFile,
+  setPublicFilePending,
+  writeFile as writeAndroidFile,
+} from 'tauri-plugin-android-fs-api'
+import {
   AlignCenter,
   AlignLeft,
   AlignRight,
@@ -1382,7 +1390,27 @@ function App() {
       if (!blob) throw new Error('无法生成图片')
       const fileName = `会议海报-${new Date().toISOString().slice(0, 10)}.png`
       const isTauriDesktop = Boolean(window.__TAURI_INTERNALS__) && !/Android/i.test(navigator.userAgent)
-      if (isTauriDesktop) {
+      const isTauriAndroid = Boolean(window.__TAURI_INTERNALS__) && /Android/i.test(navigator.userAgent)
+      if (isTauriAndroid) {
+        let publicUri
+        try {
+          // MediaStore-backed public storage keeps the PNG visible in Gallery/Photos,
+          // instead of the app-private Android/data directory used by BaseDirectory.Picture.
+          publicUri = await createNewPublicImageFile(
+            PublicImageDir.Pictures,
+            `橐龠海报工坊/${fileName}`,
+            'image/png',
+            { isPending: true },
+          )
+          await writeAndroidFile(publicUri, new Uint8Array(await blob.arrayBuffer()))
+          await setPublicFilePending(publicUri, false)
+          await scanPublicFile(publicUri).catch(() => {})
+          notify('海报已保存到系统相册：图片 / Pictures / 橐龠海报工坊')
+        } catch (error) {
+          if (publicUri) await removeAndroidFile(publicUri).catch(() => {})
+          throw error
+        }
+      } else if (isTauriDesktop) {
         const path = await chooseSavePath({
           title: '保存会议海报',
           defaultPath: fileName,
@@ -1415,7 +1443,7 @@ function App() {
         notify('海报已导出到浏览器下载目录')
       }
       const currentHeight = Math.ceil(posterRef.current.offsetHeight)
-      if (isTauriDesktop || 'showSaveFilePicker' in window) notify(`已导出 ${posterWidth * exportScale}×${currentHeight * exportScale} PNG`)
+      if (isTauriAndroid || isTauriDesktop || 'showSaveFilePicker' in window) notify(`已导出 ${posterWidth * exportScale}×${currentHeight * exportScale} PNG`)
     } catch (error) {
       if (error?.name === 'AbortError') {
         notify('已取消导出')

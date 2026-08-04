@@ -3,6 +3,9 @@ pub fn run() {
   tauri::Builder::default()
     .plugin(tauri_plugin_dialog::init())
     .plugin(tauri_plugin_fs::init())
+    // Android public-storage support: exported posters are written through
+    // MediaStore so they are visible in the device's Gallery/Photos apps.
+    .plugin(tauri_plugin_android_fs::init())
     .setup(|app| {
       if cfg!(debug_assertions) {
         app.handle().plugin(
