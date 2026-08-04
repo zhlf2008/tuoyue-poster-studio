@@ -1391,6 +1391,7 @@ function App() {
       const fileName = `会议海报-${new Date().toISOString().slice(0, 10)}.png`
       const isTauriDesktop = Boolean(window.__TAURI_INTERNALS__) && !/Android/i.test(navigator.userAgent)
       const isTauriAndroid = Boolean(window.__TAURI_INTERNALS__) && /Android/i.test(navigator.userAgent)
+      const isMobileWeb = !window.__TAURI_INTERNALS__ && /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
       if (isTauriAndroid) {
         let publicUri
         try {
@@ -1422,6 +1423,27 @@ function App() {
         }
         await writeFile(path, new Uint8Array(await blob.arrayBuffer()))
         notify(`海报已保存到 ${path}`)
+      } else if (isMobileWeb && typeof navigator.share === 'function') {
+        const file = new File([blob], fileName, { type: 'image/png' })
+        const canShareFile = typeof navigator.canShare !== 'function' || navigator.canShare({ files: [file] })
+        if (canShareFile) {
+          await navigator.share({
+            files: [file],
+            title: '会议海报',
+            text: '来自橐龠海报工坊的会议海报',
+          })
+          notify('已打开系统分享面板，请选择“保存到相册”')
+        } else {
+          const url = URL.createObjectURL(blob)
+          const link = document.createElement('a')
+          link.href = url
+          link.download = fileName
+          document.body.appendChild(link)
+          link.click()
+          link.remove()
+          window.setTimeout(() => URL.revokeObjectURL(url), 1000)
+          notify('海报已下载，请在浏览器“下载内容”中打开并保存到相册')
+        }
       } else if ('showSaveFilePicker' in window) {
         const handle = await window.showSaveFilePicker({
           suggestedName: fileName,
@@ -1440,7 +1462,7 @@ function App() {
         link.click()
         link.remove()
         window.setTimeout(() => URL.revokeObjectURL(url), 1000)
-        notify('海报已导出到浏览器下载目录')
+        notify(isMobileWeb ? '海报已下载，请在浏览器“下载内容”中打开并保存到相册' : '海报已导出到浏览器下载目录')
       }
       const currentHeight = Math.ceil(posterRef.current.offsetHeight)
       if (isTauriAndroid || isTauriDesktop || 'showSaveFilePicker' in window) notify(`已导出 ${posterWidth * exportScale}×${currentHeight * exportScale} PNG`)
